@@ -1,0 +1,266 @@
+{
+  "summary": "Found stainless steel, ceramic, bamboo/rice‑husk, and glass mugs available in Indian online stores.",
+  "materials": [
+    {
+      "type": "stainless steel",
+      "about": "Mugs made from food‑grade stainless steel, often double‑walled for insulation.",
+      "pros": [
+        "Durable and long‑lasting",
+        "Keeps drinks hot or cold for hours",
+        "Lightweight compared to glass"
+      ],
+      "cons": [
+        "Can retain metallic taste for some beverages",
+        "Not microwave safe"
+      ],
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p1",
+          "name": "Milton Gemini Steel Mug",
+          "price": "₹390",
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=Milton%20Gemini%20Steel%20Mug%20Amazon.in&tbm=shop",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRpzIplvcYMOwsqphyKBtvzUMUCXY3thAl6j_AlU8BphwvV5M0wrfBxTorZX_Szeu1GIYwqNvewuA4zN2cvVAMowG3cJQerla1lcmo9n48LdyOXPJLeUvwdww",
+          "rating": null,
+          "reviews": null,
+          "material_type": "stainless steel",
+          "why_suggested": "Popular brand stainless steel travel mug with insulated walls",
+          "trade_off": "Higher price than basic ceramic",
+          "claims": []
+        },
+        {
+          "id": "p2",
+          "name": "Irin Stainless Steel Double Wall Mug 250 ml",
+          "price": "₹92",
+          "source": "JioMart Grocery",
+          "link": "https://www.google.com/search?q=Irin%20Stainless%20Steel%20Double%20Wall%20Mug%20250%20ml%20JioMart%20Grocery&tbm=shop",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLnDDkCfL4nnZgl9mCa053obBnq9PwgJbFOxX7LnnFwJG3GPROkA8oh0wK8DmioeGuptD_CJF4UW8AslCnYalA5h6g31NuqBzmYk0GpYrzf19JQT4aKGcj",
+          "rating": null,
+          "reviews": null,
+          "material_type": "stainless steel",
+          "why_suggested": "Very low‑cost double‑wall steel mug, good for daily use",
+          "trade_off": "Basic design, no lid",
+          "claims": []
+        },
+        {
+          "id": "p7",
+          "name": "Coffee Mug with Lid and Handle – Insulated 200ml Steel Mug",
+          "price": "₹69",
+          "source": "DeoDap",
+          "link": "https://www.google.com/search?q=Coffee%20Mug%20with%20Lid%20and%20Handle%20%E2%80%93%20Insulated%20200ml%20Steel%20Mug%20DeoDap&tbm=shop",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQbsjr_JBFGGolYjzl6Sq8EvPpANVzbyel6XXeEdTgmWwu8L3bsqkUXRrLHuU9bPJFByQHxub8LIi8RO8mG2A1G6pZkGaogiDQwxLlIPtdP",
+          "rating": 4.7,
+          "reviews": 53,
+          "material_type": "stainless steel",
+          "why_suggested": "Insulated steel mug with lid, suitable for on‑the‑go coffee",
+          "trade_off": "Small capacity (200 ml)",
+          "claims": []
+        }
+      ]
+    },
+    {
+      "type": "ceramic",
+      "about": "Traditional glazed ceramic mugs fired at high temperature.",
+      "pros": [
+        "Microwave safe",
+        "Good heat retention",
+        "Wide design variety"
+      ],
+      "cons": [
+        "Can chip or break if dropped",
+        "Heavier than metal or bamboo"
+      ],
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p11",
+          "name": "IKEA GLADELIG mug",
+          "price": "₹349",
+          "source": "IKEA.in",
+          "link": "https://www.google.com/search?q=IKEA%20GLADELIG%20mug%20IKEA.in&tbm=shop",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS89_uPiHpawIiRIXbRt4eK4D7YFJj58OlibmdhYXZhLAH5JzP6-1CAsnZEITjsmknMFar6l9c",
+          "rating": 4.8,
+          "reviews": 3400,
+          "material_type": "ceramic",
+          "why_suggested": "IKEA’s well‑reviewed ceramic mug, classic shape",
+          "trade_off": "Slightly higher price than basic plastic mugs",
+          "claims": []
+        },
+        {
+          "id": "p13",
+          "name": "Handmade Ceramic Mug 3D Daisy Flower Design Coffee Tea Cup 240 ml Gift for Coffee Lovers Kitchen Decor (Pink/Light Blue/Yellow/Grey) (Creamish Yellow/",
+          "price": "₹244.50",
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=Handmade%20Ceramic%20Mug%203D%20Daisy%20Flower%20Design%20Coffee%20Tea%20Cup%20240%20ml%20Gift%20for%20Coffee%20Lovers%20Kitchen%20Decor%20%28Pink/Light%20Blue/Yellow/Grey%29%20%28Creamish%20Yellow/%20Amazon.in&tbm=shop",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTR7J8QOegFf-apFII5kQur6OBS_UjtLC58X_uPRSwY1iYwV0vfFXxgx0p-yQ",
+          "rating": null,
+          "reviews": null,
+          "material_type": "ceramic",
+          "why_suggested": "Handmade ceramic mug with decorative pattern",
+          "trade_off": "Limited stock, may vary in colour",
+          "claims": []
+        },
+        {
+          "id": "p16",
+          "name": "CHHAAP Glossy Finish Microwave Safe Ceramic Coffee Tea Milk Royal Plain White Mug 350ml (Pack of 1) PLW-01",
+          "price": "₹110",
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=CHHAAP%20Glossy%20Finish%20Microwave%20Safe%20Ceramic%20Coffee%20Tea%20Milk%20Royal%20Plain%20White%20Mug%20350ml%20%28Pack%20of%201%29%20PLW-01%20Amazon.in&tbm=shop",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQu_THKo4yqipLNrsUbpLn8Nhbo2okWtiQLP94ZFjZlTxCfUKm7SjIcywmj7UtoMFTPMTFI8fd9",
+          "rating": null,
+          "reviews": null,
+          "material_type": "ceramic",
+          "why_suggested": "Microwave‑safe glossy ceramic mug, 350 ml capacity",
+          "trade_off": "Simple design, no lid",
+          "claims": []
+        }
+      ]
+    },
+    {
+      "type": "bamboo / rice‑husk composite",
+      "about": "Mugs crafted from bamboo fibres or rice‑husk blended with a bio‑based binder, offering a plant‑derived alternative.",
+      "pros": [
+        "Biodegradable under industrial composting",
+        "Lightweight and break‑resistant",
+        "Natural look and feel"
+      ],
+      "cons": [
+        "May not be fully microwave safe",
+        "Higher price than standard ceramic"
+      ],
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p19",
+          "name": "Clazkit Earth Friendly Statement Coffee Mug Set of 2 Cups and Mugs Made with Rice Husk/Cup/Microwave Safe Mugs Cute Mugs for Gift",
+          "price": "₹222",
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=Clazkit%20Earth%20Friendly%20Statement%20Coffee%20Mug%20Set%20of%202%20Cups%20and%20Mugs%20Made%20with%20Rice%20Husk/Cup/Microwave%20Safe%20Mugs%20Cute%20Mugs%20for%20Gift%20Amazon.in&tbm=shop",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRLtJ--Lw0IR7IcTnvF9m5-9nb_SWCGNq5sEV-gFJ_ZczI1p6SLHsN5zatMPVStRY8ExZltVQNzkMh-TibwoSQ9p9JX9xJZ9wkBhH5nK3ANdd5e-NXY5nOz",
+          "rating": null,
+          "reviews": null,
+          "material_type": "bamboo / rice‑husk composite",
+          "why_suggested": "Set of two mugs made from rice‑husk and bamboo fibres, microwave safe",
+          "trade_off": "Price per mug is higher than basic ceramic",
+          "claims": []
+        },
+        {
+          "id": "p22",
+          "name": "Frosted Tumbler 250 ml set of 4 Earth friendly Unbreakable Tumblers Made with Rice Husk & Bamboo Fibers",
+          "price": "₹435",
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=Frosted%20Tumbler%20250%20ml%20set%20of%204%20Earth%20friendly%20Unbreakable%20Tumblers%20Made%20with%20Rice%20Husk%20%26%20Bamboo%20Fibers%20Amazon.in&tbm=shop",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSMttFo9VEZ0QKAN0Xv_L-1HGPZQ6E7knX7v40dBpzUecqzc5aeMDFYVtluWotORq9E98flozeAbksH_UqysCSIlyzTuqbWCS-PxGI045EGEsceBajHy-P1Xg",
+          "rating": null,
+          "reviews": null,
+          "material_type": "bamboo / rice‑husk composite",
+          "why_suggested": "Pack of four unbreakable tumblers with bamboo‑fiber blend",
+          "trade_off": "Design is more tumbler‑style than traditional mug",
+          "claims": []
+        }
+      ]
+    },
+    {
+      "type": "glass (borosilicate)",
+      "about": "Heat‑resistant borosilicate glass mugs that can withstand temperature changes.",
+      "pros": [
+        "Transparent, elegant appearance",
+        "Microwave safe",
+        "Recyclable glass"
+      ],
+      "cons": [
+        "More fragile than metal or bamboo",
+        "Can feel cold to the touch"
+      ],
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p26",
+          "name": "Borosil Vision Classic Delite Mug Set with Wooden Tray",
+          "price": "₹744",
+          "source": "myborosil.com",
+          "link": "https://www.google.com/search?q=Borosil%20Vision%20Classic%20Delite%20Mug%20Set%20with%20Wooden%20Tray%20myborosil.com&tbm=shop",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRoWKsQL9uHmlMelWqrY0OdiaZ-oV2CE1mK6Xy0qk98FTFJscv_OabOEmREXPt45nEW_UPGT2c",
+          "rating": null,
+          "reviews": null,
+          "material_type": "glass (borosilicate)",
+          "why_suggested": "Borosil classic glass mug set with wooden tray, sturdy borosilicate",
+          "trade_off": "Higher cost for the set",
+          "claims": []
+        },
+        {
+          "id": "p30",
+          "name": "Borosil 200ml 6pc Oasis Tea/Coffee Mug Set | Borosilicate Tuff Glass Made in India Cup Set for Chai, Green Tea, Coffee, Milk | Microwave Safe,",
+          "price": "₹5,203",
+          "source": "ubuy.co.in",
+          "link": "https://www.google.com/search?q=Borosil%20200ml%206pc%20Oasis%20Tea/Coffee%20Mug%20Set%20%7C%20Borosilicate%20Tuff%20Glass%20Made%20in%20India%20Cup%20Set%20for%20Chai%2C%20Green%20Tea%2C%20Coffee%2C%20Milk%20%7C%20Microwave%20Safe%2C%20ubuy.co.in&tbm=shop",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRslVCdLI8k7urTKPxk8lG87uOz9DxT0ZqAWYRtYSS1RPrNB6pjv4MrnN5fV5Y",
+          "rating": 3.6,
+          "reviews": 48,
+          "material_type": "glass (borosilicate)",
+          "why_suggested": "Borosil 200 ml glass mug pack, microwave safe",
+          "trade_off": "Premium price per mug",
+          "claims": []
+        },
+        {
+          "id": "p31",
+          "name": "Cutting Edge Felix Coffee/ Tea Cup Set (Glass)",
+          "price": "₹399",
+          "source": "blinkit.com",
+          "link": "https://www.google.com/search?q=Cutting%20Edge%20Felix%20Coffee/%20Tea%20Cup%20Set%20%28Glass%29%20blinkit.com&tbm=shop",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRt4NzRc-AhVNpCmTJmKIFWKcqvaC93yU-16NjIRiJpIhuCJKF1",
+          "rating": null,
+          "reviews": null,
+          "material_type": "glass (borosilicate)",
+          "why_suggested": "Glass coffee/tea cup set, affordable option",
+          "trade_off": "Limited to smaller 150 ml size",
+          "claims": []
+        }
+      ]
+    }
+  ],
+  "availability_note": "Availability shown is based on regional search results and may not reflect real-time shipping to your exact location. Please verify on the merchant's page before purchasing.",
+  "no_suitable_alternative": false,
+  "trace": [
+    {
+      "step": 1,
+      "query": "sustainable mug alternatives new materials 2024",
+      "engine": "web",
+      "results_found": 5,
+      "cached": false
+    },
+    {
+      "step": 2,
+      "query": "stainless steel mug",
+      "engine": "shopping",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 3,
+      "query": "ceramic mug",
+      "engine": "shopping",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 4,
+      "query": "bamboo mug",
+      "engine": "shopping",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 5,
+      "query": "glass mug",
+      "engine": "shopping",
+      "results_found": 8,
+      "cached": false
+    }
+  ],
+  "meta": {
+    "searches": 5,
+    "dropped_unknown_ids": 0
+  }
+}
