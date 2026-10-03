@@ -104,6 +104,10 @@ def rank_products(
 
     for i in items:
         i["score"], i["why_ranked"] = _score(i, prefs, lo, hi, n)
+        # Lowest price AMONG THESE LISTINGS — not a same-item comparison
+        # across merchants (each listing is a different seller/product;
+        # we never claim two listings are the same item).
+        i["is_lowest_price"] = bool(prices) and len(items) > 1 and i["price_value"] == lo
 
     _apply_sort(items, sort_by)
 
@@ -176,4 +180,8 @@ def finalize(
 
     out["top_picks"] = build_top_picks(out["materials"], sort_by=sort_by, request_sustainability=req)
     out["no_suitable_alternative"] = len(out["materials"]) == 0
+
+    all_priced = [p for m in out["materials"] for p in m["products"] if p["price_value"] is not None]
+    out["cheapest_found"] = min(all_priced, key=lambda p: p["price_value"]) if all_priced else None
+
     return out
