@@ -1,0 +1,299 @@
+{
+  "summary": "Found plant‑based, bio‑enzyme, and concentrate‑refill floor cleaners with supporting evidence of greener formulations or reduced packaging.",
+  "product_type": "floor cleaner",
+  "user_specified_material": null,
+  "request_sustainability": "none",
+  "caution_note": null,
+  "materials": [
+    {
+      "type": "Plant‑based formulation",
+      "matches_request": true,
+      "about": "Floor cleaners that use plant‑derived ingredients, marketed as biodegradable or eco‑friendly.",
+      "impact": {
+        "material_note": "uses plant‑derived ingredients that are biodegradable",
+        "reusability": "single‑use liquid, not reusable",
+        "end_of_life": "biodegradability not verified for packaging",
+        "common_trade_off": "generally higher price per litre than conventional cleaners"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p10",
+          "name": "Happi Planet Eco-Friendly Floor Cleaner Plant Based",
+          "price": "₹296",
+          "source": "amazon.in",
+          "link": "https://www.google.com/search?q=Happi%20Planet%20Eco-Friendly%20Floor%20Cleaner%20Plant%20Based%20amazon.in&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT1RHnlpi23J3YUvoCbFGl_9cmQkROeARHzIZ5i3igxSrnSGjBhveOdvUGrqzNYxZKiGvBAekq3E4shKFb24aHH-Q-EEkEhuu6Lvg0fiJxThHqAEJ-aNsiXAA",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Plant‑based formulation",
+          "why_suggested": "Marketed as eco‑friendly and plant‑based",
+          "trade_off": "Price may be higher than standard cleaners",
+          "claims": [
+            {
+              "claim": "Eco‑Friendly Floor Cleaner Plant Based",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Happi Planet Eco-Friendly Floor Cleaner Plant Based",
+              "evidence_source": "product_listing",
+              "source_title": "Happi Planet Eco-Friendly Floor Cleaner Plant Based",
+              "source_url": "https://www.google.com/search?q=Happi%20Planet%20Eco-Friendly%20Floor%20Cleaner%20Plant%20Based%20amazon.in&tbm=shop"
+            }
+          ]
+        },
+        {
+          "id": "p12",
+          "name": "Plant-based Disinfectant Floor Cleaner Liquid in India - Pet & Eco Friendly 3L Can / Turkish Applewood",
+          "price": "₹419",
+          "source": "Born Good",
+          "link": "https://www.google.com/search?q=Plant-based%20Disinfectant%20Floor%20Cleaner%20Liquid%20in%20India%20-%20Pet%20%26%20Eco%20Friendly%203L%20Can%20/%20Turkish%20Applewood%20Born%20Good&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQWZNRNeFiaC7d56KMa1n6W6Et2D8HJasfYlT9z2ve2xc-9UKrWhEpzbkerBj8WjypQCc-pT1VsB5KCOUgReOXgqp94Q8pMFRZ8jRbZjoYWWvsu-6cE0RD8nw",
+          "rating": 4.8,
+          "reviews": 151,
+          "material_type": "Plant‑based formulation",
+          "why_suggested": "Plant‑based disinfecting floor cleaner",
+          "trade_off": "Potentially higher cost per litre",
+          "claims": [
+            {
+              "claim": "Plant‑based Disinfectant Floor Cleaner",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Plant-based Disinfectant Floor Cleaner Liquid in India - Pet & Eco Friendly",
+              "evidence_source": "product_listing",
+              "source_title": "Plant-based Disinfectant Floor Cleaner Liquid in India - Pet & Eco Friendly 3L Can / Turkish Applewood",
+              "source_url": "https://www.google.com/search?q=Plant-based%20Disinfectant%20Floor%20Cleaner%20Liquid%20in%20India%20-%20Pet%20%26%20Eco%20Friendly%203L%20Can%20/%20Turkish%20Applewood%20Born%20Good&tbm=shop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Bio‑enzyme natural cleaner",
+      "matches_request": true,
+      "about": "Floor cleaners that employ bio‑enzyme fermentation from natural waste, advertised as non‑toxic and eco‑friendly.",
+      "impact": {
+        "material_note": "uses bio‑enzyme fermentation from natural waste materials",
+        "reusability": "single‑use liquid, not reusable",
+        "end_of_life": "biodegradability not verified for packaging",
+        "common_trade_off": "may have a shorter shelf life than conventional chemicals"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p16",
+          "name": "Satopradhan Natural Floor Cleaner Liquid 750ml Bio-Enzyme Based Non-Toxic & Eco-Friendly",
+          "price": "₹235",
+          "source": "Satopradhan",
+          "link": "https://www.google.com/search?q=Satopradhan%20Natural%20Floor%20Cleaner%20Liquid%20750ml%20Bio-Enzyme%20Based%20Non-Toxic%20%26%20Eco-Friendly%20Satopradhan&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT6M37emdxKXNTs8teiUkICplYlWoYiWARNmBh9h74fPWZ24fcbnwaXYzDdGLaIvKlPHY4xUd7Bt4z9boK8H5riZXueF08gioKjbkEKJpKExQbeEkjyd3BSQw",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Bio‑enzyme natural cleaner",
+          "why_suggested": "Bio‑enzyme floor cleaner with non‑toxic plant‑based ingredients",
+          "trade_off": "Potentially shorter shelf life",
+          "claims": [
+            {
+              "claim": "Formulated using 100% pure & non‑toxic ingredients",
+              "status": "unverified",
+              "label": "Not verified",
+              "validated": false,
+              "evidence_snippet": "Formulated using 100% pure & non‑toxic ingredients, the plant‑based bio cleaners help make your home free of harmful chemicals",
+              "evidence_source": null,
+              "source_title": null,
+              "source_url": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Concentrate refill (reduced packaging)",
+      "matches_request": true,
+      "about": "Concentrated floor‑cleaner packs that require dilution, reducing the amount of packaging material needed.",
+      "impact": {
+        "material_note": "concentrated formula reduces packaging volume",
+        "reusability": "refill can be used with existing bottle",
+        "end_of_life": "bottle can be recycled if plastic type is recyclable",
+        "common_trade_off": "requires dilution step, may be less convenient for quick use"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p17",
+          "name": "Floor Cleaner Concentrate Refill Pack 100ml | Makes 500ml Floor Cleaning Solution | Multipurpose Floor Cleaner for Tiles, Marble, Granite, Wooden &",
+          "price": "₹199",
+          "source": "amazon.in",
+          "link": "https://www.google.com/search?q=Floor%20Cleaner%20Concentrate%20Refill%20Pack%20100ml%20%7C%20Makes%20500ml%20Floor%20Cleaning%20Solution%20%7C%20Multipurpose%20Floor%20Cleaner%20for%20Tiles%2C%20Marble%2C%20Granite%2C%20Wooden%20%26%20amazon.in&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSvaihHCveNd02lU41HR9WSeUgpGCaRUlnRPojO1Y9UEOwKHHIHRyIskcKjsr3kUXWfJmjWwH-zLQYzEF2afiy9aODZNfWLmmKHVZvVj_AhXxEgCvk7n9zC3A",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Concentrate refill (reduced packaging)",
+          "why_suggested": "Concentrate pack that makes 5× more solution, lowering packaging waste",
+          "trade_off": "User must dilute before use",
+          "claims": [
+            {
+              "claim": "Makes 500ml Floor Cleaning Solution",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Floor Cleaner Concentrate Refill Pack 100ml | Makes 500ml Floor Cleaning Solution",
+              "evidence_source": "product_listing",
+              "source_title": "Floor Cleaner Concentrate Refill Pack 100ml | Makes 500ml Floor Cleaning Solution | Multipurpose Floor Cleaner for Tiles, Marble, Granite, Wooden &",
+              "source_url": "https://www.google.com/search?q=Floor%20Cleaner%20Concentrate%20Refill%20Pack%20100ml%20%7C%20Makes%20500ml%20Floor%20Cleaning%20Solution%20%7C%20Multipurpose%20Floor%20Cleaner%20for%20Tiles%2C%20Marble%2C%20Granite%2C%20Wooden%20%26%20amazon.in&tbm=shop"
+            }
+          ]
+        },
+        {
+          "id": "p19",
+          "name": "Kleenest Floor Cleaner Concentrate refill Floral Wave – makes 2L 120ml refill makes 2L. 10x clean",
+          "price": "₹364",
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=Kleenest%20Floor%20Cleaner%20Concentrate%20refill%20Floral%20Wave%20%E2%80%93%20makes%202L%20120ml%20refill%20makes%202L.%2010x%20clean%20Amazon.in&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKrQ6Vti07ixankWw81DMuQKPzT0L32IyZ-39lhgUh-rUEZpsIXcuqMT6Kv--Mdh1JQNRCTwMnjIObhQ6tJJ5cyAOFffVNU9Pmv5ob5hY1KjdgwTMGMZ2Q",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Concentrate refill (reduced packaging)",
+          "why_suggested": "Concentrate refill offering 2 L from 120 ml, reducing packaging",
+          "trade_off": "Dilution required",
+          "claims": [
+            {
+              "claim": "Makes 2L 120ml refill makes 2L",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Kleenest Floor Cleaner Concentrate refill Floral Wave – makes 2L 120ml refill makes 2L",
+              "evidence_source": "product_listing",
+              "source_title": "Kleenest Floor Cleaner Concentrate refill Floral Wave – makes 2L 120ml refill makes 2L. 10x clean",
+              "source_url": "https://www.google.com/search?q=Kleenest%20Floor%20Cleaner%20Concentrate%20refill%20Floral%20Wave%20%E2%80%93%20makes%202L%20120ml%20refill%20makes%202L.%2010x%20clean%20Amazon.in&tbm=shop"
+            }
+          ]
+        },
+        {
+          "id": "p21",
+          "name": "FLISKO Floor Cleaners Yellow 5 Liter & Lavender 5 Liter Concentrate Refill Pack| Tropical Breeze| 10x Clean",
+          "price": "₹609",
+          "source": "JioMart",
+          "link": "https://www.google.com/search?q=FLISKO%20Floor%20Cleaners%20Yellow%205%20Liter%20%26%20Lavender%205%20Liter%20Concentrate%20Refill%20Pack%7C%20Tropical%20Breeze%7C%2010x%20Clean%20JioMart&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQNvkB0bMqsfHriJznR6A9WyG7QqRFS5K4nEU572wZHWFXFcPC2GjRzblFlv5HKWrHSMCpuAY8CWiFs4MDU9dAqSRwt8xOHwc49KhrsQZyzd_UlUf13RZecnw",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Concentrate refill (reduced packaging)",
+          "why_suggested": "Concentrate refill pack (5 L) marketed as 10× clean, implying less packaging per use",
+          "trade_off": "Needs dilution",
+          "claims": [
+            {
+              "claim": "10x Clean",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "FLISKO Floor Cleaners Yellow 5 Liter & Lavender 5 Liter Concentrate Refill Pack| Tropical Breeze| 10x Clean",
+              "evidence_source": "product_listing",
+              "source_title": "FLISKO Floor Cleaners Yellow 5 Liter & Lavender 5 Liter Concentrate Refill Pack| Tropical Breeze| 10x Clean",
+              "source_url": "https://www.google.com/search?q=FLISKO%20Floor%20Cleaners%20Yellow%205%20Liter%20%26%20Lavender%205%20Liter%20Concentrate%20Refill%20Pack%7C%20Tropical%20Breeze%7C%2010x%20Clean%20JioMart&tbm=shop"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filter_options": {
+    "material": [
+      "Plant‑based formulation",
+      "Bio‑enzyme natural cleaner",
+      "Concentrate refill (reduced packaging)"
+    ],
+    "price": {
+      "currency": "INR",
+      "min": 199.0,
+      "max": 609.0
+    },
+    "rating": {
+      "min": 4.8,
+      "max": 4.8
+    },
+    "reviews": {
+      "min": 151,
+      "max": 151
+    },
+    "sort": [
+      "relevance",
+      "price_low_to_high",
+      "price_high_to_low",
+      "rating",
+      "reviews"
+    ]
+  },
+  "availability_note": "Availability shown is based on regional search results and may not reflect real-time shipping to your exact location. Please verify on the merchant's page before purchasing.",
+  "no_suitable_alternative": false,
+  "trace": [
+    {
+      "step": 1,
+      "query": "biodegradable floor cleaner India",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 2,
+      "query": "plant based floor cleaner India",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 3,
+      "query": "floor cleaner concentrate refill pack India",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 4,
+      "query": "Born Good Plant Based Floor Cleaner ingredients",
+      "engine": "web",
+      "purpose": "evidence",
+      "results_found": 5,
+      "cached": false
+    },
+    {
+      "step": 5,
+      "query": "Satopradhan Bio Enzyme Floor Cleaner ingredients",
+      "engine": "web",
+      "purpose": "evidence",
+      "results_found": 5,
+      "cached": false
+    }
+  ],
+  "meta": {
+    "searches": 5,
+    "dropped_unknown_ids": 0,
+    "dropped_type_mismatch": 1,
+    "critique": {
+      "ran": true,
+      "passed": false,
+      "issues": [
+        "Evidence snippets merely repeat product titles or marketing copy and do not independently verify the environmental claims.",
+        "The bio‑enzyme cleaner claim is marked as not validated, indicating insufficient evidence.",
+        "No targeted evidence search was performed to substantiate the listed sustainability-related claims."
+      ],
+      "extra_search_used": false
+    }
+  }
+}

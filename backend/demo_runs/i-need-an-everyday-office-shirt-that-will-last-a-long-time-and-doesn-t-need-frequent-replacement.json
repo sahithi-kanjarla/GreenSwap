@@ -1,0 +1,249 @@
+{
+  "summary": "Found cotton Oxford and hemp shirts that are noted for durability, helping reduce replacement frequency.",
+  "input_mode": "text",
+  "input_source": null,
+  "input_url": null,
+  "input_asin": null,
+  "product_type": "shirt",
+  "user_specified_material": null,
+  "request_sustainability": "none",
+  "caution_note": null,
+  "materials": [
+    {
+      "type": "Oxford cotton",
+      "matches_request": true,
+      "about": "Shirts made from Oxford‑weight cotton, a thicker weave that is recognized for lasting longer under regular wear.",
+      "impact": {
+        "material_note": "uses durable Oxford cotton fabric",
+        "reusability": "single‑use garment but longer lifespan reduces replacement frequency",
+        "end_of_life": "cotton is biodegradable but may need industrial composting; not verified",
+        "common_trade_off": "heavier fabric can feel less breathable"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p3",
+          "name": "Nobero Oxford Premium Cotton Shirt",
+          "price": "₹1,799",
+          "source": "Nobero",
+          "link": "https://www.google.co.in/search?q=%22Nobero%20Oxford%20Premium%20Cotton%20Shirt%22%20%22Nobero%22&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR3YqKpRGi_I_oMkxHLgOoHCflHJm4150z7lS3HYpty35bMwBspq0IpkSAuXbA2BNqbzKzLRi1Q10egfGhZnntlSbiLTToP08R6oJwXpjDRl6dJMWd2yE-5",
+          "rating": null,
+          "reviews": null,
+          "product_id": "2317670202978475719",
+          "product_link": "https://www.google.co.in/search?ibp=oshop&q=men's office shirt durable long lasting&prds=catalogid:2317670202978475719,productid:17223070430711565152,headlineOfferDocid:38800487668764091,imageDocid:10860763082948026234,gpcid:17182286968997527884,mid:576462567047030907,pvt:a&hl=en&gl=in&udm=28",
+          "immersive_product_page_token": "XMwMtXicJZNJruvmEYUTZANZwp1kEFzwgf_P_l1owF6U2Ii9yIlAsRN7io1IcTXOfbYBZxbHQKbZhj3IWqI4g6pJAXVOfQf1nz_8-TMt_vWM75eonxHuWiDVSTnRSlTPJv1TP3TJHE9F8gugIMRQCsVfDQCCJAABf4qjKaq7vEj-CTFAkRQKUchQNE4RFGB-vqVRUhdtamRZOghdXCT_wGgaRXGaIslX4SgD_l40UZ7-PvwFoDSJUiSG0pDBaRSSEMO_Dcn43Q_3OR2ev_61Sdu_QGp877KsiNP38VYM03syD9G1Tt_rrs3f62icijb_Ie9_X0gBGkKaZEiaYSgCUjSNf2uK5GfiJU5C4mUYp1AMZVDqW_-Y_hZ9P891-u_PvP4s2s9b_Zm2P3ZR_8ji3_74TRxinn_EnOn2vSdYqN0q6xVYD98HhSUzZlImjnOO0aQKNtW3RkeyHMc_TLEQ9qZTZ0E1LddNz7xGLwyJXsPSm_2qN03f2-IGncK2PoR7ZbN8qbG9YAqh1bpN8AzL2-BiHXAhPtlYv-ry4WnLgNRcHNcdHfXKGwhgWKYV_UykDrewMAzQKdPRfDFb8envTUITcuhWVpMAHb86yqaBftH2faGj3eLA20P369HzdSIupTABr8RrL_QgsaXVKlh-X4Y-g1uQWMNNslRHn7xqPdrVoXUgw3m1LhmCtNeaULZsgDtV70YvD3Fze5p-rXleIkZwIrySO2o103rybUr29cHglHPq6-sZSktiAz5oqikC3MEVbofAX4Hr5JFSSWKMKURYS-KLn_jiRKg-M5qN_nBfXGK5jww_31yZ4K61-P06DtmvKCsRk22QFFnpR_lonbubTFIwZ8kwN2jXypP8K6AYlCFwQBMYwfwYd11VpL_96WLrirBjDwaAZ8mT4oszCFSFRmbXMhMy8523LZyY7MeSQO72MuFFiwYxtrmHdC41-bg3j4SnxpkpmOlVbReE2xDqhqA5WrPyGD8D0QbJXls-3myDt3c8q3y8XS52Gs9DitiOddqxnH5jyXwfttBij5sslr4fgEu_FZjX9vmA3tcowPh0ND1wh1f7HjjXfRwdVXe6RycTaVv5ElgCDaL5oSNzey-He3bAnX3QCoTaSIhZUC91kbX4_cVmNdFWHHHH56aCHEXu440V-R0bRYx46J-9m6rmnSIwNmzz9MzvH8O42YRySCrG16eVspcsxZQ6qyg8nBHPYj_eZMOQVfHCcq4tXsSzqJ0cxdB3L6qvj4-yKCUhTUE0ieBXR9v9PwWMQYmv_G74qpx2FPwCGOwLROkvEMOQr_auR9CzPtIV2ZaqMwqjo3PnMa4-3v4XFX93eZ59UV1EzlhlwebqbuBSze3Yc91Ygxioa8qcSHGZo1MNIoLqM-RRyD2YsUg48A99TDaRFjWpl8z-ptOn7UDHjudf0EfeZ7YPDw7lN-ReNtlV5CPsUmt0fu40VW-zOKhc9nWTNMgIK1ykSU_GTTth2zOeF0xIzLlNGm0gNxS72gKhlMsS1kcQwzQaxDO67ses0WzY2B0ZzlsdryBNvNj2otHSbw5Q2oThTnbOH8C4eeOS9gZ1cDCMf9RyfjNpkRjB404IMz8ZpaSbp1MlsslkYDLmVLyoRubzHmtGNB5vT53POa1yOfS-7LclpJZAqJDLDHgxkSJxHJB4SRvHfqhEKUo-4PiuaQgNn7OVWiLBOErqbF6Q7XxdmVIOXSITHIIbhhhZ5HRQ9aHPu483wdvFJAbLTLSDYQnMY6OdQ6fJjw-g0qotrN1_AZFsInU",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=XMwMtXicJZNJruvmEYUTZANZwp1kEFzwgf_P_l1owF6U2Ii9yIlAsRN7io1IcTXOfbYBZxbHQKbZhj3IWqI4g6pJAXVOfQf1nz_8-TMt_vWM75eonxHuWiDVSTnRSlTPJv1TP3TJHE9F8gugIMRQCsVfDQCCJAABf4qjKaq7vEj-CTFAkRQKUchQNE4RFGB-vqVRUhdtamRZOghdXCT_wGgaRXGaIslX4SgD_l40UZ7-PvwFoDSJUiSG0pDBaRSSEMO_Dcn43Q_3OR2ev_61Sdu_QGp877KsiNP38VYM03syD9G1Tt_rrs3f62icijb_Ie9_X0gBGkKaZEiaYSgCUjSNf2uK5GfiJU5C4mUYp1AMZVDqW_-Y_hZ9P891-u_PvP4s2s9b_Zm2P3ZR_8ji3_74TRxinn_EnOn2vSdYqN0q6xVYD98HhSUzZlImjnOO0aQKNtW3RkeyHMc_TLEQ9qZTZ0E1LddNz7xGLwyJXsPSm_2qN03f2-IGncK2PoR7ZbN8qbG9YAqh1bpN8AzL2-BiHXAhPtlYv-ry4WnLgNRcHNcdHfXKGwhgWKYV_UykDrewMAzQKdPRfDFb8envTUITcuhWVpMAHb86yqaBftH2faGj3eLA20P369HzdSIupTABr8RrL_QgsaXVKlh-X4Y-g1uQWMNNslRHn7xqPdrVoXUgw3m1LhmCtNeaULZsgDtV70YvD3Fze5p-rXleIkZwIrySO2o103rybUr29cHglHPq6-sZSktiAz5oqikC3MEVbofAX4Hr5JFSSWKMKURYS-KLn_jiRKg-M5qN_nBfXGK5jww_31yZ4K61-P06DtmvKCsRk22QFFnpR_lonbubTFIwZ8kwN2jXypP8K6AYlCFwQBMYwfwYd11VpL_96WLrirBjDwaAZ8mT4oszCFSFRmbXMhMy8523LZyY7MeSQO72MuFFiwYxtrmHdC41-bg3j4SnxpkpmOlVbReE2xDqhqA5WrPyGD8D0QbJXls-3myDt3c8q3y8XS52Gs9DitiOddqxnH5jyXwfttBij5sslr4fgEu_FZjX9vmA3tcowPh0ND1wh1f7HjjXfRwdVXe6RycTaVv5ElgCDaL5oSNzey-He3bAnX3QCoTaSIhZUC91kbX4_cVmNdFWHHHH56aCHEXu440V-R0bRYx46J-9m6rmnSIwNmzz9MzvH8O42YRySCrG16eVspcsxZQ6qyg8nBHPYj_eZMOQVfHCcq4tXsSzqJ0cxdB3L6qvj4-yKCUhTUE0ieBXR9v9PwWMQYmv_G74qpx2FPwCGOwLROkvEMOQr_auR9CzPtIV2ZaqMwqjo3PnMa4-3v4XFX93eZ59UV1EzlhlwebqbuBSze3Yc91Ygxioa8qcSHGZo1MNIoLqM-RRyD2YsUg48A99TDaRFjWpl8z-ptOn7UDHjudf0EfeZ7YPDw7lN-ReNtlV5CPsUmt0fu40VW-zOKhc9nWTNMgIK1ykSU_GTTth2zOeF0xIzLlNGm0gNxS72gKhlMsS1kcQwzQaxDO67ses0WzY2B0ZzlsdryBNvNj2otHSbw5Q2oThTnbOH8C4eeOS9gZ1cDCMf9RyfjNpkRjB404IMz8ZpaSbp1MlsslkYDLmVLyoRubzHmtGNB5vT53POa1yOfS-7LclpJZAqJDLDHgxkSJxHJB4SRvHfqhEKUo-4PiuaQgNn7OVWiLBOErqbF6Q7XxdmVIOXSITHIIbhhhZ5HRQ9aHPu483wdvFJAbLTLSDYQnMY6OdQ6fJjw-g0qotrN1_AZFsInU",
+          "material_type": "Oxford cotton",
+          "why_suggested": "Oxford‑style cotton shirt marketed as premium and durable",
+          "trade_off": "may be less breathable than lighter fabrics",
+          "claims": [
+            {
+              "claim": "Oxford cotton known for durability",
+              "status": "supported_by_search",
+              "label": "Evidence found",
+              "validated": true,
+              "evidence_snippet": "Oxford cotton is known for its durability, resilience, and slightly thicker texture compared to ...",
+              "evidence_source": "web_search",
+              "source_title": "Are Oxford cotton shirts prone to wrinkling?",
+              "source_url": "https://trybuy.in/blogs/trybuy/are-oxford-cotton-shirts-prone-to-wrinkling?srsltid=AU7gw4WgVeUE6xXOnwUFz-4VcPoTx7JtCPaG4jQwGmUekAeJT5Uh8i1l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Hemp",
+      "matches_request": true,
+      "about": "Shirts made from hemp fibers, which are stronger and tend to outlast cotton garments.",
+      "impact": {
+        "material_note": "uses strong hemp fibers that resist wear",
+        "reusability": "single‑use garment but extended life reduces replacement frequency",
+        "end_of_life": "hemp is biodegradable under natural conditions",
+        "common_trade_off": "fabric can be stiffer and have a distinct texture"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p9",
+          "name": "Buy Premium Hemp Shirt for Men",
+          "price": "₹1,869",
+          "source": "RFG Lifestyle",
+          "link": "https://www.google.co.in/search?q=%22Buy%20Premium%20Hemp%20Shirt%20for%20Men%22%20%22RFG%20Lifestyle%22&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQKjm5g34CRj7yLJ-2Cl1PWiunTS140fR3s2Ni-mO5NgnbRjcWSdgF2rGm3285GIyrCMVP8ECmxOKKW_xgfA9fvkHlIvJqApki4lBKxogNw3QT7A8go2Ho2QQ",
+          "rating": null,
+          "reviews": null,
+          "product_id": "13106678622980476029",
+          "product_link": "https://www.google.co.in/search?ibp=oshop&q=men hemp blend shirt&prds=catalogid:13106678622980476029,productid:5792335699580937309,headlineOfferDocid:16605530110833850808,imageDocid:11877578627930063806,gpcid:5574104686295093682,mid:576462914532650193,pvt:a&hl=en&gl=in&udm=28",
+          "immersive_product_page_token": "H57Od3icLVHJrqtWEEyUH8gn3P2TpQOH0VdeMA8282BggzBgwIwGjLG_JrnvJVKyTKKs8xvJIt8SPym7VndVdXX1v998_5FXfxbULU6uTszPzkpsGHPsuYNn_TKMfXZL5yr7HSdpFEKcoGmcAjQkIaB_SZM5afqiyv5AIAIIgqQIFKUpgJEEQOnfyjzJmqrLjfM5H_k-_YojCIDjECAIoCCkcEAB6teqTYr8_zlCkST-VYekIQAEpADxecymH3663vLx8Uebd5_KvB0-nZq8yz5NZTXOPxVD-tUgTmIIwIgXl8ZfDgkK_dxW2W84SWCvFoLhECVwgNDw87DMPyZfbrcm_-ujaD6q7qNsPvLu5z4ZlnP6z7cfwhhy3JKyljcMPm8D5xK5GqoBDXho5tGsLamR92xmg7eRxAP3EEyzcfRQT4wsV1KVtPOdFFXQg1sCy9fxENXuDmq7eW1fIuATNhyWRPYjDfXvGhigcyk9W9T3YdeY7rOEHkwfuWCHht-YGWymxLfFlNd1T7L9zNXxw1G0s4vep7B8HkX_bh8jL2v9q8azq35Mn3aTCVY7tJoQRSlkzQSlfQvRR79WrydRDcK2mXxBP74wt0wSLVekXwrrqHesrnk6ljx9-xToTXKJZqdriKjVOb1FVv-pIwFaut5xwgxp9m20Ma26tKw64gwpqj15MJML6-W1uOjQQhNErFxUnDRWOUbP8sUVVw-hhUzUMb1CWE9WFwusvmf3leXZz_TStL6E3Q_H2cy7yMjkkvCOOJcJIeIIZW-IzfLCBZb1ZZ3G89-AEfHZMUhLbYV0s0_g4S7MttG3M73epevFuhVbhKQBjWOQRHCM-Dnt-7rK__lucnSF3zGqgaCBhM_W2E1SwAnnuxbI-81KI2dkjKSxkUPu1NFeexMP6r4PCGzohzJ-cHWQdpW_D2kEP61ZanDIJcIlzJMN0rfwO1MYiMJEN-b9zTE4Z8cxyqsSGJuTY4fRBEdxhR1XWMpmL7Dvb4zA7ZgkoQX12jkRu8lh7lRRr4T3h6THJkUHh4fKOegYSpSQUIjPM89bJK-wjc6P-_ubZBjSQYgZ1nOEWAgEzXQVQ9-9LoQoxE4niqTgic4hmW5dbfd_Iigkt9xu3CrmDiUAsqXAFqMouCXRM9jm2AluaSLDtzncns8ncrN1dt0x3bgqPOq3-sr7kiWSF8QYXvu_ZsldLY5jBAcpBNZYJd7hWTkZGfZsqT7MrbOSyYnWuVM6GaZ-SRYTXR7VqlbCDSE29OIvl7CPhPky4UtxvdXVvtP3ho5NwXx6-K83hY8JKweliZf-IE3LgzadJmbDpHDDCh26-yHgFG3dV81GIp1n3WmRs9m0gYwP3FyAvuaNq7Ms19xTNQQGzBNL-EeBIpGRjyIigbywzMLnblKdktnefGbV7cCtB8dPc9AVjqTOc1CXwQn194g2P1BwLdCGPdGcinocLx54hfaVDgX-o3G78EwWMYPc-aGZhaQSN1hKB7dawRsG7BnhYVuyMzJnU8EKTDk-3MKMD60Z0e25Xjf04d4GjVcsSCl3WVVG6Shr1n6tXROceZddrVBzy5a-nyqdSALt5AbmVVkUp7wzDYlyxftbHDt5ehvzjePa5o5h9ZIhLsbYurItlQrD9XUQh4oaPe-EnhreUp3ElKKbixdLkviglalL0kg_anEhCHVLOSCQiWciUqFrta1YpJnJJbBJ_DrDgljgajF4f-P9HYDROBvowQIgA-pG9uIpBfn5kZSuy6_9f6O7HHk",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=H57Od3icLVHJrqtWEEyUH8gn3P2TpQOH0VdeMA8282BggzBgwIwGjLG_JrnvJVKyTKKs8xvJIt8SPym7VndVdXX1v998_5FXfxbULU6uTszPzkpsGHPsuYNn_TKMfXZL5yr7HSdpFEKcoGmcAjQkIaB_SZM5afqiyv5AIAIIgqQIFKUpgJEEQOnfyjzJmqrLjfM5H_k-_YojCIDjECAIoCCkcEAB6teqTYr8_zlCkST-VYekIQAEpADxecymH3663vLx8Uebd5_KvB0-nZq8yz5NZTXOPxVD-tUgTmIIwIgXl8ZfDgkK_dxW2W84SWCvFoLhECVwgNDw87DMPyZfbrcm_-ujaD6q7qNsPvLu5z4ZlnP6z7cfwhhy3JKyljcMPm8D5xK5GqoBDXho5tGsLamR92xmg7eRxAP3EEyzcfRQT4wsV1KVtPOdFFXQg1sCy9fxENXuDmq7eW1fIuATNhyWRPYjDfXvGhigcyk9W9T3YdeY7rOEHkwfuWCHht-YGWymxLfFlNd1T7L9zNXxw1G0s4vep7B8HkX_bh8jL2v9q8azq35Mn3aTCVY7tJoQRSlkzQSlfQvRR79WrydRDcK2mXxBP74wt0wSLVekXwrrqHesrnk6ljx9-xToTXKJZqdriKjVOb1FVv-pIwFaut5xwgxp9m20Ma26tKw64gwpqj15MJML6-W1uOjQQhNErFxUnDRWOUbP8sUVVw-hhUzUMb1CWE9WFwusvmf3leXZz_TStL6E3Q_H2cy7yMjkkvCOOJcJIeIIZW-IzfLCBZb1ZZ3G89-AEfHZMUhLbYV0s0_g4S7MttG3M73epevFuhVbhKQBjWOQRHCM-Dnt-7rK__lucnSF3zGqgaCBhM_W2E1SwAnnuxbI-81KI2dkjKSxkUPu1NFeexMP6r4PCGzohzJ-cHWQdpW_D2kEP61ZanDIJcIlzJMN0rfwO1MYiMJEN-b9zTE4Z8cxyqsSGJuTY4fRBEdxhR1XWMpmL7Dvb4zA7ZgkoQX12jkRu8lh7lRRr4T3h6THJkUHh4fKOegYSpSQUIjPM89bJK-wjc6P-_ubZBjSQYgZ1nOEWAgEzXQVQ9-9LoQoxE4niqTgic4hmW5dbfd_Iigkt9xu3CrmDiUAsqXAFqMouCXRM9jm2AluaSLDtzncns8ncrN1dt0x3bgqPOq3-sr7kiWSF8QYXvu_ZsldLY5jBAcpBNZYJd7hWTkZGfZsqT7MrbOSyYnWuVM6GaZ-SRYTXR7VqlbCDSE29OIvl7CPhPky4UtxvdXVvtP3ho5NwXx6-K83hY8JKweliZf-IE3LgzadJmbDpHDDCh26-yHgFG3dV81GIp1n3WmRs9m0gYwP3FyAvuaNq7Ms19xTNQQGzBNL-EeBIpGRjyIigbywzMLnblKdktnefGbV7cCtB8dPc9AVjqTOc1CXwQn194g2P1BwLdCGPdGcinocLx54hfaVDgX-o3G78EwWMYPc-aGZhaQSN1hKB7dawRsG7BnhYVuyMzJnU8EKTDk-3MKMD60Z0e25Xjf04d4GjVcsSCl3WVVG6Shr1n6tXROceZddrVBzy5a-nyqdSALt5AbmVVkUp7wzDYlyxftbHDt5ehvzjePa5o5h9ZIhLsbYurItlQrD9XUQh4oaPe-EnhreUp3ElKKbixdLkviglalL0kg_anEhCHVLOSCQiWciUqFrta1YpJnJJbBJ_DrDgljgajF4f-P9HYDROBvowQIgA-pG9uIpBfn5kZSuy6_9f6O7HHk",
+          "material_type": "Hemp",
+          "why_suggested": "Premium hemp shirt marketed as durable",
+          "trade_off": "may feel rougher than cotton",
+          "claims": [
+            {
+              "claim": "Hemp fabric is more durable than cotton",
+              "status": "supported_by_search",
+              "label": "Evidence found",
+              "validated": true,
+              "evidence_snippet": "Hemp is a more durable and stronger fabric than cotton. Hemp fabric lasts longer and is less likely to wear out than cotton.",
+              "evidence_source": "web_search",
+              "source_title": "15 Benefits of Hemp Clothing",
+              "source_url": "https://hemptique.com/pages/benefits-of-hemp-clothing?srsltid=AU7gw4XFhAOVGdNogq8dEHBCHydXQHBBJ3lHPi17M991u4No8kGDfu6_"
+            }
+          ]
+        },
+        {
+          "id": "p11",
+          "name": "Decathlon 500 Men Hemp Shirt",
+          "price": "₹1,999",
+          "source": "Decathlon Sports India",
+          "link": "https://www.google.co.in/search?q=%22Decathlon%20500%20Men%20Hemp%20Shirt%22%20%22Decathlon%20Sports%20India%22&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTlspFJ022OCL10mIqsSvIy5C5nawO_KBjldlSg_v9h_iuhtbVR72Elwhr83NO1q0oJ0la24OzMaSOZdwftpGGomKjNZW1OGm7g1a39le7sswkyu0cA4aVutQ",
+          "rating": null,
+          "reviews": null,
+          "product_id": "17879576175336762934",
+          "product_link": "https://www.google.co.in/search?ibp=oshop&q=men hemp blend shirt&prds=catalogid:17879576175336762934,productid:2113434880215820288,headlineOfferDocid:2760013392407658634,imageDocid:15634106970036547668,gpcid:91699656561210174,mid:576462891257306170,pvt:a&hl=en&gl=in&udm=28",
+          "immersive_product_page_token": "X7WXjHicLVNJruvWEU2QDWQJf_4h4F72Vw8asLls1LARe04IdiIpdhJFSaRWk7xvG3Bmtj8yzjbiQdYSOQhqUqhCnXPqFOo_f_rrZ1H_s-TucXK1Y2myZ2bFm-Mg7l3r58s45PdsqvPfCAhJiqQ4DhCQ5ghAcNzPWTIl7VDW-XfIciyiWQayNEkyLEMgkvq1KpK8rfvCOJ2KURqyP1BYBgBIkoigAMvQHENS_6i7pCz-1_4O6XcBAgaxAJAMTbEMw30b89vffrzei3H53hX916roLl_Ttujzr7eqHqcfy8t79BcEGYQY-h2QgACy1Leuzn99S6IYgkOQoFkSvOWBb5fH9Pfkh_u9Lf71Wbafdf9ZtZ9F_9OQXB6n7Pc_f-IxFMVHJlju5eJJR2BDZOVtNLoepu2zTlhexOik0KRgekbu3OltRDtkNRQY0EeMX6m7lXNgkZ4LE_3l3Vwl9_VzLvhNdM-dvNUVuESkbjhKpad9e846z_BkdDTU7Svs5J3e53jvttB5CUHkRv0RcNDw5UfU0LLnROah0xe_u9G6ejm9eS-Fe9TsM54jZSJ0JQTHF57eWHXkQjp3tJejyjurRfRByn1fmcIC49npw8XAJZUqcGfjiI7UVvV92oz69nhoj53lzvcDgFYhX7q0aaD1qixXDaHTtXbio8om-TnBc-PLgmdgOdFxCb2zLthQoBwC3X0_H3WntVKsd9ZR86NXBQNCnl2IcC7rlF5DwVW3DwvMnnscass9vrJz27kdZAopPxs-N6cNVA4kv-RqGxWBHOoENYcAudHzh_k2nv4NeJmebIOthpA2eDEsNf7poAqd40EP5KzaXp5ryCKAaIpkIU1xP2XD0NTF73-52bombfitAYlAoSdr7G9KIOLT8xCou9WM4AmOkTK2aiimPXK7u7zf7oaAoS7DpYoXsQmyvvZ2IYJ0OueZIcJzRCuUqxqsZ9FPvjSgxkd3_uOLbYj2RuS1d4b5o6jGNn_AtubgjVha2mqHhY8vPBY3fJIgvL32diSsCrKw62jQwuei6LHJoWC_bEWbGEOFwwkHPYl_3SN1JrvotDw_viiGoexxzAuujWMc4IPpaIa-eW9IEiSVphzLkSkqSDZbO4fN_x0hSHYtbsa1Zm4IBsA1B9bv3ybXLHEC64JKyTVicnpdkOvTKWVXa3vT-9nK2ZK-fm-ukqdYMnuGxuXN_4eX4tUSRR7bsMSCMSuSLQlqMvLCydp6ZGGdtFxNDr1zy26GqZ-Th0k8lnre1vgOmRV6eI9zOER4Ot_oR3m9N_Wu13eGTt2CKV2895nC5UZVF62NH8NeuT0WZNptLIRJ6YQ1cemf-0DUDvOublcKa7-a_hDZq1UXqPRFnEowNJJxtR-Pa-FuD5AM-BeVSEtJwMgoRhkqoCgts_TEu9JkbL4zX3l934vz3vayAvSlrWynKWiqICW8HTxMCwGuJdEKKRK3hCtK8l7SkKf1BPCW9v1ZJ7aMefiULu2Ek1peURkK7o1GtzzY8Xg5Wqo98idTo0pK8xenNON9Z0aoOzXzCu2fXdC65QNWap_XVZSN6sHazY1jgpPkCLMVHpyqQ8-01pkkOKROYF61h2ZXT75lCbH8-BLHdpHdx2JlO0dzwwt6xTNnY-wc9ahUGi8OTRCH2jZ6PRk9M9xHncoZh9qzGyuKvCDt1idZpPuHuMS46TgbBCrzSmQudKyuk8ssN8WEbBOvyakgxmIjBx9fJG8DyGicDGJvAZCD7Up141sGitOSVI4jzcN_AV4aGrA",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=X7WXjHicLVNJruvWEU2QDWQJf_4h4F72Vw8asLls1LARe04IdiIpdhJFSaRWk7xvG3Bmtj8yzjbiQdYSOQhqUqhCnXPqFOo_f_rrZ1H_s-TucXK1Y2myZ2bFm-Mg7l3r58s45PdsqvPfCAhJiqQ4DhCQ5ghAcNzPWTIl7VDW-XfIciyiWQayNEkyLEMgkvq1KpK8rfvCOJ2KURqyP1BYBgBIkoigAMvQHENS_6i7pCz-1_4O6XcBAgaxAJAMTbEMw30b89vffrzei3H53hX916roLl_Ttujzr7eqHqcfy8t79BcEGYQY-h2QgACy1Leuzn99S6IYgkOQoFkSvOWBb5fH9Pfkh_u9Lf71Wbafdf9ZtZ9F_9OQXB6n7Pc_f-IxFMVHJlju5eJJR2BDZOVtNLoepu2zTlhexOik0KRgekbu3OltRDtkNRQY0EeMX6m7lXNgkZ4LE_3l3Vwl9_VzLvhNdM-dvNUVuESkbjhKpad9e846z_BkdDTU7Svs5J3e53jvttB5CUHkRv0RcNDw5UfU0LLnROah0xe_u9G6ejm9eS-Fe9TsM54jZSJ0JQTHF57eWHXkQjp3tJejyjurRfRByn1fmcIC49npw8XAJZUqcGfjiI7UVvV92oz69nhoj53lzvcDgFYhX7q0aaD1qixXDaHTtXbio8om-TnBc-PLgmdgOdFxCb2zLthQoBwC3X0_H3WntVKsd9ZR86NXBQNCnl2IcC7rlF5DwVW3DwvMnnscass9vrJz27kdZAopPxs-N6cNVA4kv-RqGxWBHOoENYcAudHzh_k2nv4NeJmebIOthpA2eDEsNf7poAqd40EP5KzaXp5ryCKAaIpkIU1xP2XD0NTF73-52bombfitAYlAoSdr7G9KIOLT8xCou9WM4AmOkTK2aiimPXK7u7zf7oaAoS7DpYoXsQmyvvZ2IYJ0OueZIcJzRCuUqxqsZ9FPvjSgxkd3_uOLbYj2RuS1d4b5o6jGNn_AtubgjVha2mqHhY8vPBY3fJIgvL32diSsCrKw62jQwuei6LHJoWC_bEWbGEOFwwkHPYl_3SN1JrvotDw_viiGoexxzAuujWMc4IPpaIa-eW9IEiSVphzLkSkqSDZbO4fN_x0hSHYtbsa1Zm4IBsA1B9bv3ybXLHEC64JKyTVicnpdkOvTKWVXa3vT-9nK2ZK-fm-ukqdYMnuGxuXN_4eX4tUSRR7bsMSCMSuSLQlqMvLCydp6ZGGdtFxNDr1zy26GqZ-Th0k8lnre1vgOmRV6eI9zOER4Ot_oR3m9N_Wu13eGTt2CKV2895nC5UZVF62NH8NeuT0WZNptLIRJ6YQ1cemf-0DUDvOublcKa7-a_hDZq1UXqPRFnEowNJJxtR-Pa-FuD5AM-BeVSEtJwMgoRhkqoCgts_TEu9JkbL4zX3l934vz3vayAvSlrWynKWiqICW8HTxMCwGuJdEKKRK3hCtK8l7SkKf1BPCW9v1ZJ7aMefiULu2Ek1peURkK7o1GtzzY8Xg5Wqo98idTo0pK8xenNON9Z0aoOzXzCu2fXdC65QNWap_XVZSN6sHazY1jgpPkCLMVHpyqQ8-01pkkOKROYF61h2ZXT75lCbH8-BLHdpHdx2JlO0dzwwt6xTNnY-wc9ahUGi8OTRCH2jZ6PRk9M9xHncoZh9qzGyuKvCDt1idZpPuHuMS46TgbBCrzSmQudKyuk8ssN8WEbBOvyakgxmIjBx9fJG8DyGicDGJvAZCD7Up141sGitOSVI4jzcN_AV4aGrA",
+          "material_type": "Hemp",
+          "why_suggested": "Decathlon hemp shirt noted for durability",
+          "trade_off": "limited color options",
+          "claims": [
+            {
+              "claim": "Hemp fabric is more durable than cotton",
+              "status": "supported_by_search",
+              "label": "Evidence found",
+              "validated": true,
+              "evidence_snippet": "Hemp is a more durable and stronger fabric than cotton. Hemp fabric lasts longer and is less likely to wear out than cotton.",
+              "evidence_source": "web_search",
+              "source_title": "15 Benefits of Hemp Clothing",
+              "source_url": "https://hemptique.com/pages/benefits-of-hemp-clothing?srsltid=AU7gw4XFhAOVGdNogq8dEHBCHydXQHBBJ3lHPi17M991u4No8kGDfu6_"
+            }
+          ]
+        },
+        {
+          "id": "p12",
+          "name": "Beige Hemp cotton Sustainable Shirt for Men – Dennison",
+          "price": "₹4,049",
+          "source": "Myntra",
+          "link": "https://www.google.co.in/search?q=%22Beige%20Hemp%20cotton%20Sustainable%20Shirt%20for%20Men%20%E2%80%93%20Dennison%22%20%22Myntra%22&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQjNb3vtNXCt1YnEDGCljiBRStYEOktVsS0KFO8Qvink_cMrReB-ALIFZ_AuvKU4CAgQxmBh9cVlsm5f2F2L3NexKa1XwFMZ-rW5bOgu2EkOXZMen8DoAqOrA",
+          "rating": 5.0,
+          "reviews": 1,
+          "product_id": "2233601616361090374",
+          "product_link": "https://www.google.co.in/search?ibp=oshop&q=men hemp blend shirt&prds=catalogid:2233601616361090374,productid:1469689662521304736,headlineOfferDocid:17689435327726715562,imageDocid:5913092056124094000,rds:PC_5604250807021128289|PROD_PC_5604250807021128289,gpcid:5604250807021128289,mid:576462861536044568,pvt:a&hl=en&gl=in&udm=28",
+          "immersive_product_page_token": "53Xz33icbVTLzqvmFa3aF6jUFzjzI0sfH3cfeYC5Y3OHz5gJ4g7mYoyxDSgv0_8kkZJhEmXc10gGfZY6UWftbEtLe6291778-y9__8jrX0vmEcU3NxImd6Y2nDVe-aNv_zCM1-yRTnX2M0ZQLMWwFAVJiOGAoHHqhzSe4vZavlEIcZwCGIVROIUBFuA08VOVx1lb97lZFPkoXNM6-wWj3xQETuKQpiFFYyRJwR_rLi7zP_GfSfZNzUJAUhgkAEsAAL6O2f03aPERSQECkoABNIAYBhnIsN9YjilE_x_77vbIx-WXLu8_V3k3fE7avM8-36t6nL4rhz_F_jfpa1dnP5E0RVCQoTDy3RJBkBTzdXhO_4y_fTza_F8fZftR9x9V-5H331_j4Vmkv__1H-L1LvD3F2_7w4AEB3jSQPr9oIQ4shKf1TMZUxMYanqfOXlTWWHL6iF0PF-sSLuZLu4JM2M5vPuKg854eDj57DGR9kHWabXRITXpkOt0mZJJYZHKLyKXs8BYnSIFmpCsznBu92Pckasv7Ve7cfT0hAQd3id9rYRQGU4ZrsNcbikHqVMqz3cDhrHvqZOHtRMKssYRQt4_oWMstoQOhxkJ6RqCVkv9tnM77Zgroey_q3FOk-Be0DETh6PXVIZ_Ste8kQZ3wYysM_QYhm2OnFMqSmQG1MltMjftpM7zDcttWS0_vTl8ERqYZrvy5BheRoRwGJESXoJVMpNuGOJTdUkv6O0JeXUuhp_gVadDH5zxZk6QA0x5mFOUjeapWozAuPhriTmBvYars-Td9IerAIFZ91sGpOiKeV61z6TBRE21Olg7u6cs8C6GE6wNka4lmTdnHDWMK3UpkSG2SpFROIrj5cJ5stF-SYChIyTGaiOJKa6SYWsMNpZ1pnzFEi-UHFCpjlAFLsBGV9BuNkRt1ojfzvex-A1wEjm5JiGLN27tqVoi5Mc0u_YFPx1FzrkUUrnFaBawJIG_74Fgv0-v16bOf__b3TVUYcdpJgYDmZzssb_LAS8WLz1QDpuZxQpsDOWxVc580rN-95CO2uEaUMRwHapo4Zsg7Wt0OLMYmcxZavLYJSRlwldMGtnkiytNTOXCB_flk2vy7o7n1Hf0LolXIpfTRVf1xB1f2urmIO6_fOJEfsfFMStqt94N95scz906vKrn1yIbkcWwwXHReBeOZ5kRYwZDArc-QmXGu7BYXl8-yaYpH8WI2_uuGImBqFueahq7d4c4xIkkYWgGT9gcp9Otp-_-6wjE6S2_G7eqtYPv77JlwJZgGHxLwwJscyLBtyyVkdsc3xZFQm-27q4_pRtPw0_Go7kJSLYl-oKZw1v_Dy_5m83znOhipbg3Z1lwhb0Sj9y-sDWE53ahZkqs9949vZuWcYmfFnwu9azV4gOjNuwTPS_nayhOlzv5LG-Ppj70xsE0iHswJQt6j-m83IlqUNvoeT3K9-fCvlc-2p_j0jvXcOhfx4BX9flQtxuZdtem10N3s-kChRz4qQTXRjBv7vN5y31Nx_CAW4lYWEqIhWY-SpgM8tK2SsQ_5Cals4O1ZvXjyM9HF6U56EtX1qYpaKoggeiA6dMCwa2E7T5heQ36vCAdBZVFag8BWlqvPxd0GXHYSxjaSYxraUOkbPBoVLLlwIETF8dW3JErLJUoCfW0eKUVHTsrZLuimTfs8dUFrV8-sUrps7oK01HR7cPceBYoBG8_22fdqzr2ldQGFQd64gXWTX2qbvXiWhry5ZdPUeTm6WPMN67nWDtub1QcdTHHzlMcuVI5_toE0VnVwvVFGanpP-tEShm2vfiRLEsLq977OA2Nkx6Voth0jAsChVpjiTl7dtdJZZpZfIy3MWoyIohEvpGCL58EtAN4OE4mPNoAZEDbKH50T0FeLHHlecJ8_Q8E7lBM",
+          "serpapi_immersive_product_api": "https://serpapi.com/search.json?engine=google_immersive_product&page_token=53Xz33icbVTLzqvmFa3aF6jUFzjzI0sfH3cfeYC5Y3OHz5gJ4g7mYoyxDSgv0_8kkZJhEmXc10gGfZY6UWftbEtLe6291778-y9__8jrX0vmEcU3NxImd6Y2nDVe-aNv_zCM1-yRTnX2M0ZQLMWwFAVJiOGAoHHqhzSe4vZavlEIcZwCGIVROIUBFuA08VOVx1lb97lZFPkoXNM6-wWj3xQETuKQpiFFYyRJwR_rLi7zP_GfSfZNzUJAUhgkAEsAAL6O2f03aPERSQECkoABNIAYBhnIsN9YjilE_x_77vbIx-WXLu8_V3k3fE7avM8-36t6nL4rhz_F_jfpa1dnP5E0RVCQoTDy3RJBkBTzdXhO_4y_fTza_F8fZftR9x9V-5H331_j4Vmkv__1H-L1LvD3F2_7w4AEB3jSQPr9oIQ4shKf1TMZUxMYanqfOXlTWWHL6iF0PF-sSLuZLu4JM2M5vPuKg854eDj57DGR9kHWabXRITXpkOt0mZJJYZHKLyKXs8BYnSIFmpCsznBu92Pckasv7Ve7cfT0hAQd3id9rYRQGU4ZrsNcbikHqVMqz3cDhrHvqZOHtRMKssYRQt4_oWMstoQOhxkJ6RqCVkv9tnM77Zgroey_q3FOk-Be0DETh6PXVIZ_Ste8kQZ3wYysM_QYhm2OnFMqSmQG1MltMjftpM7zDcttWS0_vTl8ERqYZrvy5BheRoRwGJESXoJVMpNuGOJTdUkv6O0JeXUuhp_gVadDH5zxZk6QA0x5mFOUjeapWozAuPhriTmBvYars-Td9IerAIFZ91sGpOiKeV61z6TBRE21Olg7u6cs8C6GE6wNka4lmTdnHDWMK3UpkSG2SpFROIrj5cJ5stF-SYChIyTGaiOJKa6SYWsMNpZ1pnzFEi-UHFCpjlAFLsBGV9BuNkRt1ojfzvex-A1wEjm5JiGLN27tqVoi5Mc0u_YFPx1FzrkUUrnFaBawJIG_74Fgv0-v16bOf__b3TVUYcdpJgYDmZzssb_LAS8WLz1QDpuZxQpsDOWxVc580rN-95CO2uEaUMRwHapo4Zsg7Wt0OLMYmcxZavLYJSRlwldMGtnkiytNTOXCB_flk2vy7o7n1Hf0LolXIpfTRVf1xB1f2urmIO6_fOJEfsfFMStqt94N95scz906vKrn1yIbkcWwwXHReBeOZ5kRYwZDArc-QmXGu7BYXl8-yaYpH8WI2_uuGImBqFueahq7d4c4xIkkYWgGT9gcp9Otp-_-6wjE6S2_G7eqtYPv77JlwJZgGHxLwwJscyLBtyyVkdsc3xZFQm-27q4_pRtPw0_Go7kJSLYl-oKZw1v_Dy_5m83znOhipbg3Z1lwhb0Sj9y-sDWE53ahZkqs9949vZuWcYmfFnwu9azV4gOjNuwTPS_nayhOlzv5LG-Ppj70xsE0iHswJQt6j-m83IlqUNvoeT3K9-fCvlc-2p_j0jvXcOhfx4BX9flQtxuZdtem10N3s-kChRz4qQTXRjBv7vN5y31Nx_CAW4lYWEqIhWY-SpgM8tK2SsQ_5Cals4O1ZvXjyM9HF6U56EtX1qYpaKoggeiA6dMCwa2E7T5heQ36vCAdBZVFag8BWlqvPxd0GXHYSxjaSYxraUOkbPBoVLLlwIETF8dW3JErLJUoCfW0eKUVHTsrZLuimTfs8dUFrV8-sUrps7oK01HR7cPceBYoBG8_22fdqzr2ldQGFQd64gXWTX2qbvXiWhry5ZdPUeTm6WPMN67nWDtub1QcdTHHzlMcuVI5_toE0VnVwvVFGanpP-tEShm2vfiRLEsLq977OA2Nkx6Voth0jAsChVpjiTl7dtdJZZpZfIy3MWoyIohEvpGCL58EtAN4OE4mPNoAZEDbKH50T0FeLHHlecJ8_Q8E7lBM",
+          "material_type": "Hemp",
+          "why_suggested": "Sustainable hemp‑cotton blend shirt",
+          "trade_off": "blend may reduce some hemp durability benefits",
+          "claims": [
+            {
+              "claim": "Hemp fabric is more durable than cotton",
+              "status": "supported_by_search",
+              "label": "Evidence found",
+              "validated": true,
+              "evidence_snippet": "Hemp is a more durable and stronger fabric than cotton. Hemp fabric lasts longer and is less likely to wear out than cotton.",
+              "evidence_source": "web_search",
+              "source_title": "15 Benefits of Hemp Clothing",
+              "source_url": "https://hemptique.com/pages/benefits-of-hemp-clothing?srsltid=AU7gw4XFhAOVGdNogq8dEHBCHydXQHBBJ3lHPi17M991u4No8kGDfu6_"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filter_options": {
+    "material": [
+      "Oxford cotton",
+      "Hemp"
+    ],
+    "price": {
+      "currency": "INR",
+      "min": 1799.0,
+      "max": 4049.0
+    },
+    "rating": {
+      "min": 5.0,
+      "max": 5.0
+    },
+    "reviews": {
+      "min": 1,
+      "max": 1
+    },
+    "sort": [
+      "relevance",
+      "price_low_to_high",
+      "price_high_to_low",
+      "rating",
+      "reviews"
+    ]
+  },
+  "availability_note": "Availability shown is based on regional search results and may not reflect real-time shipping to your exact location. Please verify on the merchant's page before purchasing.",
+  "no_suitable_alternative": false,
+  "trace": [
+    {
+      "step": 1,
+      "query": "men's office shirt durable long lasting",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 2,
+      "query": "Oxford cotton shirt durability",
+      "engine": "web",
+      "purpose": "evidence",
+      "results_found": 5,
+      "cached": false
+    },
+    {
+      "step": 3,
+      "query": "IndoPrimo Men’s Striped Shirt material",
+      "engine": "web",
+      "purpose": "evidence",
+      "results_found": 0,
+      "cached": false,
+      "error": "We couldn't get valid results for this search. Please try again later."
+    },
+    {
+      "step": 4,
+      "query": "men hemp blend shirt",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 5,
+      "query": "hemp shirt durability",
+      "engine": "web",
+      "purpose": "evidence",
+      "results_found": 5,
+      "cached": false
+    }
+  ],
+  "meta": {
+    "searches": 5,
+    "dropped_unknown_ids": 0,
+    "dropped_type_mismatch": 1,
+    "critique": {
+      "ran": true,
+      "passed": false,
+      "issues": [
+        "The hemp shirts listed may be too casual for an everyday office shirt, potentially not meeting the user's functional requirement for office-appropriate attire."
+      ],
+      "extra_search_used": false
+    }
+  }
+}

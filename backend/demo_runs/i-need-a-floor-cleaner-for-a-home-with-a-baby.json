@@ -1,0 +1,239 @@
+{
+  "summary": "Found floor cleaners with plant‑based, refill, and baby‑safe formulations that may suit a home with a baby.",
+  "product_type": "floor cleaner",
+  "user_specified_material": null,
+  "request_sustainability": "none",
+  "caution_note": null,
+  "materials": [
+    {
+      "type": "Plant‑based biodegradable formulation",
+      "matches_request": true,
+      "about": "Floor cleaners formulated with plant‑derived ingredients and labeled biodegradable, aiming to reduce reliance on petroleum‑based chemicals.",
+      "impact": {
+        "material_note": "uses plant‑derived ingredients that can reduce reliance on petroleum‑based chemicals",
+        "reusability": "Not verified",
+        "end_of_life": "Packaging may be recyclable but not verified",
+        "common_trade_off": "Often priced higher than conventional cleaners"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p23",
+          "name": "Plant-based Disinfectant Floor Cleaner Liquid in India - Pet & Eco Friendly 1L Bottle & 1L Refill / Turkish Applewood",
+          "price": "₹411.60",
+          "source": "Born Good",
+          "link": "https://www.google.com/search?q=Plant-based%20Disinfectant%20Floor%20Cleaner%20Liquid%20in%20India%20-%20Pet%20%26%20Eco%20Friendly%201L%20Bottle%20%26%201L%20Refill%20/%20Turkish%20Applewood%20Born%20Good&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzB7YeLjto5yyv2rvJKVJ1y-in6egY5fkjx41-lD7IcRzB89b7Q4VJk6wrK6ZryGTcmBbruih9K-8RcKAlaySjbeh5x4-Jd3wikRuZJJpzsQM1UbPFJdDC3w",
+          "rating": 4.8,
+          "reviews": 264,
+          "material_type": "Plant‑based biodegradable formulation",
+          "why_suggested": "Plant‑based disinfectant floor cleaner with a refill option",
+          "trade_off": "Contains fragrance that some may prefer to avoid",
+          "claims": [
+            {
+              "claim": "Plant‑based disinfectant floor cleaner",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Plant-based Disinfectant Floor Cleaner"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Refill / concentrated format",
+      "matches_request": true,
+      "about": "Products offered as refill packs or concentrated liquids that can lower packaging waste when used with a reusable bottle.",
+      "impact": {
+        "material_note": "provides a refill format that can reduce packaging waste",
+        "reusability": "Designed for reuse of the original container",
+        "end_of_life": "Refill containers are often smaller and may be recyclable",
+        "common_trade_off": "Requires a compatible original bottle for the refill"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p4",
+          "name": "Cleevo Floor Cleaner Liquid Refill Pack",
+          "price": "₹198",
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=Cleevo%20Floor%20Cleaner%20Liquid%20Refill%20Pack%20Amazon.in&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRttVxTBnSERy2-LaOviagBZGEcfTsvBfVd-ced85XTfCdkEO6GPwUb7xdlBqM9qiaOBjHhbjaDC6iyAEcEcj3MSeWQ9UuOYuphkqN7Ju1X2GL8dIRObmII",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Refill / concentrated format",
+          "why_suggested": "Sold as a liquid refill pack, reducing overall packaging",
+          "trade_off": "Only usable with the brand's original bottle",
+          "claims": [
+            {
+              "claim": "Refill Pack",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Refill Pack"
+            }
+          ]
+        },
+        {
+          "id": "p16",
+          "name": "Plant-Based Concentrated Disinfectant Floor Cleaner Liquid in India 50ml Refill",
+          "price": "₹149",
+          "source": "Born Good",
+          "link": "https://www.google.com/search?q=Plant-Based%20Concentrated%20Disinfectant%20Floor%20Cleaner%20Liquid%20in%20India%2050ml%20Refill%20Born%20Good&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRZkfs3ghV8NCqaIjO5NYZGHHCaQWR-nf5-tkl0y02G3s_kC04Eogjq4M1s5dhb3o-v1MvWZ4BsyBHX4qWm5UPjgfW41HLE_-jkPBjonXYM5uphJLSPxU2o8w",
+          "rating": 3.0,
+          "reviews": 159,
+          "material_type": "Refill / concentrated format",
+          "why_suggested": "Concentrated 50 ml refill that can be diluted, lowering transport volume",
+          "trade_off": "Needs dilution; may be less convenient for quick use",
+          "claims": [
+            {
+              "claim": "Concentrated ... 50ml Refill",
+              "status": "unverified",
+              "label": "Not verified",
+              "validated": false,
+              "evidence_snippet": "Concentrated Disinfectant Floor Cleaner ... 50ml Refill"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Baby‑safe non‑toxic formulation",
+      "matches_request": true,
+      "about": "Floor cleaners marketed as baby‑safe or free of toxic fumes, aiming to minimise indoor air pollutants for households with infants.",
+      "impact": {
+        "material_note": "formulated without harsh chemicals to reduce indoor air pollutants",
+        "reusability": "Not verified",
+        "end_of_life": "Standard plastic packaging; recyclability not verified",
+        "common_trade_off": "May be less aggressive on tough stains"
+      },
+      "info_source": "general knowledge",
+      "products": [
+        {
+          "id": "p20",
+          "name": "Natural Baby-Safe Floor Cleaner No Toxic Fumes",
+          "price": "₹345",
+          "source": "Indimums",
+          "link": "https://www.google.com/search?q=Natural%20Baby-Safe%20Floor%20Cleaner%20No%20Toxic%20Fumes%20Indimums&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTbEjjnuy1AQVD0PbxevrG7GMnzxLyGbMtblBmTktoWOHaFVNKfOhNP1ucEwMp312fYQAt5fR8QWt1srNLZ4TBX4J2PenZGr39HSGESvd4",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Baby‑safe non‑toxic formulation",
+          "why_suggested": "Specifically labeled as baby‑safe with no toxic fumes",
+          "trade_off": "Potentially higher cost than basic cleaners",
+          "claims": [
+            {
+              "claim": "Baby‑Safe Floor Cleaner No Toxic Fumes",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Baby-Safe Floor Cleaner No Toxic Fumes"
+            }
+          ]
+        },
+        {
+          "id": "p24",
+          "name": "Baby safe Floor Cleaner | 1 ltr",
+          "price": "₹249",
+          "source": "Daily Detergent",
+          "link": "https://www.google.com/search?q=Baby%20safe%20Floor%20Cleaner%20%7C%201%20ltr%20Daily%20Detergent&tbm=shop",
+          "link_type": "google_shopping_search",
+          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSDqBmbV2QPnBPhA_FSy7qEMhXwCvfkFXKi7nBAAKHrKApmr2s4Z-oYrXP1kMqcisDQax_wd_Cvob6XZRMhdLyWiTKRrPdQKDHPSIP_ZvqY9a9tp1b9YGtv_g",
+          "rating": null,
+          "reviews": null,
+          "material_type": "Baby‑safe non‑toxic formulation",
+          "why_suggested": "Marketed as a baby‑safe floor cleaner in a 1 L bottle",
+          "trade_off": "Limited information on formulation strength",
+          "claims": [
+            {
+              "claim": "Baby safe Floor Cleaner",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Baby safe Floor Cleaner"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "filter_options": {
+    "material": [
+      "Plant‑based biodegradable formulation",
+      "Refill / concentrated format",
+      "Baby‑safe non‑toxic formulation"
+    ],
+    "price": {
+      "currency": "INR",
+      "min": 149.0,
+      "max": 411.6
+    },
+    "rating": {
+      "min": 3.0,
+      "max": 4.8
+    },
+    "reviews": {
+      "min": 159,
+      "max": 264
+    },
+    "sort": [
+      "relevance",
+      "price_low_to_high",
+      "price_high_to_low",
+      "rating",
+      "reviews"
+    ]
+  },
+  "availability_note": "Availability shown is based on regional search results and may not reflect real-time shipping to your exact location. Please verify on the merchant's page before purchasing.",
+  "no_suitable_alternative": false,
+  "trace": [
+    {
+      "step": 1,
+      "query": "concentrated floor cleaner refill India",
+      "engine": "shopping",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 2,
+      "query": "Born Good Plant Based Turkish Applewood Fragrance Disinfectant Liquid Floor and Surface Cleaner biodegradable non toxic",
+      "engine": "shopping",
+      "results_found": 8,
+      "cached": false
+    },
+    {
+      "step": 3,
+      "query": "baby safe floor cleaner non toxic certified",
+      "engine": "shopping",
+      "results_found": 8,
+      "cached": false,
+      "from_critique": true
+    }
+  ],
+  "meta": {
+    "searches": 3,
+    "dropped_unknown_ids": 0,
+    "dropped_type_mismatch": 1,
+    "critique": {
+      "ran": true,
+      "passed": false,
+      "issues": [
+        "No validated evidence that the listed cleaners are safe for babies; claims like \"Non‑Toxic\" and \"Safe\" are unverified.",
+        "Evidence snippets consist only of the claim word and do not cite any source, failing the evidence requirement.",
+        "The functional requirement of baby‑friendliness is not adequately addressed in the recommendations."
+      ],
+      "extra_search_used": true
+    }
+  }
+}
