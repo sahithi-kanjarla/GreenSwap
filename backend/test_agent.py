@@ -36,7 +36,6 @@ from ranking import finalize
 # Try:
 #   []
 #   ["low_cost"]
-#   ["reusable"]
 PREFERENCES = ["low_cost"]
 
 # Optional budget.
@@ -469,7 +468,7 @@ def show(result: dict) -> None:
 
     meta = result.get("meta", {})
 
-    print(meta)
+    print({k: v for k, v in meta.items() if k != "critique"})
 
     # ========================================================
     # SELF CRITIQUE
