@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-leaf-50: #f0fdf4;
+  --color-leaf-100: #dcfce7;
+  --color-leaf-500: #22a05a;
+  --color-leaf-600: #15803d;
+  --color-leaf-700: #166534;
+  --color-leaf-900: #0f3d22;
+}
+
+html { color-scheme: light dark; }
+body { @apply bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100 antialiased; }
