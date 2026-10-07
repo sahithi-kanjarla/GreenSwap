@@ -1,168 +1,686 @@
 {
-  "summary": "Bamboo chairs were found as renewable alternatives; no virgin‑plastic chair listings were included as the request was for a high‑impact material.",
+  "query": "virgin plastic chair",
+  "summary": "Found bamboo and recycled‑plastic chairs as alternatives to virgin‑plastic chairs.",
+  "input_mode": "text",
+  "input_source": null,
+  "input_url": null,
+  "input_asin": null,
   "product_type": "chair",
+  "functional_requirements": [
+    "standard seating"
+  ],
   "user_specified_material": "virgin plastic",
   "request_sustainability": "high_impact",
-  "caution_note": "Virgin plastic is made from new fossil‑fuel feedstock and has a higher environmental footprint; here are better options.",
+  "caution_note": "Virgin plastic is a high‑impact material with high embodied carbon and low recyclability.",
   "materials": [
     {
       "type": "bamboo",
       "matches_request": false,
-      "about": "Bamboo is a fast‑growing renewable plant commonly used for furniture.",
-      "pros": [
-        "Rapidly renewable",
-        "Lightweight yet strong",
-        "Biodegradable"
-      ],
-      "cons": [
-        "Can be susceptible to moisture damage",
-        "May require regular sealing"
-      ],
-      "info_source": "general knowledge",
+      "about": "Chairs made from fast‑growing bamboo, a renewable material with low embodied energy.",
+      "impact": {
+        "material_note": "Bamboo is a rapidly renewable plant with low embodied energy.",
+        "reusability": "reusable",
+        "end_of_life": "can be composted or recycled where facilities exist",
+        "common_trade_off": "may be less durable than plastic and can splinter"
+      },
+      "info_source": "model general knowledge (not verified per listing)",
       "products": [
         {
           "id": "p1",
           "name": "Yash Mudda House Premium Luxury Handicraft Bamboo Chair for Outdoor - Brown",
           "price": "₹2,299",
+          "extracted_price": 2299.0,
           "source": "Amazon.in",
           "link": "https://www.google.com/search?q=Yash%20Mudda%20House%20Premium%20Luxury%20Handicraft%20Bamboo%20Chair%20for%20Outdoor%20-%20Brown%20Amazon.in&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
           "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ9wjlcxo7sfuJ3l5wFblD2V_JOkkaZvWZjHpJvkn8-54RYTy0M_-UEJaaW3fN7FV_N2PwRcUEXS1fCyljFEhx-tRz1DXyUmFPllszrwPXImLZ3Ps82WSScJg",
           "rating": null,
           "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
           "material_type": "bamboo",
-          "why_suggested": "Bamboo construction offers a renewable alternative to virgin plastic.",
-          "trade_off": "May be less weather‑resistant than synthetic chairs.",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "Higher price than typical plastic chairs.",
           "claims": [
             {
-              "claim": "Bamboo Chair",
+              "claim": "Handicraft Bamboo Chair",
               "status": "stated_in_listing",
               "label": "Stated by seller",
               "validated": true,
-              "evidence_snippet": "Bamboo Chair"
+              "evidence_snippet": "Handicraft Bamboo Chair",
+              "evidence_source": "product_listing",
+              "source_title": "Yash Mudda House Premium Luxury Handicraft Bamboo Chair for Outdoor - Brown",
+              "source_url": "https://www.google.com/search?q=Yash%20Mudda%20House%20Premium%20Luxury%20Handicraft%20Bamboo%20Chair%20for%20Outdoor%20-%20Brown%20Amazon.in&tbm=shop"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         },
         {
           "id": "p2",
           "name": "Ocha Bamboo Chair with Cane Weaving",
           "price": "₹9,350",
+          "extracted_price": 9350.0,
           "source": "Bamboopecker",
           "link": "https://www.google.com/search?q=Ocha%20Bamboo%20Chair%20with%20Cane%20Weaving%20Bamboopecker&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
           "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS-sKh942-l0TeiqtLf8wn2l4PltFT9awuS5mROauEG_tiRxwQLKXkWBIt0HxUtYE5qqHX8JNNFAYv0iA1QnSnOljMv-V3hwrYszQckNi-tW3cDfRaOaDr_5Q",
           "rating": null,
           "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
           "material_type": "bamboo",
-          "why_suggested": "Bamboo construction offers a renewable alternative to virgin plastic.",
-          "trade_off": "May be less weather‑resistant than synthetic chairs.",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "May be heavier than plastic chairs.",
           "claims": [
             {
-              "claim": "Bamboo Chair",
+              "claim": "Bamboo Chair with Cane",
               "status": "stated_in_listing",
               "label": "Stated by seller",
               "validated": true,
-              "evidence_snippet": "Bamboo Chair"
+              "evidence_snippet": "Bamboo Chair with Cane",
+              "evidence_source": "product_listing",
+              "source_title": "Ocha Bamboo Chair with Cane Weaving",
+              "source_url": "https://www.google.com/search?q=Ocha%20Bamboo%20Chair%20with%20Cane%20Weaving%20Bamboopecker&tbm=shop"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         },
         {
           "id": "p3",
           "name": "Kanekarts Premium Bamboo Chair | Wooden Cane Kursi | Chairs For Home, Dining, Living Room Bamboo Outdoor Chair",
           "price": "₹3,960",
+          "extracted_price": 3960.0,
           "source": "Flipkart",
           "link": "https://www.google.com/search?q=Kanekarts%20Premium%20Bamboo%20Chair%20%7C%20Wooden%20Cane%20Kursi%20%7C%20Chairs%20For%20Home%2C%20Dining%2C%20Living%20Room%20Bamboo%20Outdoor%20Chair%20Flipkart&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
           "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRtRzwjx1g86kBIVqHtRvhpT5rCOheXOfOxzf9u0BaScx3gY5OgDbOZUeVH2luZ0Bs4TXZ5se5_oZ1_FpEQlWTmNf7zz3DPhyt39CKlcXX88a9hrPU1k93g",
           "rating": null,
           "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
           "material_type": "bamboo",
-          "why_suggested": "Bamboo construction offers a renewable alternative to virgin plastic.",
-          "trade_off": "May be less weather‑resistant than synthetic chairs.",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "Potentially less sturdy for heavy use.",
           "claims": [
             {
-              "claim": "Bamboo Chair",
+              "claim": "Premium Bamboo Chair",
               "status": "stated_in_listing",
               "label": "Stated by seller",
               "validated": true,
-              "evidence_snippet": "Bamboo Chair"
+              "evidence_snippet": "Premium Bamboo Chair",
+              "evidence_source": "product_listing",
+              "source_title": "Kanekarts Premium Bamboo Chair | Wooden Cane Kursi | Chairs For Home, Dining, Living Room Bamboo Outdoor Chair",
+              "source_url": "https://www.google.com/search?q=Kanekarts%20Premium%20Bamboo%20Chair%20%7C%20Wooden%20Cane%20Kursi%20%7C%20Chairs%20For%20Home%2C%20Dining%2C%20Living%20Room%20Bamboo%20Outdoor%20Chair%20Flipkart&tbm=shop"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         },
         {
           "id": "p4",
           "name": "Bamboo Chairs for Living Room and Outdoor Relaxation",
           "price": "₹7,500",
+          "extracted_price": 7500.0,
           "source": "HabereIndia",
           "link": "https://www.google.com/search?q=Bamboo%20Chairs%20for%20Living%20Room%20and%20Outdoor%20Relaxation%20HabereIndia&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
           "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT3iV3v950VVL1qM6OPZPmE_LaVn4hn_uxAhfFNo3VxWBw0qMitdqOofILKON35y2sRtvdZ9ZUwoPMFlxNdTe3I8vPeISuJhOF9mPvgFgBVGQlNWPwV6Ryr",
           "rating": null,
           "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
           "material_type": "bamboo",
-          "why_suggested": "Bamboo construction offers a renewable alternative to virgin plastic.",
-          "trade_off": "May be less weather‑resistant than synthetic chairs.",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "May not suit formal indoor décor.",
           "claims": [
             {
-              "claim": "Bamboo Chair",
+              "claim": "Bamboo Chairs for Living Room",
               "status": "stated_in_listing",
               "label": "Stated by seller",
               "validated": true,
-              "evidence_snippet": "Bamboo Chair"
+              "evidence_snippet": "Bamboo Chairs for Living Room",
+              "evidence_source": "product_listing",
+              "source_title": "Bamboo Chairs for Living Room and Outdoor Relaxation",
+              "source_url": "https://www.google.com/search?q=Bamboo%20Chairs%20for%20Living%20Room%20and%20Outdoor%20Relaxation%20HabereIndia&tbm=shop"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p5",
+          "name": "Swadeshi Bamboo Cane Chair with Cushion | Arm Rest Chairs for Home | Office | Balcony | Garden | Liv",
+          "price": "₹5,493",
+          "extracted_price": 5493.0,
+          "source": "Meesho",
+          "link": "https://www.google.com/search?q=Swadeshi%20Bamboo%20Cane%20Chair%20with%20Cushion%20%7C%20Arm%20Rest%20Chairs%20for%20Home%20%7C%20Office%20%7C%20Balcony%20%7C%20Garden%20%7C%20Liv%20Meesho&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSJIGnr25eU0m9trRf3-W86uvtOOIxnv9RAOpTgP-pK5DFr3n8hOq-_QQ0du5S9rXtdJ_iQysgszSmGh4VPD9ceN9np1KLS8rC33KmcafhBAHKoHMaFBsYjJg",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "bamboo",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "Cushion may wear faster than upholstery on plastic chairs.",
+          "claims": [
+            {
+              "claim": "Bamboo Cane Chair with Cushion",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Bamboo Cane Chair with Cushion",
+              "evidence_source": "product_listing",
+              "source_title": "Swadeshi Bamboo Cane Chair with Cushion | Arm Rest Chairs for Home | Office | Balcony | Garden | Liv",
+              "source_url": "https://www.google.com/search?q=Swadeshi%20Bamboo%20Cane%20Chair%20with%20Cushion%20%7C%20Arm%20Rest%20Chairs%20for%20Home%20%7C%20Office%20%7C%20Balcony%20%7C%20Garden%20%7C%20Liv%20Meesho&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p6",
+          "name": "Foldable Bamboo Lounge Chair with Adjustable Backrest",
+          "price": "₹6,499",
+          "extracted_price": 6499.0,
+          "source": "Home Essentials",
+          "link": "https://www.google.com/search?q=Foldable%20Bamboo%20Lounge%20Chair%20with%20Adjustable%20Backrest%20Home%20Essentials&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQP3eN9WSeQxb4lJuZUJHgOlgr9jTV5zDh9Vuhg-MprBzRVB27EZUV0UCThsJxzLanO5RlzcGd1MG2YnWCihAG0X6DTqYe7ye4a6d6AvJA",
+          "rating": 2.3,
+          "reviews": 6,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "bamboo",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "Foldable mechanism may be less robust.",
+          "claims": [
+            {
+              "claim": "Foldable Bamboo Lounge Chair",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Foldable Bamboo Lounge Chair",
+              "evidence_source": "product_listing",
+              "source_title": "Foldable Bamboo Lounge Chair with Adjustable Backrest",
+              "source_url": "https://www.google.com/search?q=Foldable%20Bamboo%20Lounge%20Chair%20with%20Adjustable%20Backrest%20Home%20Essentials&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [
+              "Popular"
+            ],
+            "popular": true,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": "high review volume among listings found in this run",
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p7",
+          "name": "Cane Crafts Premium Bamboo Chairs | Kursi | Chairs for Living Room, Home, Dining Room, Bedroom, Kitchen, Office, Outdoor (Set of 2)",
+          "price": "₹5,399",
+          "extracted_price": 5399.0,
+          "source": "Amazon.in",
+          "link": "https://www.google.com/search?q=Cane%20Crafts%20Premium%20Bamboo%20Chairs%20%7C%20Kursi%20%7C%20Chairs%20for%20Living%20Room%2C%20Home%2C%20Dining%20Room%2C%20Bedroom%2C%20Kitchen%2C%20Office%2C%20Outdoor%20%28Set%20of%202%29%20Amazon.in&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSI4E_SKOLKdR7x_AYobljMnRU2ZIqyxG9U89SiG-A8soltZ0i-uIXGQ9O00asfE-4czWPr2uTR4aRFpcPfpZ6YfH7eGlD_L871er7bg5yt-_TT3A8f3P_Wtg",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "bamboo",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "Set of 2 may be bulkier to store.",
+          "claims": [
+            {
+              "claim": "Premium Bamboo Chairs",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Premium Bamboo Chairs",
+              "evidence_source": "product_listing",
+              "source_title": "Cane Crafts Premium Bamboo Chairs | Kursi | Chairs for Living Room, Home, Dining Room, Bedroom, Kitchen, Office, Outdoor (Set of 2)",
+              "source_url": "https://www.google.com/search?q=Cane%20Crafts%20Premium%20Bamboo%20Chairs%20%7C%20Kursi%20%7C%20Chairs%20for%20Living%20Room%2C%20Home%2C%20Dining%20Room%2C%20Bedroom%2C%20Kitchen%2C%20Office%2C%20Outdoor%20%28Set%20of%202%29%20Amazon.in&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p8",
+          "name": "IRA Bamboo Lounge Chair",
+          "price": "₹24,452",
+          "extracted_price": 24452.0,
+          "source": "IRA Furniture",
+          "link": "https://www.google.com/search?q=IRA%20Bamboo%20Lounge%20Chair%20IRA%20Furniture&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRJKfdKeltfRZtvzaQm0eCUN2_fONu8vIlcnfbFQScO4jFbBYNDKQ-8Vmlwl3fuD6U5vIheNQUFYt0Unm-NnqO8dAjtt-7GF7qULQBvtlJf1SwdyxlhwzNZ7A",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "bamboo",
+          "why_suggested": "Offers a renewable‑material alternative.",
+          "trade_off": "Design may be less ergonomic for long sitting.",
+          "claims": [
+            {
+              "claim": "Bamboo Lounge Chair",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Bamboo Lounge Chair",
+              "evidence_source": "product_listing",
+              "source_title": "IRA Bamboo Lounge Chair",
+              "source_url": "https://www.google.com/search?q=IRA%20Bamboo%20Lounge%20Chair%20IRA%20Furniture&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "recycled plastic",
+      "matches_request": false,
+      "about": "Chairs made from post‑consumer recycled plastic, reducing waste and virgin‑plastic demand.",
+      "impact": {
+        "material_note": "Uses reclaimed plastic, lowering demand for virgin resin.",
+        "reusability": "reusable",
+        "end_of_life": "can be recycled where mixed‑plastic facilities exist",
+        "common_trade_off": "May have limited colour options and a less premium feel"
+      },
+      "info_source": "model general knowledge (not verified per listing)",
+      "products": [
+        {
+          "id": "p10",
+          "name": "Eco cafe chair",
+          "price": "₹3,500",
+          "extracted_price": 3500.0,
+          "source": "Econiture",
+          "link": "https://www.google.com/search?q=Eco%20cafe%20chair%20Econiture&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT2gu8LfcJNuoockmPlLN-O0zmvx7wPOG3BxaPTPLv8sclUNIkVda9vww15Vy5hMdBf7yED9b_1DHub05BtBggPHIKr0LE9ulh-2ybi7MU6-B7aEnKtT1ebP6A",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "recycled plastic",
+          "why_suggested": "Uses recycled plastic content.",
+          "trade_off": "Simple design may lack ergonomic features.",
+          "claims": [
+            {
+              "claim": "Eco cafe chair",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Eco cafe chair",
+              "evidence_source": "product_listing",
+              "source_title": "Eco cafe chair",
+              "source_url": "https://www.google.com/search?q=Eco%20cafe%20chair%20Econiture&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p12",
+          "name": "Teraabliss Plastic Outdoor Chair",
+          "price": "₹498",
+          "extracted_price": 498.0,
+          "source": "Flipkart",
+          "link": "https://www.google.com/search?q=Teraabliss%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRo53XyixWliGezqkJR_K1nl2eGjmlT-06FEg3wbhZ_cppnKCG8sOcihYOjYWH_MgMVd1u3n_ndWAa5WoVptxC0J9T5MjsXZ77OlmXgYcQ",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "recycled plastic",
+          "why_suggested": "Uses recycled plastic content.",
+          "trade_off": "Outdoor finish may fade over time.",
+          "claims": [
+            {
+              "claim": "Plastic Outdoor Chair",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Plastic Outdoor Chair",
+              "evidence_source": "product_listing",
+              "source_title": "Teraabliss Plastic Outdoor Chair",
+              "source_url": "https://www.google.com/search?q=Teraabliss%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [
+              "Lowest price found"
+            ],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": true
+          }
+        },
+        {
+          "id": "p13",
+          "name": "Trendylivings Sizz Plastic Chair For Home, Garden Plastic Outdoor Chair",
+          "price": "₹8,615",
+          "extracted_price": 8615.0,
+          "source": "Flipkart",
+          "link": "https://www.google.com/search?q=Trendylivings%20Sizz%20Plastic%20Chair%20For%20Home%2C%20Garden%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR8Ag40BISzlUWed6jHFwn3qmsLfUf9gBxjrghe6r25sbPqUpmPSRWCzoUJRrVL_PNPiRQheIOJjKrR4k5gnRG5QDLH3ZPyhvCOa0o09eiiEg8euWpVx3jB",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "recycled plastic",
+          "why_suggested": "Uses recycled plastic content.",
+          "trade_off": "May feel less sturdy than higher‑grade plastics.",
+          "claims": [
+            {
+              "claim": "Plastic Chair For Home",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Plastic Chair For Home",
+              "evidence_source": "product_listing",
+              "source_title": "Trendylivings Sizz Plastic Chair For Home, Garden Plastic Outdoor Chair",
+              "source_url": "https://www.google.com/search?q=Trendylivings%20Sizz%20Plastic%20Chair%20For%20Home%2C%20Garden%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p14",
+          "name": "LUE BONA Folding Weather Resistant Outdoor Plastic Adirondack Chair with Cup Holder",
+          "price": "₹14,640",
+          "extracted_price": 14640.0,
+          "source": "ubuy.co.in",
+          "link": "https://www.google.com/search?q=LUE%20BONA%20Folding%20Weather%20Resistant%20Outdoor%20Plastic%20Adirondack%20Chair%20with%20Cup%20Holder%20ubuy.co.in&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSZfhkQoFVyWp0Eir4v2zXp3E0VBn48cPEHkBM0HLQ-TJb6_exsqTYPmeldH4NI4Q8j0JRMQiYnDQUyOeshCQc0tnN0iYecbyt876KGsUrz",
+          "rating": 5.0,
+          "reviews": 323,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "recycled plastic",
+          "why_suggested": "Uses recycled plastic content.",
+          "trade_off": "Folding mechanism can wear with frequent use.",
+          "claims": [
+            {
+              "claim": "Folding Weather Resistant Outdoor Plastic Adirondack Chair",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Folding Weather Resistant Outdoor Plastic Adirondack Chair",
+              "evidence_source": "product_listing",
+              "source_title": "LUE BONA Folding Weather Resistant Outdoor Plastic Adirondack Chair with Cup Holder",
+              "source_url": "https://www.google.com/search?q=LUE%20BONA%20Folding%20Weather%20Resistant%20Outdoor%20Plastic%20Adirondack%20Chair%20with%20Cup%20Holder%20ubuy.co.in&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [
+              "Popular"
+            ],
+            "popular": true,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": "high review volume among listings found in this run",
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p15",
+          "name": "One Apple Plastic Outdoor Chair",
+          "price": "₹873",
+          "extracted_price": 873.0,
+          "source": "Flipkart",
+          "link": "https://www.google.com/search?q=One%20Apple%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTDOxavoX5Jm9nR6DiWcG3trgoeGN4kBPVcw1n3uZclNcq_aWssU9-TWWu4--2_g5FoSVxg1K2AG5VN3LHGYGDa8sH7Mpejz5HvxVgvZN_EOr4oBq86ANlN",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "recycled plastic",
+          "why_suggested": "Uses recycled plastic content.",
+          "trade_off": "Design may be less comfortable without cushions.",
+          "claims": [
+            {
+              "claim": "One Apple Plastic Outdoor Chair",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "One Apple Plastic Outdoor Chair",
+              "evidence_source": "product_listing",
+              "source_title": "One Apple Plastic Outdoor Chair",
+              "source_url": "https://www.google.com/search?q=One%20Apple%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p16",
+          "name": "Nilkamal Plastic Outdoor Chair",
+          "price": "₹8,090",
+          "extracted_price": 8090.0,
+          "source": "Flipkart",
+          "link": "https://www.google.com/search?q=Nilkamal%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnssI2fFatQ5Z3_QqcWG-0Ai6nT3Hhi0Or2uUA2fXS_LPLanuh1Iay6QT65Mprx4wGeSNB_BAn5iP8q_X9DMlXBJv2tpjGBBowsweoa36IOVzoyyu_u2no",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "recycled plastic",
+          "why_suggested": "Uses recycled plastic content.",
+          "trade_off": "May be heavier than typical plastic chairs.",
+          "claims": [
+            {
+              "claim": "Plastic Outdoor Chair",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Plastic Outdoor Chair",
+              "evidence_source": "product_listing",
+              "source_title": "Nilkamal Plastic Outdoor Chair",
+              "source_url": "https://www.google.com/search?q=Nilkamal%20Plastic%20Outdoor%20Chair%20Flipkart&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         }
       ]
     }
   ],
+  "filter_options": {
+    "material": [
+      "bamboo",
+      "recycled plastic"
+    ],
+    "price": {
+      "currency": "INR",
+      "min": 498.0,
+      "max": 24452.0
+    },
+    "rating": {
+      "min": 2.3,
+      "max": 5.0
+    },
+    "reviews": {
+      "min": 6.0,
+      "max": 323.0
+    },
+    "sort": [
+      "recommended",
+      "price_low_high",
+      "price_high_low",
+      "rating",
+      "reviews"
+    ]
+  },
   "availability_note": "Availability shown is based on regional search results and may not reflect real-time shipping to your exact location. Please verify on the merchant's page before purchasing.",
   "no_suitable_alternative": false,
   "trace": [
     {
       "step": 1,
-      "query": "sustainable alternatives to plastic chairs India bamboo recycled plastic",
-      "engine": "web",
-      "results_found": 5,
-      "cached": false
+      "query": "bamboo chair",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "results_found": 8,
+      "cached": true
     },
     {
       "step": 2,
-      "query": "bamboo chair sustainable India online store",
-      "engine": "web",
-      "results_found": 5,
-      "cached": false
-    },
-    {
-      "step": 3,
-      "query": "bamboo chair",
-      "engine": "shopping",
-      "results_found": 8,
-      "cached": true
-    },
-    {
-      "step": 4,
       "query": "recycled plastic chair",
       "engine": "shopping",
-      "results_found": 8,
-      "cached": true
-    },
-    {
-      "step": 5,
-      "query": "recycled plastic chair India",
-      "engine": "shopping",
+      "purpose": "discovery",
       "results_found": 8,
       "cached": true
     }
   ],
   "meta": {
-    "searches": 5,
+    "searches": 2,
+    "evidence_searches": 0,
     "dropped_unknown_ids": 0,
     "dropped_type_mismatch": 0,
+    "removed_high_impact": 0,
+    "dropped_functional_mismatch": 0,
+    "llm_fallbacks": [
+      "gemini: ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+      "gemini: ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:search` , posi",
+      "gemini: ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Function call is missing a thought_signature in functionCall parts. This is required for tools to work correctly, and missing thought_signature may lead to degraded model performance. Additional data, function call `default_api:search` , posi"
+    ],
+    "providers": [
+      "groq"
+    ],
+    "shopping_signals": {
+      "popular_definition": "high review volume among listings found in this run",
+      "offer_definition": "current price lower than a retrieved previous/old price",
+      "not_sales_data": true
+    },
     "critique": {
       "ran": true,
-      "passed": false,
-      "issues": [
-        "All listed chairs are bamboo, not virgin plastic as requested",
-        "No virgin plastic chairs or alternatives are provided despite the specific material request",
-        "Material diversity is irrelevant because the requested material is missing"
-      ],
-      "extra_search_used": false
+      "passed": true,
+      "issues": [],
+      "refused_removals": [],
+      "extra_search_used": false,
+      "rechecked": false
     }
   }
 }

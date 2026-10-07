@@ -1,196 +1,393 @@
 {
-  "summary": "Found floor cleaners with plant‑based, refill, and baby‑safe formulations that may suit a home with a baby.",
+  "query": "i need a floor cleaner for a home with a baby",
+  "summary": "Found several baby‑safe plant‑based floor cleaners and a set of concentrated refill packs that cut packaging waste.",
+  "input_mode": "text",
+  "input_source": null,
+  "input_url": null,
+  "input_asin": null,
   "product_type": "floor cleaner",
+  "functional_requirements": [
+    "non‑toxic for babies",
+    "suitable for home floors"
+  ],
   "user_specified_material": null,
   "request_sustainability": "none",
   "caution_note": null,
   "materials": [
     {
-      "type": "Plant‑based biodegradable formulation",
+      "type": "Plant‑based natural floor cleaner",
       "matches_request": true,
-      "about": "Floor cleaners formulated with plant‑derived ingredients and labeled biodegradable, aiming to reduce reliance on petroleum‑based chemicals.",
+      "about": "Non‑toxic, plant‑derived cleaners formulated for households with babies.",
       "impact": {
-        "material_note": "uses plant‑derived ingredients that can reduce reliance on petroleum‑based chemicals",
-        "reusability": "Not verified",
-        "end_of_life": "Packaging may be recyclable but not verified",
+        "material_note": "Plant‑derived ingredients reduce reliance on petro‑chemical solvents",
+        "reusability": "Single‑use bottle but can be disposed in regular waste",
+        "end_of_life": "Not verified",
         "common_trade_off": "Often priced higher than conventional cleaners"
       },
-      "info_source": "general knowledge",
+      "info_source": "model general knowledge (not verified per listing)",
       "products": [
         {
-          "id": "p23",
-          "name": "Plant-based Disinfectant Floor Cleaner Liquid in India - Pet & Eco Friendly 1L Bottle & 1L Refill / Turkish Applewood",
-          "price": "₹411.60",
-          "source": "Born Good",
-          "link": "https://www.google.com/search?q=Plant-based%20Disinfectant%20Floor%20Cleaner%20Liquid%20in%20India%20-%20Pet%20%26%20Eco%20Friendly%201L%20Bottle%20%26%201L%20Refill%20/%20Turkish%20Applewood%20Born%20Good&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzB7YeLjto5yyv2rvJKVJ1y-in6egY5fkjx41-lD7IcRzB89b7Q4VJk6wrK6ZryGTcmBbruih9K-8RcKAlaySjbeh5x4-Jd3wikRuZJJpzsQM1UbPFJdDC3w",
-          "rating": 4.8,
-          "reviews": 264,
-          "material_type": "Plant‑based biodegradable formulation",
-          "why_suggested": "Plant‑based disinfectant floor cleaner with a refill option",
-          "trade_off": "Contains fragrance that some may prefer to avoid",
-          "claims": [
-            {
-              "claim": "Plant‑based disinfectant floor cleaner",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Plant-based Disinfectant Floor Cleaner"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "Refill / concentrated format",
-      "matches_request": true,
-      "about": "Products offered as refill packs or concentrated liquids that can lower packaging waste when used with a reusable bottle.",
-      "impact": {
-        "material_note": "provides a refill format that can reduce packaging waste",
-        "reusability": "Designed for reuse of the original container",
-        "end_of_life": "Refill containers are often smaller and may be recyclable",
-        "common_trade_off": "Requires a compatible original bottle for the refill"
-      },
-      "info_source": "general knowledge",
-      "products": [
-        {
-          "id": "p4",
-          "name": "Cleevo Floor Cleaner Liquid Refill Pack",
-          "price": "₹198",
-          "source": "Amazon.in",
-          "link": "https://www.google.com/search?q=Cleevo%20Floor%20Cleaner%20Liquid%20Refill%20Pack%20Amazon.in&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRttVxTBnSERy2-LaOviagBZGEcfTsvBfVd-ced85XTfCdkEO6GPwUb7xdlBqM9qiaOBjHhbjaDC6iyAEcEcj3MSeWQ9UuOYuphkqN7Ju1X2GL8dIRObmII",
+          "id": "p1",
+          "name": "Natural Baby-Safe Floor Cleaner No Toxic Fumes",
+          "price": "₹670",
+          "extracted_price": 670.0,
+          "source": "Indimums",
+          "link": "https://www.google.co.in/search?q=%22Natural%20Baby-Safe%20Floor%20Cleaner%20No%20Toxic%20Fumes%22%20%22Indimums%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTERI09LhcyCOzrMIjYdRxjcho148eJTMHEE8DDnmk0HH0kDmAkyxbEf3d39xGp87yB5HyquHrYq5WVwq4B463w7mEE86LtiL9P4p52K3l9254yyq9eIzGh8Q",
           "rating": null,
           "reviews": null,
-          "material_type": "Refill / concentrated format",
-          "why_suggested": "Sold as a liquid refill pack, reducing overall packaging",
-          "trade_off": "Only usable with the brand's original bottle",
+          "listing_text": "",
+          "product_id": "18240880293834214418",
+          "immersive_product_page_token": "xgcDAXicLVTLrqvYEU2UH8gnnGl05au9eZpz5AGPDQabN2wwE7QNGGwwYLCN8de0zu1uqTPsbinT_Eb3IN8SXyWzUq16V636z1_-_lkc_wWOg0bGAK2TOemvrkMN6TyJu1_6octv2fWY_w5pAADNUTzHsUuGhUCghV8yciVNV36HlxQDlktACfSSZijIMHD5a1WQvDm2hX04FIPSZcf8N55nOO4VBbJA4CAFIQP_eTyTsvgfLFAUTUOe4l7JhJcJz1Lfhnz84afLrRjmP_7RN6S9ftmTsci_HJquG75kTUHaYviit_mRfKm6c_GC9_NPZf89HnylA4ARGMgvBUADnua_nY_5ryzPMRy1pOALfDVGA_Zbf79-VuWPt1tT_PuzbD6P7WfVfBbtzx3p74fsz79-Q0Mmy_dMcsO-x4oH_HM54RCBPPYee9rDCWDvLpRCOxROhdY9crp3E-RdgtCyMMWedk-D9SgDmXFu-WsJF1oS7CjEJpqKcWsFREmcAOanoq3CLMJRoVRUGDc9CcEcP7GV1zCOIugkap9kcf_IaG_GEKskyAlpvdYM0ANHCcBUXhXRRBXR4-VrXb0wOeVPic6beg7DZvPSb7EGmJz2Hnityon20PEpV7NnomSnar0DOCCR6mYKmoMwv5iN-dyvRYDV3jSVEPpP1QjOquzjBlm4t4vas3CEWPP5qiOutm7bSCTAZl4_5D3y1rkSXreBAU0KBmH4uOV0EsXAMLCnx6bWzB6lPjHCetQ2JFt7XqgYc0w3tItrotcqymidTRoLB2CiCYJMpBjhNlTZADVnMkM5A6pRtCrOz9mPj3E4_AFElb36Ni-eQ1j0w_ZJKMWW-3gc43qI24t5md4hL0Cah8KS4wXq56zr6mPx598q39KVlWjYkIpV9DyHVHk6SwL1CM5Notus29xxtWPBclHGGbMgsGRmsKOjx8E5rwejtMN0N2y7XWRMw65Na4ONs3GxNR78fbOzGDGltmZxGg7hx5tvy_5KFvWXhERPXqe-aCJfD9BKLl09JUj6eBORvBIJEZDRhZZPaScFreNNTtyEhJVwQw089fTIlItgN1tngl4czPPRFu_-bXTLjzfNtrUtSkUp9FGKYmQ6gW5bq1eLQAB7AA8ZTViQs3vyHpir_4_kRc93eTW8685qKXyFS_4rhF-Zxbu_Qla6fZF9qk0VBeHggHsqrv3s4y1N_SK7DcXCDzxnJUpWJXKlFZZrP2xgGeHQmLdewDyU1J1B-RSO09SzxsXc3O_8AqVW1Mmh4WpsLe01ien8051wD37gnkud01nJ8QJJ48S43d1SiLOiM4ePNwWvygfjKagXC2P0J6dC8f3CYAMtiNxUyOs-3r4vU74AWRaRT09Ish-a4q9bcdtpdgVFewJdFuJcCKKkHMrTjvfud0iGQCWmNUlZrQ5P_1wxDbdB9cU7xcTNNH4zXw9qLR1OibNhobS0l5UzucrTZ4Kzja2yqPTcPCYvqh78mVB670T-2HHPGCDQ6xXt7PCsl1r4cKIAXs6FU0-IkWv50PFZYPGqYlzG9Jje90PEmKbrPZMyZoSMmsls9dMo2ruSya6ONODQAzA-CePo719nmSQnlY60bE0WukX09lhIUoOXzaRpgzCmUnqTapxqrc3QiJgHLVJVNapdhZjXy3Q5vL4u5d_x1C8aaSOi2XPX_iAeHDiO62QQy3kDZevKcybyxMZFJg3gTSPmuptNU2JizmNbo4FtOywi_S7p7XVfxXUb0td-gy63yZkh5GKLK4ZQrcXpvyPxI8Y",
+          "material_type": "Plant‑based natural floor cleaner",
+          "why_suggested": "Baby‑safe, plant‑based formula",
+          "trade_off": "Higher price than standard cleaners",
           "claims": [
             {
-              "claim": "Refill Pack",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Refill Pack"
-            }
-          ]
-        },
-        {
-          "id": "p16",
-          "name": "Plant-Based Concentrated Disinfectant Floor Cleaner Liquid in India 50ml Refill",
-          "price": "₹149",
-          "source": "Born Good",
-          "link": "https://www.google.com/search?q=Plant-Based%20Concentrated%20Disinfectant%20Floor%20Cleaner%20Liquid%20in%20India%2050ml%20Refill%20Born%20Good&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRZkfs3ghV8NCqaIjO5NYZGHHCaQWR-nf5-tkl0y02G3s_kC04Eogjq4M1s5dhb3o-v1MvWZ4BsyBHX4qWm5UPjgfW41HLE_-jkPBjonXYM5uphJLSPxU2o8w",
-          "rating": 3.0,
-          "reviews": 159,
-          "material_type": "Refill / concentrated format",
-          "why_suggested": "Concentrated 50 ml refill that can be diluted, lowering transport volume",
-          "trade_off": "Needs dilution; may be less convenient for quick use",
-          "claims": [
-            {
-              "claim": "Concentrated ... 50ml Refill",
+              "claim": "Baby‑Safe Floor Cleaner",
               "status": "unverified",
               "label": "Not verified",
               "validated": false,
-              "evidence_snippet": "Concentrated Disinfectant Floor Cleaner ... 50ml Refill"
+              "evidence_snippet": "Baby‑Safe Floor Cleaner",
+              "evidence_source": null,
+              "source_title": null,
+              "source_url": null,
+              "reason": "cited snippet was not found in any retrieved listing or web result"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p2",
+          "name": "BSD Organics BabyO Natural Floor Cleaner Liquid for Households with Babies",
+          "price": "₹1,108",
+          "extracted_price": 1108.0,
+          "source": "bsdorganics.in",
+          "link": "https://www.google.co.in/search?q=%22BSD%20Organics%20BabyO%20Natural%20Floor%20Cleaner%20Liquid%20for%20Households%20with%20Babies%22%20%22bsdorganics.in%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTQTk63v9UjKqyMsZNAY1EQVuPIGU7vPYpF7qSwxBWfMRM8j6mgVZcQf-Gs8QI3SPFYRYDqMsVPO2lvTQ-92gQ4bD6A1L0OfZvf8jxgH87NoyoaOeBMP0oH",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": "5480319235345025433",
+          "immersive_product_page_token": "1eF2UXicLVTJrqtWFq1S_UB9wp2Wnvx0Dq25Vx7QHDDY9D0TdAwYbDBgwMb4a6L7kkipYRKppvUbyaC-pRzpzbbWltZu1_rf3_75WZz-A06DgkcPbZMl6SfbIoZ0mfn4l37o8ls2nfLfIc1yFAA0pFhAEyxBAEj-kuEJN115yn-jqTUgIUeQNEnRgKApkvy1KnDenNrCPB6LQeqyv1ggQUCG5BiOhjRJrkmCY_99uuCy-J5nSZYFgATwRcKycM2S629DPv7w0_VWDMsf_-ob3E5fDngs8i_HpuuGL1lT4LYYvqhtfsJfqu5SvNKH5aey_16QZpkXGSRezXNrEhDct8sp__WFUgyxJgDD0jRNUST9rb9Pn1X54-3WFP_9LJvPU_tZNZ9F-3OH-_sx-_Pv39CQieI9E2y_7wPJAS5IoBkYTiIHSyYn57zVRN1vGEfyn7jV9pkcMIX_kDBhTLjmLC_MCF_WJ9OFgRnmvXHR4kCutoEIFs-FN-yPpFtzbtE4ra5wrYtoNTknToIq9XDOgHPWF-cyHeNLtUv8RLFJmQlD7YVrQgS02Yhk2wyTkx3IF89rRkx0k9045-wsTF4Q-PFTOxlhELogqOzQOR6IQMWXvncbTQsbWfYkRGfbnDqcZde5JEtOJIYnrx_5NjH9Ju-ScDr7rSNnIHeC0JkOpEPEMLm7vvrwo97eRx20W8EqFEAEkoCTmmb8bbKPPYMotpXsgvhphuriNeXDqOfFFNRIV5rFIeRngAI1bBucbR3Hl7QlIhvSDmqs1jLKSJVOXj0aoAkdpZIcXyMj2NcGFII8khkDVERcP2IHoR8f43D8A_AyPbkmax6ZLnvS_Q5f7Rwm0vUE66i0lKnn3yHLQZKF3JphOfLnrOvqU_HnPyrXUKUNr5mQiGT0vPhEeb4IHPHwLk2imrTd3IMqpsF6VUYZtcKwpBYQk-HjaF22g1aafhoP-y4OtXmI27TW6CgbV3vtwd53sUHxKbHXi_Nw9D_eXFN0NyKvviLEO-I2dXkduaqHNmJpqylGwscbj8QNjzGHtM43XEI5S2gb7XJsJ9ivuBtq4LknR6pcefFiXDAiKJDno8nf3dtolx9vimkqe5Tygu-iFEVItzzVNDavEQEHDgAeMxLTIKcP-N3TN99XwjDEu7gZ3lVrs-a-vkT4FcKv1Ord3SAj3b_kPte6jDx_sMA95bdu9vGWpm6R3YZi5XqOteEFo-KZ0vDLres3sAwDX1v2jkc9pNReQPnkTvPc09pV393v7AqlRtiJvmYrdC0cFIHq3PMdMw92YJ5rlVFpwXI8QWH4qI1vKQyyotOHjzcp2JQPypFQzxfa6M5WhaL7lQo0tMJiUyGn-3j765jiFYgij1xyRoL5UCR32_L7TjEryJsz6DI_yDkvTMqhPMesc79DPHgy1o1ZyGp5eLqXimqYHaqvzjnCdqawu2U6yrVwPCfWjobC2lxX1mxLT5fyLi87KItKzfVTEoXh0V0wofZW6I4d84wAAr1akVYcLGqp-A8r9OD1Ulj1jCixFo8dm3kGK0vadUxP6f0whJSu284zKSOKy4gFL0Y_j7wZl1Q2WcIQ-A6A0ZkbR_fwesskOctkqGRbvFINrLanQhCaYN3MijJwYyqkN6EOUqU1KRJh_aiEsiyHtS1hfbrO1yN8ubp7D-Z-1Qg7Hi2OvXUH_mjBcdwmA18uOygaE8voyOEbG-kvl74pWN92i64LVMQ4dKs1sG2HVajeBbWdDlVUtz459Tt0vc3WAiETGUwx-HLNz_8HFwAjMA",
+          "material_type": "Plant‑based natural floor cleaner",
+          "why_suggested": "Baby‑safe natural liquid",
+          "trade_off": "May be less widely available",
+          "claims": [
+            {
+              "claim": "BabyO Natural Floor Cleaner",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "BabyO Natural Floor Cleaner",
+              "evidence_source": "product_listing",
+              "source_title": "BSD Organics BabyO Natural Floor Cleaner Liquid for Households with Babies",
+              "source_url": "https://www.google.co.in/search?q=%22BSD%20Organics%20BabyO%20Natural%20Floor%20Cleaner%20Liquid%20for%20Households%20with%20Babies%22%20%22bsdorganics.in%22&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p3",
+          "name": "Baby Forest Swaksh Bhoomi Natural Floor Cleaner",
+          "price": "₹445",
+          "extracted_price": 445.0,
+          "source": "Amazon.in",
+          "link": "https://www.google.co.in/search?q=%22Baby%20Forest%20Swaksh%20Bhoomi%20Natural%20Floor%20Cleaner%22%20%22Amazon.in%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQhtFSLFB6n22igP5mbvfiZD-0NA-mXrDA8oa_-MXmNDMZXZkGK2DVEzkGkmmPorgjh7S64U5fZ6uuTp_si2aRL4OBWxKatYKyFlMxhTqhub8UabLlRkI2R",
+          "rating": 4.5,
+          "reviews": 4,
+          "listing_text": "",
+          "product_id": "10063932323795821012",
+          "immersive_product_page_token": "w1hPi3icdVXLrqvYEY2SH8ggH3Cm0ZGv2Lw5Rx6A2WA45rV5M0HbgMHmabCNsfI153a31D3sjpRpfuP2IN8S3yjDRFsqbWmVllatKlX96w9__iyO_yCOo4onD26TJRkujk2O6TKL8c_D2OfX7HLMf2NJmgQUwfCAohiGE3hO-DnDF9z05TH_OyAIlhIo8vk4geFJQADy16rAeXPsCutwKEa5z54sNEF-ZwHPyLE0D3ie_OXY4rL4D_wrxwo8QRE8L_AMxXFPwq9jPn2j7U0KOJrgKJplWcALJMkLBEf-zUaWnP4f8MfztRiXb38dGtxdXvd4KvLXQ9P342vWFLgrxlety4_4terb4gnvlx_LIfteyv_g-to-xTFPxU8XOI55yicZSuC-DrfLZ1X-cL02xT8_y-bz2H1WzWfR_dTj4XbIfv_jX2A_y5tp3jj-MAQyIjxFGHHTPLAcM1htNngbMHFXHffb_BKfNOBSkr_zNYAJvcrbQMaevsvrCezVvHUo825sJcL1aqKohRkpue62NZW1Ava36J4riE7UcsYqkN0uiCwFBV59H_YQkjkpVK6X2-5DGq2w6vegsjyysYsGoUCRHAxB4vnmmDxzipZRDaW8uD5PBiQBilqvEYGg70-L79NEoiayBTUGUwk2FQSTk0h57TyHQdAY4f3h1WDy6qoL24wwiEH1SeaMVBCYzaDvYfIwiHuVN1XgkDppevnotHmbRKaXqaCLQdXFjeCiZsCe3ERmlN-delg8MtnGZHl31fz69ADFlKI5rYlMxYxd2dzERE-YAHU4vGzDVveih24iubED2Iwm0CWfTEDgC22hMmzhmXgXNDc3Uk4OVe0QyGEEMiogmyVTmpMb-DPaDrIf6XLexq7ykIaszqsMIMVVBibsJMIPxCVrBCYnlEQ96hLamosVJshrc3IPA8IIlAtq9QWR-jVRkevL_h35F9OQEfrhPo2Hb4SoMBfXoldHKDEB67eHjw4MkJEU28Xt_boo8xvgBEBxQOBZTqB_yvq-Pha__6lyTU1ei7oFyEiBj9Yny1MrCeTda5tEsxinuQVVzBD8qowyeoVBSS9ETIX3g91uR720_DQed30c6vMYd2mtM1E2rXb6nbt9xCYtpuTOKE7jwX9_ca2Nu96I2vMHRbTZpq5oQFfz4HpTOlqKofT-IsLNWsRYgHrvmy6pnmS4jT5y7CTYr4QrbMBpoCa6XHnxYrYYkjSR55Ml3tzr5JTvL6plqTuYipLvwhRG0LA9zTLXzxIJgdgT4JBRmCFyZo_fPGP9X0tYlnzbrMc3zV7zwhfAc18A-EKv3tw1NNPdcyXNtaFAzx9t4paKWzd7f0lTt8iuY7FyPWSvRcmsRLY0_XLr-g0ow8DXlx3y6LucOgtRPoTjPA-MfjY-bjduBVMz7De-7qhMLe1Vie7d0w2zd25kH7zGaoxkI09SWTHq4msKgqzojfH9RQ7W5Z1GMhzEQp_c2a5gdDvTgQ5XeNNUEPXvL9-buTkTm40IXWqGknVXZXfbibtetSogWjPRZ36QC16YlGN5ijl0uwE8ego2zFnKamV8uG1FN-wHrM_oFGEnU7mP5XJQaulwSuwPBki8xVf27MgPl_ZaKzDLotJy45hEYXhwF0xqgx26U88-IgISg1ZRdhwsWqn6dzv0wLkt7HqG9KbeHHou80xOkfXzlB7T234MacNw0CMpI1rIyAUv5jBPohWXdHaxpTHwEQGikzBN7v45lklyUqhQzbZ4pZlY646FJDUB38yqOgpTKqVXqQ5StbNoCmLjoIaKooS1I2Pjcp7PB8CRpHsL5mHVSB8iXJCzdUfxYINp2iajWC4fYGNeONaASGwcaDxPzVXFxrZfDEOiIxYxnd6ArhtXoXaTtO6yr6K686nL8AHP19leAGAjky1GX6nF-d_9EVNl",
+          "material_type": "Plant‑based natural floor cleaner",
+          "why_suggested": "Natural formula marketed for babies",
+          "trade_off": "Limited reviews",
+          "claims": [
+            {
+              "claim": "Natural Floor Cleaner",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Natural Floor Cleaner",
+              "evidence_source": "product_listing",
+              "source_title": "Baby Forest Swaksh Bhoomi Natural Floor Cleaner",
+              "source_url": "https://www.google.co.in/search?q=%22Baby%20Forest%20Swaksh%20Bhoomi%20Natural%20Floor%20Cleaner%22%20%22Amazon.in%22&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p6",
+          "name": "Windmill Baby Natural Floor Cleaner",
+          "price": "₹699",
+          "extracted_price": 699.0,
+          "source": "addmecart",
+          "link": "https://www.google.co.in/search?q=%22Windmill%20Baby%20Natural%20Floor%20Cleaner%22%20%22addmecart%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRf6fzW0Dm6J1-Tp6IBh-dvQ5-EigUflFPYpLvFF8-QeSRDQVghGB68xfYj1RyL9SGUO1RPWM7D_-DZgmhghSE_md-XiFhDWZ2KCksKApA06Zh7zrScJHlfEQ",
+          "rating": 5.0,
+          "reviews": 13,
+          "listing_text": "",
+          "product_id": "7491840822410565606",
+          "immersive_product_page_token": "_CgeEnicbVTLrqtWEm2lf6AH-YAzbR35au_N5nWOPACzweDDw7xhgjBgsMGAMTbGytecm0RKD9ODnuY3bgb5lnbUPcysSqtUWlW1Vv3xt398Fof_gMOgpBeXrOM57sethYZknoTol37o8ms2HvJ_czRCDI05RGOWhhTHU_iXLB3TpiufKIt5yGHAIYQhoBmaAcyvVZHmzaEtzP2-GKQue5bRiGMQizENGERhCtIM86_DKS2L_8EcxAgAHvMMhTnAsTxmvg755RuyVgliEcYIsYCFDMUAxHH0D5ZtSslfYz-dr8Uwf_tn36Tt-LpLL0X-um-6bnjNmiJti-FVbfND-lp1p-IJ7-afyv5PCn_R6uvpkP9KswxmnhnLs4jDmAH4a38bP6vyx-u1KX77LJvPQ_tZNZ9F-3OX9rd99vt335NuklaXabX1-t6XbOC09uh5vJFLOuUpcRWdNBwo-T2i1IcjNbNR3692DZAbGjg95pMe9LO_1oAvqcAj9d139dFp5avpyiR2INoB_qyjkWS1bLsnmcqOzRg1fuCtNeIhHrv1vQvCOI4hwbumnDNE3_OwpL1afURommxJtAqSIyOgpeAoRrovPJxTA2Mw0a5cP3ylEZ1T_3Aln_FPdhgoBsolMSpqWBXBOOWUVsUBH-QnXo8b_6kfGjk1b9trHUUAbnzPALZrWE6rTdkxrvNWmPKHaDthPZpy03qhtvdPPG0_tvd8bXRZkGsFATCrm0uKeE8n2b0I7XjnC6PeCmhb53EE8jqttZUdZPROttWMdLSu-HLe1tiGsuvK3GgACHVwd4q18ZRgs_ZlebXzKjU-wMELtzAlHqUDAzvrSsvXcew2GmXKorKTdfARijiX4vuTyz6qgSM_xD6r8yqDtuzIPR20IvB8Yc4ans6BHCsHTbTXxmwGsbc78cdtKFc6skf_6DM5qVwbxtZH2NMZ4GPdjcUf75dh_w0IMj06JmvumS570P0mPW9zGEvnA6zD0lLGXniDLA8pFvIcw_LUz1nX1Yfi979XjqFKS0EzIQpl8jh5qDyeRB7d3VMTqya9bW5-FdGAW5RhhhcpLPEMIiq4763TetBK00ui4aOLAm0aojapNTrMLosP7c7eNpGBhQR96MVx2HvvL465cpYrQX1GRLBX68QRdOKoLlmuyq2apER8fxHIaimkKU-0zjMcpBwlsg43ebqNU6_ir6SBx5664HLhRrNxSgnCIM8vpnBzrpdt-f6imKbyQRJB9BySkJDolquaxvI5IuDBDsB9RqU0yOld-ubqy_-vhGHQ22o5vKnWkuO_QI79AuEXvHhzlsRIPp7_aKp1mbjeYIFbIqyd7P0lSZwiuw7FwnFtaymIRiUwpeGVa8drYBn4njZ_2C6-S8l2BuWDP0xTT2tnfXO7sQuSGEG38rStQtfiThFx5xxvKXNnB-bBqYxKi5btigojhG10TaCfFZ0-vL9I_rK8Y1sivVBoF2eyKhLeztjXyCJdNRWxu_eXP4-5OoPVSiAONRHRvCuSs26Fj04xKyiYE-gyz895N4jLoTxGrH27wXRw5VQ3JvFp_OHp2Ao3zIbUZ_sYpttMYTfzuJdrcX-MrQ0NRc7kKmvaSg8HuyfTN8qiUnP9EIdBsHfmFKm9FTiXjnmEgIBerSgr8me1VLy7FbjwfCqseiJ4Va_2HZu5BitL2vmSHJLbbgiwrm_tR1yGmM_QnM5GP10EMypxNlri4Hs2gOGRv1yc3VOWcXyUqUDJ1ulCNVK1PRSi2PhcMynKwF8SMbmKtZ8orYkpkup7JZBlOai3UqqP5-m8hyxCzs2f-kUjbgQy29u1Mwh7C14u63gQynkDV8bIMjqxhWZLdArAq5Lq627WdRGHjE23WgPbdlgE6k1U23FXhXXrUWO_IefrZM0QMqHBFIMn18L0XzFfUl8",
+          "material_type": "Plant‑based natural floor cleaner",
+          "why_suggested": "Baby‑focused natural floor cleaner",
+          "trade_off": "Limited availability",
+          "claims": [
+            {
+              "claim": "Baby Natural Floor Cleaner",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Baby Natural Floor Cleaner",
+              "evidence_source": "product_listing",
+              "source_title": "Windmill Baby Natural Floor Cleaner",
+              "source_url": "https://www.google.co.in/search?q=%22Windmill%20Baby%20Natural%20Floor%20Cleaner%22%20%22addmecart%22&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p7",
+          "name": "Happi Planet Eco-Friendly Floor Cleaner Plant Based",
+          "price": "₹299",
+          "extracted_price": 299.0,
+          "source": "Happi Planet",
+          "link": "https://www.google.co.in/search?q=%22Happi%20Planet%20Eco-Friendly%20Floor%20Cleaner%20Plant%20Based%22%20%22Happi%20Planet%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRfY2u23oNm0FPnX1dBGOOmhS13K6YZkNKjBgRtm_UnzPj3CPCef4XtEuMomEap-3XeFi8JusLSVkarRC5ahslc3bOkFnhclllx2g_xHllb2Jg6rutyjVfR",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": "17458684011997044958",
+          "immersive_product_page_token": "r955SHicLVTLrqvYEU2UH8gnnGl05Cs2T3OOPAB787J5w-YxQduAweZpsI3x17TO7W6pM-xEyjS_0T3It4REPStVlVZVrapV__nTX7_y87-I8yDj0YNKPMf9zbbIIZknIfqlH7rsnt7O2T84iuAJkmDXawAAs6YZGvyS4huuu-Kc_RNwNLNm1zQBAM9zBE3zzPrXMsdZfW5z83TKh12X_j-PohjAcgzJ0BQNOIbhuL-fG1zkf8QpguN5aoEhCYbkwQJDfB-y8Yefrvd8mH_7W1_j9vZ-xGOevZ_qrhve0zrHbT68q212xu9l1-RL-Dj_VPQL4K9rluDWHABrjqNYiqBY7nuzuBmOpVlyaYMgFidDk-B7_7h9lcWP93ud__urqL_O7VdZf-Xtzx3uH6f09z9_h0O63T5S0fb7Hu0cwg2kwQUqQEp8y6hYTsOIQYr4RLv4ajRGdUCGllIGafjP3bGta4Sq5xEVpH9BUN-JDxtVrwzqMw6NLvW0KvUc5QghkV60wCPB3oNxi0LjYDdxfKwhiXymDs6AQcSaCaSC8aq-PDbxHL5SxriUilPFNpZqM5eZp4F6GbngkFfOPqvQVq9j0g54_1jHoQMN0QdwRkRpmZCvAq_WTZjRuWTYEYoPRzJ7RQFvH32AHZlXHMLZ4SaGTqVdcdCRS80ovtTnpU8St46KGoOMmuLmSqhzFXjDDcMuU2tBKN6PyGbc1kBR3btpmOkeQpFRF5Nb2S_HUUNdrmeHlF4IIjVoa5wqjuPvtDmkamrhB6uVBFNKZeJaCrLaOcdhdvXksrQpUc8WnlyZv-TN9MQBY_lK-uNzHE6_EYLE3FyTXp2hyCDWb077FvSQESXLxc3zPkvTB-B4QHGAX7McT_-cdl11zn__S-ka6m4jaCYgQwm-Gp8sLo3Ik0-vqWPVZOz6gcqIIdarIkzpFQYFPRMRFTxPVqMMWmH6STQcuijQpiFqk0pjwnRcHbQn99hHBi0k5EHPL8PJ_3xzza272QrqYkHB2SqJK-jQVT242Ra2mmAofr4JcLsRMOah1vmGS8qXHVTCfYbtGPslf4c1uPTUSBcrL5qNBkOSJrJsNIWHex_t4vNNNk35ABNB9F2YwBDqlqeaxmYZcRHzkQCnlMIMkTFH_OHpmz8oYVnyY7sZPlRrs-a_Lcr5BsA3evXhbqCRHBa1T5UuQc8fLOKRCIqbfr4liZun9yFfuZ5jbQTRKAW2MPxCcf0aFAHytfngePRzl9gzUbz48zT1jHbV948Ht4KJEXRbX7NlphKPskh37uWB2Sc3sK-1yqqMaDmeKLNC2Eb3BKA07_Th822HNsWTdnawF3JtdCerhOHjSiMNrvC2LqHTfb79b5nbK7HdCtClJiiaT3nnKq1w6GSzBII5EV3qo4z3grgYikvEOY8HwIMnYd2YxLSShpfblHTN7mF1dS4htlOZ28-3k1SJp0ts7Rkgrs11aU327uXSXmMio8hLNdOXQw2CkztjUu2twB079hUSkOjVkrIiNKuF7D-twAPXJreqCdLbanvquNQzOGmnXcfknDyOQ0Druu284iKk-ZSc8Wz00yiYUUGnN0sckO8QILzw4-gel7OM44tEBXKq4JVqYLU956JYo3U9yfLAj4mY3MUKJXJr0hTE-kkOJEkKKnuH9dt1up4AR5LuA039qhb3ApwdW3EH4WSBcVTiQSjmPdgaN47VoSPUNtSXJ32Xsa50s66LdMg6TKvVoG2HVaA-RLW9Hcuwan3q1u_h9T5ZMwBsaLD54EuVMP0XSHcjlA",
+          "material_type": "Plant‑based natural floor cleaner",
+          "why_suggested": "Eco‑friendly plant‑based formula",
+          "trade_off": "May be less concentrated",
+          "claims": [
+            {
+              "claim": "Eco‑Friendly Floor Cleaner Plant Based",
+              "status": "unverified",
+              "label": "Not verified",
+              "validated": false,
+              "evidence_snippet": "Eco‑Friendly Floor Cleaner Plant Based",
+              "evidence_source": null,
+              "source_title": null,
+              "source_url": null,
+              "reason": "cited snippet was not found in any retrieved listing or web result"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        },
+        {
+          "id": "p8",
+          "name": "Allter Plant Based Floor Cleaner Bio-Enzyme Powered Safe for Babies & Pets",
+          "price": "₹329",
+          "extracted_price": 329.0,
+          "source": "amazon.in",
+          "link": "https://www.google.co.in/search?q=%22Allter%20Plant%20Based%20Floor%20Cleaner%20Bio-Enzyme%20Powered%20Safe%20for%20Babies%20%26%20Pets%22%20%22amazon.in%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS_yhzWGnMKtjIAh6DOdIl0hXxyst06vIPjZyk-WnTaY3dWVoMDbNQ95F_MIfI8mnNZ4hUW4p5MJOuNYdihj1GkG6DmdiPgk6SUIWQU-aSZ5Sxu1VSTgpiV1g",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": "6038407842183547838",
+          "immersive_product_page_token": "SDz2cXicLZTJrrPIFccT5QXyCHcbXfkTVcV4r7xgKDDYgJkxG1QGDDajwRN-muh-3S11lt2Rss1rdC_yLHFH2R3pV-fU_4z_-dNfv4rjv6jjqJHJx6tkToaLs4VjOt_F3c_D2OfX7HLMf4WI5WkIGIYHLBAQIyDu54xcSNOXL8pSiKcp7o8XPGJojkf8L1VB8ubYFfbhUIxKnx3zXzgKvbwRQDTkAWBomvnHsSVl8T_6K4S8INAcjSBCrAB5hPjvYz79_cfztRjn3_42NKS7vO_JVOTvh6bvx_esKUhXjO96lx_Je9W3xQvv5x_L4RXvn4BjkQAYxECaRgLHshTFfW9fMhiOpVnI85CGAs_zHIDfh9vlqyp_uF6b4t9fZfN17L6q5qvofurJcDtkv__5Ox4zWb5lkhMMQ6i4lBc1R6tNrnvfOph1bge-enR99ZpRqkOQhYnWKFHjSqEiQdNPWFsDdNbycFcLBwIf0AxFJgxcOVuFU-ar5xwOtQWZ2Q2q3lbyFVEkZdfmZxernRO6VIZVKg9VZxcwrhlaatJOTKQkx0JTn2FUGQ6qlOKUaEE0Pfbo9V8YJh7KkQsEzWwvU1EbVdIlxkvbnCkl2ITVNo_yzf4kxUmwQ97JPebA8iLFAlmYNFmTIa99OF6dyEVjOEnsnnbIPTjAcvZR024itYm0HfCiZJWjHO4oS7figfFb19oExjnEl1NIBdClGi-ByRy2FEqeInJqQTVXLghcPTa1ZnbhSz8O9ahrSLZy3UAx5hg1yAlrotcqzpDOJI2leHCi8s49-r7ImFAgnl9fQlRtPFC--ECRAP_wmMbDb5SoMhfP5sQ2AMUwbp4EKrY8xNMU12Pcnc3z_QNwAkAcEHiWE-BPWd_Xx-L3v1SepStL0bABjFX8bANYnlpJgA-_bRLdZpzmFlY7huIXZZzRCwJKeqZ2KHoctu1qNEo7SHfjpt9Fxn3cdWltMHE2LTbGg7utdxYtpnBjFqfxEHy-ebbsLWVRf1lYdOVV6okm9nQfL-XS0VOCpc83EctLkRABG31geVA7KXgVr3PiJCSohCtuwGlAE10u_N1stQRDmsrzyRZv3nVyys83zba1DU5FKfBwimNsbn3dtpavFCmB2lPgkCHCUDmzJx--ufx_SVgWfsjL8UPfLnnhG-C5bwB8oxcf3hJb6ea16_faVLEfjFvqloorL_t8S1OvyK5jsfB8d7sUJasS2dIKypUXNKCMwsCYN65PP5TUmanyKRzv94Exzub6duMWOLWiXg4MR2Nqaa9JdO-dboR9cCP75HVWZ6St60saK8bd7pqCMCt6c_x8U8Jl-aBdBQ9iYUzefVvh-HamQwMviNxU2O0_3_5opnymZFnEHrpjyX5oirfqxE2v2RUQ7TvVZ0GYC36UlGN52nHu7QbI6KvEtO5SVqvj02srumHXuD67p5g4mcat58tBraXDKdmuGSDxNl9t747y9Gi_tUOrLCo9N49JHEUHbyZQH7aRN_XsM6YwNegV2u7CWS-14LGNfHBui219x7Rcy4eey3yLUxXjPKXH9LYfI9o0HfeZlDEtZHAmszXcJ9HelXR22Urj63ZQID4J0-TtX2OZJCcVRVq2IgvdInp3LCSpCfnmrmmjMKVSepXqMNU6m0aYmActUlU1qh2FmJfz_XwAHITeLbwPi0Zai3h2nZU3ioctmKZVMorlvAaydeFYE7ti42ATUeCqEXPVz6Yp0THrMp3RgK4bF5F-k_Tusq_iugvQZVjj8_W-nQFgY4stxkCtxft_AUWoIMc",
+          "material_type": "Plant‑based natural floor cleaner",
+          "why_suggested": "Plant‑based bio‑enzyme cleaner safe for babies and pets",
+          "trade_off": "Bio‑enzyme may have a distinct odor",
+          "claims": [
+            {
+              "claim": "Plant Based Floor Cleaner Bio‑Enzyme",
+              "status": "unverified",
+              "label": "Not verified",
+              "validated": false,
+              "evidence_snippet": "Plant Based Floor Cleaner Bio‑Enzyme",
+              "evidence_source": null,
+              "source_title": null,
+              "source_url": null,
+              "reason": "cited snippet was not found in any retrieved listing or web result"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         }
       ]
     },
     {
-      "type": "Baby‑safe non‑toxic formulation",
+      "type": "Concentrated refill pack",
       "matches_request": true,
-      "about": "Floor cleaners marketed as baby‑safe or free of toxic fumes, aiming to minimise indoor air pollutants for households with infants.",
+      "about": "Concentrated liquid sold in refill packs to reduce packaging waste; can be mixed at home.",
       "impact": {
-        "material_note": "formulated without harsh chemicals to reduce indoor air pollutants",
-        "reusability": "Not verified",
-        "end_of_life": "Standard plastic packaging; recyclability not verified",
-        "common_trade_off": "May be less aggressive on tough stains"
+        "material_note": "Higher product concentration reduces packaging volume",
+        "reusability": "Refill bottle can be reused many times",
+        "end_of_life": "Not verified",
+        "common_trade_off": "Requires separate container for mixing water"
       },
-      "info_source": "general knowledge",
+      "info_source": "model general knowledge (not verified per listing)",
       "products": [
         {
-          "id": "p20",
-          "name": "Natural Baby-Safe Floor Cleaner No Toxic Fumes",
-          "price": "₹345",
-          "source": "Indimums",
-          "link": "https://www.google.com/search?q=Natural%20Baby-Safe%20Floor%20Cleaner%20No%20Toxic%20Fumes%20Indimums&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTbEjjnuy1AQVD0PbxevrG7GMnzxLyGbMtblBmTktoWOHaFVNKfOhNP1ucEwMp312fYQAt5fR8QWt1srNLZ4TBX4J2PenZGr39HSGESvd4",
+          "id": "p23",
+          "name": "Godrej Magic Lavender Ready To Mix Floor Cleaner 1.5 L Carton",
+          "price": "₹120",
+          "extracted_price": 120.0,
+          "source": "bigbasket.com",
+          "link": "https://www.google.co.in/search?q=%22Godrej%20Magic%20Lavender%20Ready%20To%20Mix%20Floor%20Cleaner%201.5%20L%20Carton%22%20%22bigbasket.com%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRlb6DXg-AoRA70a9MTCa4gk82v3fvn8_CTWjeSWAxkPxj-eGuB1lW-oShL98eoDOFB1xx69o4QIPEHwqBd8yLB47K1Mmu4oDsBS3W1_93dUAGQsqQy5ncP",
           "rating": null,
           "reviews": null,
-          "material_type": "Baby‑safe non‑toxic formulation",
-          "why_suggested": "Specifically labeled as baby‑safe with no toxic fumes",
-          "trade_off": "Potentially higher cost than basic cleaners",
+          "listing_text": "",
+          "product_id": "9871988188489777268",
+          "immersive_product_page_token": "cEVS43icJZPJkrNWEoXdfoJ-hNo6KvQHl5mq0IIZJDFdJsFGceECYhIUQmh4mo76bUe4l26H134Ne9GP0mG5vT4Z-eXJPPnfb_75WdS_HvxJR9N9Uj-mw8jTbpc-JuT9NE4DvuRzjX8BJEMJpMASHMfQnMAIDMv-lKMZdUNV4_8IPAcEngc8T_MCx3Eky_98LBDu6lPhlGUxKUP-LKNJiiMElhE4imUFiqRJ-t91j6ri__IvgCYIkuVoAXA8RVAUSxHk1wmf__XDx6WY7r9_V3bDML3mXYFOxfQ6FWXdda8jyttX84Rr9Hoc-uI1Q9n9h2r8iydQnMARgKUohido4Qklv_Y1_pnhWJoleeEJI3iSYXj667jMn8fq-8ulK377rLrP-vR57D6L048DGpcy_-Mfn-qUyPKSS144jpECCT-0G6TPgxPgMlZMxic3bWGkd6gch0DXDEiMMDCwkxEEEasgDQhmsfr5bIXhA4YRizVrToONh9TbEj5sL2jTGw6q2da6PjC0Xabkc6hJhhdYIHhAJu66JFJvhG_YM3ocmYQUEnTqFBRqaRpvUADye9BGSkZoMSSBjRVta7Ut6VHdgozwqR2vNikoSYudsBseVgM9f28PRSNtHb0i8xCWRSexmc6YWZfKqIUNisEubKKn51sctPzN17CUUHCxOk0NtAhmagdxnwZFvyk98mjnof2BY2hl3ah4AbwjbbzaIViwSjwwgcc4ZvqisXuL0HQIzXgP7DsktXux32j5flPmSkWE-g0Vp80xhEPthfCRN13_3M_ZlgGIjJRIFWiGBHikRkc6Gu5hczSsqGLw9fvbeSp_J0SNmX2HdQqBwxssOnqsj8qlDZrtwl3D01h4b4ATAMWRBCkwQPgxH4a2Lv749n--I_trWTTfX3xVhLJx8EVL9c1AXcuVZx6QKr2_iKq8FhES1M1kniuV1Sx0V-pVccepHp5p87Tn_QcGDHmibJsiRr8zqn6hkloDsjie3190x9F36kGUQl89qHvVcgPTsdemsi55LkMUoDO6oABJ8G-Btf57UkBTxJu8nt5Mdw0I7gughS8s-EJSzOrNX2tNlF-NDwqz10Ov6tp9A57X9d5flGjN8-fLvAtam7omV6Xdm61byEV2NgqhUuHw_nI4-EV-mYqVH0B3LUr2UWQr_cTz1s6ox43e-CdHEdLjLssDcZIAX6NSvyVE4Fkw9C5D3JyJD7t3-RjSVEw6i5fU8aYjwxVkEo-uOaQkLH0oKX64zSeTUbn3F_tpVv4YZFlUfUpUJeemK_7GiS7PjOgMy5mjpTwES9lLOxdEBJOwrHERz8502C-JCzEHgQJPHLrL-l6IpWUrnLtex-zF8_ZCmj2agd-qt7EW-547ULofopUCIs3-uN6W52sIBUwQccOkll0DLZZG1yhkaVYupMdQq4vNLb6nVMnVEt2k4bwNkgTtA4YHR1rMZnJrNjc741C59YR8JbxM3Rj5UsXdZS9tT-e-8aaHNGTgeNLJcpXvW8yVxpxCUYp2q62xIgHe2WVamVEBSxJcVW3X4Wc_YMvatMJ-Jk_ko9tNeTC7TlAdq2DvCvJWVO_QM_xJLN29uH0klw28zbXqZV2MIrw7Kmh2haDNi6QBCr9zcwWtNInfidc9HxryPLXivOHtxbg8s4x2rihtt2wy5XO-e8i0Il3_BHXf_lc",
+          "material_type": "Concentrated refill pack",
+          "why_suggested": "Ready‑to‑mix refill reduces packaging",
+          "trade_off": "Needs a separate container for mixing",
           "claims": [
             {
-              "claim": "Baby‑Safe Floor Cleaner No Toxic Fumes",
+              "claim": "Ready To Mix Floor Cleaner",
               "status": "stated_in_listing",
               "label": "Stated by seller",
               "validated": true,
-              "evidence_snippet": "Baby-Safe Floor Cleaner No Toxic Fumes"
+              "evidence_snippet": "Ready To Mix Floor Cleaner",
+              "evidence_source": "product_listing",
+              "source_title": "Godrej Magic Lavender Ready To Mix Floor Cleaner 1.5 L Carton",
+              "source_url": "https://www.google.co.in/search?q=%22Godrej%20Magic%20Lavender%20Ready%20To%20Mix%20Floor%20Cleaner%201.5%20L%20Carton%22%20%22bigbasket.com%22&tbm=shop"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         },
         {
           "id": "p24",
-          "name": "Baby safe Floor Cleaner | 1 ltr",
-          "price": "₹249",
-          "source": "Daily Detergent",
-          "link": "https://www.google.com/search?q=Baby%20safe%20Floor%20Cleaner%20%7C%201%20ltr%20Daily%20Detergent&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSDqBmbV2QPnBPhA_FSy7qEMhXwCvfkFXKi7nBAAKHrKApmr2s4Z-oYrXP1kMqcisDQax_wd_Cvob6XZRMhdLyWiTKRrPdQKDHPSIP_ZvqY9a9tp1b9YGtv_g",
+          "name": "Floor Cleaner Refill Pack 1",
+          "price": "₹74",
+          "extracted_price": 74.0,
+          "source": "amazon.in",
+          "link": "https://www.google.co.in/search?q=%22Floor%20Cleaner%20Refill%20Pack%201%22%20%22amazon.in%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ_W3o_DMMO18bQ5Vw4qxZ2i57eQR4PXpjcsWqto3e3Bh400BdvAZpXlZpKFx26avkRvbaGUHP79Z-esc1uCUamjatWhO53xdVPO8KA1HENTKiJAiWHSbU9",
           "rating": null,
           "reviews": null,
-          "material_type": "Baby‑safe non‑toxic formulation",
-          "why_suggested": "Marketed as a baby‑safe floor cleaner in a 1 L bottle",
-          "trade_off": "Limited information on formulation strength",
+          "listing_text": "",
+          "product_id": "11399799457598561493",
+          "immersive_product_page_token": "zgtNHnicdZLJjqNmAISTPEEeoa9RyyN-wCzd8oF9sc32AwYu1m9-NrOYxmBjP82oZ5EmxyTKOa8xc8ijROkk51zqUqpPVVL9-d2Pr1n1-x4OGhpug_Iy7HuOdprkPiD3Sz-c8JSOFf4NAIrnWZ6nl-yS55YMoHnqS4pG1JyKCr__pcwQbqous_M8G-RT-j-Rn6sWFdm__q-AZFmK5wDJEBxJL2kSgA8DPr__9DJlw-3rT3lzOg2PaZOhLhsehyyvmuaxR2n9aHS4Qo_lqc0eD-hw-1T0b7z3H9p_pL-Mr2XxcZqa7I_Xonmtuteyec26zyfUX_L02_elcjpL0vkqukHfh7JHwFBtt5pl-FpPYW2GmGp8tx0HS8E376jqvlredxq-BIDPE1mlcctLicbd09q0tqp5yyLLyFp1hDUOwy4gYWQRqTLnVtuPMIyXnuxdUl-lYT0zaWPleOfeD6Rq2aHYvmXXSC6brFFb617mW6oPYt-q4050DkqSQB_78J4QqTYjzy_9TMNBHPRaSiT1VhVukMBTTIYTuoelR4bV9mi-4Hqm4G5eop1KHu4qnUa9ZTX8mNZAhjvghTveDBR8hGQZWVE5p8R8DWR1q5RJHlCmHkfmMq3DOW34qy177kHtmbRVPa0yRU-3bvYuCULNA26rbnwiucKoAPiYkm57vcXEGKKmrDw19D7O5yH_SgjqcoQ2Y2c8i00s2NpO6-Wp9o_rC3sNuj5znwDLA4olCZJfAv5zejrVVfbth7-gLcGVJBjPD1ARPEnfQ2GrQMNXVlLhGnukiM8PgiKtBIR4xRyMc6Ew6hbd5GqR3XCiBWfa6CIO3jFYkh1lWRTRw0Yv2gsVVyqQhP78_KDZtrZR9oIYQGWvRMrW8Q3bWhnyKufYA6IAfaAzCpAE9-RvV_81BTRFPEmr4clwVoBg3709-x0D3pHUcvEEV-oxTK_6C4WZ675VNPVmgvv26D4_yOGK487TuPFri7rGV7mOjNrJpOxw1jO-ULzT88N-D7N0GrIF9D1nJYhWKTCF1nHcdqNXvakdYWfLfFJuDqkvDCLgKpRrc0z47tYL3Om0O56JF6t1uJ1HUzvSvrhxtTMbMlh4y9ilKxbJMUPvc4o7zWNnLBX2-cF6Gyu9nCRJUCAlKKI9azI07XDCBNaWDGv0W_nOb-VI3DggJJYxw-iTcLaHfXSJHQ-zHpC9jkU3SYv4nXhZ8-em1TAzuW7EJ4f78cStlbmvhLZl95QGA7SQQahaL9f54pGAz7wYETMm1cPVV3di7-iZJI7yRLpLajFZ7AW6chFft4ITH1nXRCKvvnjB3hYvxnFwKiY1Gn1fONWAoBxMQ9OHUCzYm-QmdXduj-5wF08HUHYamS_SqMZsro-JJ4jhZrHWFyTAGytPCiPMvJwEV0XdNPiNByxJHRYYHqSBvDebIfVHx_aLsvAjh5fWgnLzXB0OQu5EwvoeT6Y3j5XiHpodCvGmlNHo8H6dZvERyNzGSWW0UEVuI1wjLtClcaiF0eSsiz69fRltHEFcr5l4SMd0c5doWbz-DcbR4BE",
+          "material_type": "Concentrated refill pack",
+          "why_suggested": "Generic refill pack for floor cleaner",
+          "trade_off": "May require original brand bottle for use",
           "claims": [
             {
-              "claim": "Baby safe Floor Cleaner",
+              "claim": "Floor Cleaner Refill Pack",
               "status": "stated_in_listing",
               "label": "Stated by seller",
               "validated": true,
-              "evidence_snippet": "Baby safe Floor Cleaner"
+              "evidence_snippet": "Floor Cleaner Refill Pack",
+              "evidence_source": "product_listing",
+              "source_title": "Floor Cleaner Refill Pack 1",
+              "source_url": "https://www.google.co.in/search?q=%22Floor%20Cleaner%20Refill%20Pack%201%22%20%22amazon.in%22&tbm=shop"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         }
       ]
     }
   ],
   "filter_options": {
     "material": [
-      "Plant‑based biodegradable formulation",
-      "Refill / concentrated format",
-      "Baby‑safe non‑toxic formulation"
+      "Plant‑based natural floor cleaner",
+      "Concentrated refill pack"
     ],
     "price": {
       "currency": "INR",
-      "min": 149.0,
-      "max": 411.6
+      "min": 74.0,
+      "max": 1108.0
     },
     "rating": {
-      "min": 3.0,
-      "max": 4.8
+      "min": 4.5,
+      "max": 5.0
     },
     "reviews": {
-      "min": 159,
-      "max": 264
+      "min": 4.0,
+      "max": 13.0
     },
     "sort": [
-      "relevance",
-      "price_low_to_high",
-      "price_high_to_low",
+      "recommended",
+      "price_low_high",
+      "price_high_low",
       "rating",
       "reviews"
     ]
@@ -200,40 +397,119 @@
   "trace": [
     {
       "step": 1,
-      "query": "concentrated floor cleaner refill India",
+      "query": "plant based floor cleaner India home baby",
       "engine": "shopping",
-      "results_found": 8,
+      "purpose": "discovery",
+      "model_query": "plant based floor cleaner India",
+      "results_found": 20,
       "cached": false
     },
     {
       "step": 2,
-      "query": "Born Good Plant Based Turkish Applewood Fragrance Disinfectant Liquid Floor and Surface Cleaner biodegradable non toxic",
+      "query": "floor cleaner refill pack India home baby",
       "engine": "shopping",
-      "results_found": 8,
+      "purpose": "discovery",
+      "model_query": "floor cleaner refill pack India",
+      "results_found": 20,
       "cached": false
     },
     {
       "step": 3,
-      "query": "baby safe floor cleaner non toxic certified",
+      "query": "baby safe non toxic floor cleaner certified infant friendly home",
       "engine": "shopping",
-      "results_found": 8,
-      "cached": false,
-      "from_critique": true
+      "purpose": "discovery",
+      "from_critique": true,
+      "results_found": 20,
+      "cached": false
     }
   ],
   "meta": {
     "searches": 3,
+    "evidence_searches": 0,
     "dropped_unknown_ids": 0,
-    "dropped_type_mismatch": 1,
+    "dropped_type_mismatch": 0,
+    "removed_high_impact": 0,
+    "dropped_functional_mismatch": 8,
+    "llm_fallbacks": [],
+    "providers": [
+      "groq"
+    ],
+    "shopping_signals": {
+      "popular_definition": "high review volume among listings found in this run",
+      "offer_definition": "current price lower than a retrieved previous/old price",
+      "not_sales_data": true
+    },
     "critique": {
       "ran": true,
       "passed": false,
       "issues": [
-        "No validated evidence that the listed cleaners are safe for babies; claims like \"Non‑Toxic\" and \"Safe\" are unverified.",
-        "Evidence snippets consist only of the claim word and do not cite any source, failing the evidence requirement.",
-        "The functional requirement of baby‑friendliness is not adequately addressed in the recommendations."
+        {
+          "type": "functional_mismatch",
+          "product_id": "p4",
+          "requirement": "non‑toxic for babies",
+          "reason": "No explicit baby‑safe claim; cannot confirm non‑toxicity for infants",
+          "action": "remove"
+        },
+        {
+          "type": "functional_mismatch",
+          "product_id": "p5",
+          "requirement": "non‑toxic for babies",
+          "reason": "Only marketed as plant‑based disinfectant; no baby‑safe verification",
+          "action": "remove"
+        },
+        {
+          "type": "functional_mismatch",
+          "product_id": "p9",
+          "requirement": "non‑toxic for babies",
+          "reason": "Lacks any baby‑safe or non‑toxic claim",
+          "action": "remove"
+        },
+        {
+          "type": "functional_mismatch",
+          "product_id": "p10",
+          "requirement": "non‑toxic for babies",
+          "reason": "Herbal scent claim does not address infant safety",
+          "action": "remove"
+        },
+        {
+          "type": "functional_mismatch",
+          "product_id": "p11",
+          "requirement": "non‑toxic for babies",
+          "reason": "Marketed as pet‑friendly; no evidence of baby safety",
+          "action": "remove"
+        },
+        {
+          "type": "functional_mismatch",
+          "product_id": "p12",
+          "requirement": "non‑toxic for babies",
+          "reason": "No baby‑safe claim provided",
+          "action": "remove"
+        },
+        {
+          "type": "functional_mismatch",
+          "product_id": "p27",
+          "requirement": "non‑toxic for babies",
+          "reason": "Contains synthetic fragrance, which may be unsuitable for infants",
+          "action": "remove"
+        },
+        {
+          "type": "functional_mismatch",
+          "product_id": "p30",
+          "requirement": "non‑toxic for babies",
+          "reason": "No baby‑safe claim; only described as plant‑based",
+          "action": "remove"
+        },
+        {
+          "type": "search_quality",
+          "product_id": null,
+          "requirement": null,
+          "reason": "Missing well‑known certified baby‑safe floor cleaners (e.g., Seventh Generation Free & Clear, Method Baby Safe, Ecover Zero) that directly address the non‑toxic requirement",
+          "action": "search"
+        }
       ],
-      "extra_search_used": true
+      "refused_removals": [],
+      "extra_search_used": false,
+      "rechecked": false
     }
   }
 }

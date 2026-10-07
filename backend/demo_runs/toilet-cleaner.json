@@ -1,309 +1,328 @@
 {
-  "summary": "Found plant‑based liquids, bio‑enzyme cleaners, refill tablets, and in‑cistern blocks as toilet‑cleaner options.",
+  "query": "toilet cleaner",
+  "summary": "Found several Indian toilet cleaners offering bio‑enzyme, biodegradable, tablet and powder formats that can lower chemical use or packaging waste.",
+  "input_mode": "text",
+  "input_source": null,
+  "input_url": null,
+  "input_asin": null,
   "product_type": "toilet cleaner",
+  "functional_requirements": [
+    "remove stains and odors from toilet bowl",
+    "safe for plumbing"
+  ],
   "user_specified_material": null,
   "request_sustainability": "none",
   "caution_note": null,
   "materials": [
     {
-      "type": "plant‑based liquid",
+      "type": "bioenzyme liquid",
       "matches_request": false,
-      "about": "A toilet cleaner formulated from renewable plant extracts and oils, offering a lower‑impact alternative to petroleum‑based chemicals.",
+      "about": "Chemical‑free liquid cleaner using natural bio‑enzymes.",
       "impact": {
-        "material_note": "Derived from renewable plant oils and extracts, reducing fossil‑fuel use.",
-        "reusability": "Typically sold in single‑use bottles, but the formula can be refilled.",
-        "end_of_life": "Biodegradable under composting; plastic packaging recyclable where facilities exist.",
-        "common_trade_off": "May have a shorter shelf life than synthetic cleaners."
+        "material_note": "uses bio‑enzymatic ingredients, no harsh chemicals",
+        "reusability": "single‑use bottle",
+        "end_of_life": "plastic bottle recyclable if cleaned",
+        "common_trade_off": "may have shorter shelf life than conventional cleaners"
       },
-      "info_source": "general knowledge",
+      "info_source": "model general knowledge (not verified per listing)",
       "products": [
         {
-          "id": "p12",
-          "name": "Home Hygiene Combo – Natural Floor & Toilet Cleaner Duo | Plant-Based, Biodegradable, & Non-Toxic with Essential Oils | Safe for Kids, Pets, &",
-          "price": "₹448",
-          "source": "amazon.in",
-          "link": "https://www.google.com/search?q=Home%20Hygiene%20Combo%20%E2%80%93%20Natural%20Floor%20%26%20Toilet%20Cleaner%20Duo%20%7C%20Plant-Based%2C%20Biodegradable%2C%20%26%20Non-Toxic%20with%20Essential%20Oils%20%7C%20Safe%20for%20Kids%2C%20Pets%2C%20%26%20amazon.in&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSKaTc_8XmjVTXpYs-KTDzZD7ZwMER3Xbc9R7ZbyFfSU8tovysvBRen88QnRCPhuIte-tN86KL-AFk2jJtIrh1xl6ojc9Vi1w",
+          "id": "p5",
+          "name": "Natural Bioenzyme Toilet Cleaner 750ml/1.9L Chemical-Free",
+          "price": "₹395",
+          "extracted_price": 395.0,
+          "source": "Satopradhan",
+          "link": "https://www.google.com/search?q=Natural%20Bioenzyme%20Toilet%20Cleaner%20750ml/1.9L%20Chemical-Free%20Satopradhan&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTthALlJK9Vs6J_5XHd1D0OauHfLQIbM1CtozxsJqSVL7Bd3C5UBGZaDRYDCN1PTW_HpCJzQI_KMwOfCphr0XzEO8oKB3oLteS4RcWB6gibjTApThEwy5F6bA",
           "rating": null,
           "reviews": null,
-          "material_type": "plant‑based liquid",
-          "why_suggested": "Plant‑Based, Biodegradable, & Non‑Toxic liquid formula.",
-          "trade_off": "May require more frequent application than concentrated tablets.",
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "bioenzyme liquid",
+          "why_suggested": " marketed as chemical‑free bio‑enzyme toilet cleaner",
+          "trade_off": "packaged in a plastic bottle that must be recycled",
           "claims": [
             {
-              "claim": "Plant-Based, Biodegradable, & Non-Toxic",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Plant-Based, Biodegradable, & Non-Toxic"
-            }
-          ]
-        },
-        {
-          "id": "p11",
-          "name": "Laundry & Toilet Cleaner Combo — Plant-Based 5 L",
-          "price": "₹2,998",
-          "source": "Eco root",
-          "link": "https://www.google.com/search?q=Laundry%20%26%20Toilet%20Cleaner%20Combo%20%E2%80%94%20Plant-Based%205%20L%20Eco%20root&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCLwt27wuQbsgvqmVojjYtWyEtinB5Q-8oWozZrTXHViRNJCk_4mhycLIafkGgQOqGcuNjm776iExvOPkrIL79k28bmn0GrhVxwEhsKh2V",
-          "rating": null,
-          "reviews": null,
-          "material_type": "plant‑based liquid",
-          "why_suggested": "Large 5 L combo that is plant‑based.",
-          "trade_off": "Larger packaging volume increases transport weight.",
-          "claims": [
-            {
-              "claim": "Plant-Based",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Plant-Based"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "bio‑enzyme liquid",
-      "matches_request": false,
-      "about": "A cleaner that uses naturally occurring enzymes to break down organic stains, reducing the need for harsh chemicals.",
-      "impact": {
-        "material_note": "Utilises naturally occurring enzymes, lowering chemical intensity.",
-        "reusability": "Reusable bottle; enzyme activity persists over multiple uses.",
-        "end_of_life": "Biodegradable; enzymes harmless in water.",
-        "common_trade_off": "Effectiveness can depend on temperature and may act slower than chemical cleaners."
-      },
-      "info_source": "general knowledge",
-      "products": [
-        {
-          "id": "p9",
-          "name": "ECOROOT Natural Toilet Cleaner Liquid | Organic Bio-Enzyme Bathroom Cleaner | Hard Water Stain, Limescale & Rust Remover | Multipurpose Toilet Bowl",
-          "price": "₹199",
-          "source": "Amazon.in",
-          "link": "https://www.google.com/search?q=ECOROOT%20Natural%20Toilet%20Cleaner%20Liquid%20%7C%20Organic%20Bio-Enzyme%20Bathroom%20Cleaner%20%7C%20Hard%20Water%20Stain%2C%20Limescale%20%26%20Rust%20Remover%20%7C%20Multipurpose%20Toilet%20Bowl%20Amazon.in&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ6rmCMU8BLwwdxCcvBVM2NsInEbW4yJJamKRlt4sgUxJwXDxDmrIEjuCK6ai_HEqVY3kYjuK8g1CS_NNqeKT7uNVxszhUk5gKl3NzjZXWhM2MM-e8kY_2O",
-          "rating": null,
-          "reviews": null,
-          "material_type": "bio‑enzyme liquid",
-          "why_suggested": "Labelled as an Organic Bio‑Enzyme bathroom cleaner.",
-          "trade_off": "May need longer contact time for tough stains.",
-          "claims": [
-            {
-              "claim": "Organic Bio-Enzyme",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Organic Bio-Enzyme"
-            }
-          ]
-        },
-        {
-          "id": "p14",
-          "name": "Natural Toilet Cleaner Liquid | Organic Bio-Enzyme Bathroom Cleaner | Hard Water Stain, Limescale & Rust Remover | Multipurpose Toilet Bowl Cleaner |",
-          "price": "₹498",
-          "source": "amazon.in",
-          "link": "https://www.google.com/search?q=Natural%20Toilet%20Cleaner%20Liquid%20%7C%20Organic%20Bio-Enzyme%20Bathroom%20Cleaner%20%7C%20Hard%20Water%20Stain%2C%20Limescale%20%26%20Rust%20Remover%20%7C%20Multipurpose%20Toilet%20Bowl%20Cleaner%20%7C%20amazon.in&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRvWswNUMIRACODl36ZbXLMQVCGVzGydgxJ5a62mDVNbv6vIp5hw3IfseX4XajTh0DFlsvVGMEneBGihTDWFDhvGyiTLP4nvn44IFD7ANPrYS09r7WwmIu2",
-          "rating": null,
-          "reviews": null,
-          "material_type": "bio‑enzyme liquid",
-          "why_suggested": "Highlights Bio‑Enzyme technology in the title.",
-          "trade_off": "Performance can vary with water hardness.",
-          "claims": [
-            {
-              "claim": "Organic Bio-Enzyme",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Organic Bio-Enzyme"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "refill tablets",
-      "matches_request": false,
-      "about": "Concentrated solid tablets that dissolve in water, cutting packaging weight and volume while delivering cleaning power.",
-      "impact": {
-        "material_note": "Solid form reduces packaging waste and transport emissions.",
-        "reusability": "Single‑use per tablet but overall waste is lower than liquid bottles.",
-        "end_of_life": "Dissolves completely; minimal residue, packaging often recyclable.",
-        "common_trade_off": "Requires water to dissolve fully; may leave residue if not mixed properly."
-      },
-      "info_source": "general knowledge",
-      "products": [
-        {
-          "id": "p25",
-          "name": "Toilet Cleaner Refill Tablets 2 Litre - Plant-Based, Eco-Friendly,Non-Toxic Toilet Bowl Cleaner |Removes Hard Water, Limescale & Tough Stains | Sea",
-          "price": "₹219",
-          "source": "amazon.in",
-          "link": "https://www.google.com/search?q=Toilet%20Cleaner%20Refill%20Tablets%202%20Litre%20-%20Plant-Based%2C%20Eco-Friendly%2CNon-Toxic%20Toilet%20Bowl%20Cleaner%20%7CRemoves%20Hard%20Water%2C%20Limescale%20%26%20Tough%20Stains%20%7C%20Sea%20amazon.in&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQNtkPMwT9nkuZ4HhT4WpmqH9PC4zMbD1LbD3XRt0uynvdLnYUJ7umVxQzr20N_zKlrsw-V5-sMgyK-Qtx3RtoXw7BOy6mhO1XW_J8giC8JdRW4X3yKwA7HGw",
-          "rating": null,
-          "reviews": null,
-          "material_type": "refill tablets",
-          "why_suggested": "Plant‑Based, Eco‑Friendly tablet format.",
-          "trade_off": "Must be fully dissolved to avoid residue.",
-          "claims": [
-            {
-              "claim": "Plant-Based, Eco-Friendly",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Plant-Based, Eco-Friendly"
-            }
-          ]
-        },
-        {
-          "id": "p30",
-          "name": "G LOOK Eco-Friendly Toilet Cleaner Tablets | Safe & Effective For... more",
-          "price": "₹92",
-          "source": "Flipkart",
-          "link": "https://www.google.com/search?q=G%20LOOK%20Eco-Friendly%20Toilet%20Cleaner%20Tablets%20%7C%20Safe%20%26%20Effective%20For...%20more%20Flipkart&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRsOKAP0EgM0_L2M1NqLAHMhFEX-s001IFHeTT9WyHeKOwu1Bfnbeo7oWFCAIPoMTlg32Xau9EV9eHXk0c0Ga0pX9fAoL6g",
-          "rating": null,
-          "reviews": null,
-          "material_type": "refill tablets",
-          "why_suggested": "Eco‑Friendly toilet cleaner tablets.",
-          "trade_off": "Potential for leftover tablet fragments if water volume is low.",
-          "claims": [
-            {
-              "claim": "Eco-Friendly",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Eco-Friendly"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "in‑cistern block",
-      "matches_request": false,
-      "about": "A long‑lasting block placed in the toilet cistern that releases cleaning agents with each flush, offering convenience but continuous chemical discharge.",
-      "impact": {
-        "material_note": "Contains chemicals that are released continuously with each flush.",
-        "reusability": "Lasts for many flushes, reducing the need for frequent purchases.",
-        "end_of_life": "Chemicals enter wastewater; not readily biodegradable.",
-        "common_trade_off": "Higher environmental impact due to ongoing chemical release into water systems."
-      },
-      "info_source": "general knowledge",
-      "products": [
-        {
-          "id": "p18",
-          "name": "Harpic Flushmatic In-cistern Citrus Block Toilet Cleaner",
-          "price": "₹214",
-          "source": "Zepto",
-          "link": "https://www.google.com/search?q=Harpic%20Flushmatic%20In-cistern%20Citrus%20Block%20Toilet%20Cleaner%20Zepto&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRm8VAynKVS_WGEKdPPKB26sgI324G03CdCOgbIZiykWDg7OdWuazuDt8ZyIB_uCqfGtZHbQPDXvEV4SWY0Ye_IYe7ehn-o89ShjmaD4g04XaOoAAyVd0yKFQ",
-          "rating": 4.8,
-          "reviews": 6,
-          "material_type": "in‑cistern block",
-          "why_suggested": "Citrus Block that works automatically in the cistern.",
-          "trade_off": "Continuous chemical release into wastewater.",
-          "claims": [
-            {
-              "claim": "Citrus Block",
-              "status": "stated_in_listing",
-              "label": "Stated by seller",
-              "validated": true,
-              "evidence_snippet": "Citrus Block"
-            }
-          ]
-        },
-        {
-          "id": "p22",
-          "name": "Harpic Flushmatic In Cistern Toilet Cleaner Block",
-          "price": "₹169",
-          "source": "Zepto",
-          "link": "https://www.google.com/search?q=Harpic%20Flushmatic%20In%20Cistern%20Toilet%20Cleaner%20Block%20Zepto&tbm=shop",
-          "link_type": "google_shopping_search",
-          "link_note": "Opens a Google Shopping search for this product — shows it across multiple platforms so you can compare prices and buy directly.",
-          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSphc1WiIO0RVvzOOiYt16Sf3V29pi9syHB7yOp6c6hc-fq2mDrsgcKHYmspfxgF-2Fwn0L5SU0ndXCEszp1ZcRSnQHFryt1nFANtOxo90Ls0bv5Vq2iAMvbg",
-          "rating": null,
-          "reviews": null,
-          "material_type": "in‑cistern block",
-          "why_suggested": "In‑Cistern Toilet Cleaner Block from a known brand.",
-          "trade_off": "Same continuous discharge concerns as other blocks.",
-          "claims": [
-            {
-              "claim": "In Cistern Block",
+              "claim": "Chemical‑free formulation",
               "status": "unverified",
               "label": "Not verified",
               "validated": false,
-              "evidence_snippet": "In Cistern Block"
+              "evidence_snippet": "Natural Bioenzyme Toilet Cleaner Chemical-Free",
+              "evidence_source": null,
+              "source_title": null,
+              "source_url": null,
+              "reason": "cited snippet was not found in any retrieved listing or web result"
             }
-          ]
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "biodegradable liquid",
+      "matches_request": false,
+      "about": "Unscented liquid cleaner formulated to biodegrade quickly.",
+      "impact": {
+        "material_note": "contains biodegradable surfactants",
+        "reusability": "single‑use bottle",
+        "end_of_life": "plastic bottle recyclable if cleaned",
+        "common_trade_off": "often priced higher than standard cleaners"
+      },
+      "info_source": "model general knowledge (not verified per listing)",
+      "products": [
+        {
+          "id": "p13",
+          "name": "Kohler Toilet Bowl Cleaner Liquid 500 ml | Unscented & Biodegradable | Toilet Cleaning Solution for Bathroom | Powerful Stain Remover, Gentle on",
+          "price": "₹128",
+          "extracted_price": 128.0,
+          "source": "Amazon.in",
+          "link": "https://www.google.co.in/search?q=%22Kohler%20Toilet%20Bowl%20Cleaner%20Liquid%20500%20ml%20%7C%20Unscented%20%26%20Biodegradable%20%7C%20Toilet%20Cleaning%20Solution%20for%20Bathroom%20%7C%20Powerful%20Stain%20Remover%2C%20Gentle%20on%22%20%22Amazon.in%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQRcdyfPhAFRP5pCszx8Ntk15ueLlxCOA0-gorc_JyAtZMoDefYOdqqQg7Mqs4xfGILfHwdfYQ2TUEmLs5TO1FrL-SJf6YVpY_LfWo9qgKyuC8ioo4njE7x",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": "8266187169551484176",
+          "immersive_product_page_token": "38NzZXicbY85juNWAERtn8BH6HzQA37u6oYC7hRb3FcxIb64k58SxUWUeJpBzwKMQ9uAU19jHPgiTtw2HDqppFCvqv787sfXvP4N1asC59ORZ64Jk_jWwBLCo-1_7YdzNqdTnf3C4jQNWAbQG4oCJEsChv6awgmic1lnH36ucpih-pSbRZEP4jn9_8RPdQfL_F_7VwAwhqRpiiQAy9IUDXCc-jhk44fPlzkf7t8epnON8uldinJ4yod3Q17UCL3rYdq-252yGn4u-zfOh4_dP9Jfp9eq_DTPKP_9tUSv9em1Qq_56csZ9tci_eP7RjovgjAuvO33fSA6mIvrpONXY6gaRR45tdcCmKOM0hsDM8IsciPtkregDdp4Sn0HN2UNHDttCtGms4O4yUC7GuGEOaDEY3y8HUGMPD9WTWm8m5EWxf5NghI4BFLsZv6BOviU4YXBCwTVnK7ZNTiV5BGnSBihUMcRdVRR6-MScFQD0zvtBjtNyBXZsVt2if14zlVp8pRYCCXNjWWezFCM-1JveEGswYanAhTzGQboMDwvvpzioacNsZpimeSIEMStIR-IvIlXw0eWvjo9PPEIEhovVdkIo149RMF8aHdEhlgiAoGdNuVq34ETOOfa9p01bVDnE-kdRnGVypl98H3C6CbZUx3DkNEbHa1vjDFbPt3GofiGcTI1uSatQXSDrdiH2HRnV4wzSnY0d05mXZcnwGwAweAkwVIs-SU9n9s6_-OHv1xTcLcCt3t-cCXOEdTE5XTJ3XnSVijtXQIl_vmBk4QtB-FG0vqUq-a3hUl0aG7jfX8p9DAtRTHBvGoP23tUXYdrSEVMQh8Czu9f4j33_KCYprKXEo73XSmRIkm3vJ1pbHfiFs8IJs8AheU4SxcQe_L07X9DAUE8CdvhaWdt2c17kn4PWOI9wPDHJ3frDECHnOx2eV75Aue2tKLcc_b5IUncPJ2H_NH1HGvL8UbF0TUZy_G-2it0LLrzQRTsK7EvXJVgsIzn5hc0U0EndInnSKQ_ygyRrkM06nKcYwcbHj2nSVTnPO3lWi1TjEHRsaWbeRgSdLWfH8RgazOM_0IpWW3ofqotNa9DM8BpStT6SnLOzw_G21PhMgoCJ7mELfHmTRHdl_BiApnQ9dNyRKsqetaB0aORUW8mebKx8rp6Mo9HcUsBlizHhlk2pobv7LpW7hpSa7oJ2uNtwnZ-45FFe7QPtXQb08tbxQzaDT-V9OWR9bDlbglUyDNjnUp4kwa4LLr2jGGFexSdTgfANZpOsNSFQUrsVPigX-aaMiexFpyZMZtwmhJ-2nApLz4CsJGpBu7kEx8ZQ7LgkmUfJh3DrfzWEB21O1jVKCnW2rjnW8cX6522X0LDzJaz31We6repbOdsvSmIxGb3NHwUi2N_n_rC5s0qa_Q9011vJpXuL-K95PXW57HLoq4raXb1XlxOAXUpwnGCFyWPfdy_Kmbc67l1Dwdu3dnBhlYnhzNTlbCUpqHA2Ua51-3w-8nmpBo6S5Egazl1m-TscunfTujemA",
+          "material_type": "biodegradable liquid",
+          "why_suggested": "labelled unscented & biodegradable on the listing",
+          "trade_off": "plastic packaging still required",
+          "claims": [
+            {
+              "claim": "Biodegradable formulation",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Unscented & Biodegradable",
+              "evidence_source": "product_listing",
+              "source_title": "Kohler Toilet Bowl Cleaner Liquid 500 ml | Unscented & Biodegradable | Toilet Cleaning Solution for Bathroom | Powerful Stain Remover, Gentle on",
+              "source_url": "https://www.google.co.in/search?q=%22Kohler%20Toilet%20Bowl%20Cleaner%20Liquid%20500%20ml%20%7C%20Unscented%20%26%20Biodegradable%20%7C%20Toilet%20Cleaning%20Solution%20for%20Bathroom%20%7C%20Powerful%20Stain%20Remover%2C%20Gentle%20on%22%20%22Amazon.in%22&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "tablet solid cleaner",
+      "matches_request": false,
+      "about": "Pre‑measured toilet bowl cleaning tablets that reduce packaging volume.",
+      "impact": {
+        "material_note": "solid tablet format cuts down on liquid packaging",
+        "reusability": "single‑use tablet",
+        "end_of_life": "plastic wrapper may be recyclable",
+        "common_trade_off": "needs water to dissolve before use"
+      },
+      "info_source": "model general knowledge (not verified per listing)",
+      "products": [
+        {
+          "id": "p9",
+          "name": "Vacplus Hygienic Automatic Flush Toilet Bowl Cleaner Tablets Bathroom Tank Pack Of 6 Ocean Rim Block",
+          "price": "₹158",
+          "extracted_price": 158.0,
+          "source": "Flipkart",
+          "link": "https://www.google.co.in/search?q=%22Vacplus%20Hygienic%20Automatic%20Flush%20Toilet%20Bowl%20Cleaner%20Tablets%20Bathroom%20Tank%20Pack%20Of%206%20Ocean%20Rim%20Block%22%20%22Flipkart%22&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT_l-5A2Nx6sxsfWo1FeJq4cnHQIau4afems6PaBcO76lZACQVRAuzXqmGooHcUls-qRJ2viBjDqXcANKej3ucFVETjeF7mb2_e4px4Kxuh1KcEPYd0x8w7",
+          "rating": 5.0,
+          "reviews": 529,
+          "listing_text": "",
+          "product_id": "1389224106765641151",
+          "immersive_product_page_token": "yaf2BHicbZI5jutWGoXdXkEvofKHeuDlKFVBAWdKxXm4JG9CULykOIuiSIkUejFGeQDs0Dbg1Nt4DrwOA510daNDJyc5ODjf_-P8-dU_3_Pqt7Z6qOncHwXulnBJYI8bSnx2gh-H8YznbKrwL4DabEmSBgTLsQxLA8CAH7N0StvzqcLf_FzmKW6rPreKIh-lc_b3iZ-qLj3l_7N_BdyWYQHgAMdSHLPl6M2W-XbE1y-ELSYkteUATVAEQ5AbjiZJ4l-2a0nJ31rfX-Z8XL88TeeqzadPWZunfT5-GvOiattPQ5o1n_Y9rtLvT8NH8Tffdv-V4Ta9l6fv5rnNf38_te9V_16273n_wzkdbkX2xz_-km-ZKI6Z6ATDACWX8FZA-xKsYljujwpawq4EhqKsIcQ11Nola3ALe4GNgEFDeQC-hiqTapUU8HenY2AugrsbOkyoEvdchYc0wL4bogtWMiJoXCt-YBA0iogeh9InFAX1MpVFZzqM3NTTDh1u8S17YAUFoPWUtsg6UzMpfoIStMPA9C2lXY_ylQwoZXaAGbuNqaYVEMwOu4gY1JTYUJg8WF54pqGGJVdze1fFEQqaxQuU2JWQHT1Q5foHDykwRC1qzBDJGWk-QqUEmDQXlxKMI7FcnB6_6QGcIbkMZn2wU1h6aV2e40dMBCGiQxFcLBmTEBrkB5eZhlB3qVJEJDYypb1DSmD8bjFd4N78cDgce0VwSHjFUeuEYWuaEJYoiNeP_8apPEgpMPWwRWVEunEWgi4IsB7X5YK6q6d8MOQNLnHIVE6NyeiBCwiF1ZJMSYcKVKuD4GrmaoXIh-2hwbL5FhBunwfOionF8GXl4jWgR-FhMWokfLdcx-ILwSvM5FlMZiO7hEEojMoFiclsjfgoHoQ545yXjwkDiiNpasNsyB-y87mp8j--_rdnid5O5PevT57Mu6KWeLwhe3tf3oknZ5-ksvD6xMvijk_TrXwYMr6cncBNorherqt-KYwwO0lSQvilnjZrVN7GW8hEXMLGkA-GN6Tzr0-qZam6nPBC4MmJHMmG7e8tc7eXdiSmuBwDhsjJDVukxItv7P4PCijqRdyNL3t7t9l-ptnPYEN9BgT5_OLt3BEYKa94XZ6Xgch7Dauqa755fUoSL8_mMX_2fNfe8YJZ8mxFIwXppa6ySPLmWBKdG6UXnkZxBBb4-a2dGdiJXeK7Mh1cFY7KHmN0NRSUE7GTHn23TjT3POlKpZ0ygmujY8PW8zgm7c15fZLgzuG44I1RcWUaQXa4V4KRWpBkGekwlLJ7fn0yPy4VL1dR5GWPcmTBWlTJewsvFlAow-jvx_ahSb4dc0Z05bTFonuHON0eviKQEWoYsKFP15q7b60DuXeqSl0PrVaxNWyOy0Tsg9qni-boxJW8XLPLR8UMmq0wndjL88Yn7qstMqHAXatMJusMkorkOTNBFN5RcjsDAM-sO9HW7lyrIrckR-MyV4w1SZXozpxVh9OUCNOWzwTpGYCtwtTpXumFyByTOynbTjwZBGnnS011zD62y6us2o_aOy-dUDxW1nkLTQvfz0FX-lrQZIqTb6ptQSXORmfTZ6k4Dus0FI5glbg2dK67LR871i_SehKMJhCIy117PGirq3Tp3kPmUoTXKb2oOQrI4KZaaDByew1H_rF34JbVJpe3Mo2y1bpmwNlpc7_bk2vv8HKVuvciae17322Ts8dn_wGm9xmM",
+          "material_type": "tablet solid cleaner",
+          "why_suggested": "tablet format marketed for automatic flush systems",
+          "trade_off": "tablet must be placed in the tank, may affect flush performance if over‑used",
+          "claims": [
+            {
+              "claim": "Tablet format reduces packaging",
+              "status": "stated_in_listing",
+              "label": "Stated by seller",
+              "validated": true,
+              "evidence_snippet": "Toilet Bowl Cleaner Tablets",
+              "evidence_source": "product_listing",
+              "source_title": "Vacplus Hygienic Automatic Flush Toilet Bowl Cleaner Tablets Bathroom Tank Pack Of 6 Ocean Rim Block",
+              "source_url": "https://www.google.co.in/search?q=%22Vacplus%20Hygienic%20Automatic%20Flush%20Toilet%20Bowl%20Cleaner%20Tablets%20Bathroom%20Tank%20Pack%20Of%206%20Ocean%20Rim%20Block%22%20%22Flipkart%22&tbm=shop"
+            }
+          ],
+          "shopping_signals": {
+            "badges": [
+              "Popular"
+            ],
+            "popular": true,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": "high review volume among listings found in this run",
+            "offer": null,
+            "lowest_price_in_run": false
+          }
+        }
+      ]
+    },
+    {
+      "type": "powder concentrate",
+      "matches_request": false,
+      "about": "Dry powder cleaner that can be mixed with water, lowering transport weight and packaging.",
+      "impact": {
+        "material_note": "dry powder reduces water weight and packaging volume",
+        "reusability": "single‑use pack",
+        "end_of_life": "paper packaging recyclable",
+        "common_trade_off": "requires mixing with water before application"
+      },
+      "info_source": "model general knowledge (not verified per listing)",
+      "products": [
+        {
+          "id": "p3",
+          "name": "BSD Organics CleanY Natural All Purpose Surface Cleaner powder (for cleaning glass, wood, metal, floor, car bike etc.)- 1 KG",
+          "price": "₹432",
+          "extracted_price": 432.0,
+          "source": "amazon.in",
+          "link": "https://www.google.com/search?q=BSD%20Organics%20CleanY%20Natural%20All%20Purpose%20Surface%20Cleaner%20powder%20%28for%20cleaning%20glass%2C%20wood%2C%20metal%2C%20floor%2C%20car%20bike%20etc.%29-%201%20KG%20amazon.in&tbm=shop",
+          "link_type": "shopping_search",
+          "link_note": "Opens Google Shopping for this product and seller",
+          "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQXI0DDsTOKmNeqJ759GwUcPvRxwV4TktUvQTcssHj0jptpoWBRNKFYw5QvqIQ4ovGRst7Vj4qYnkdxWnNKi4XHgjXw1iZlrqvE8FpyM0J-h2R_hN7UTR8",
+          "rating": null,
+          "reviews": null,
+          "listing_text": "",
+          "product_id": null,
+          "immersive_product_page_token": null,
+          "material_type": "powder concentrate",
+          "why_suggested": "listed as a natural all‑purpose surface cleaner powder",
+          "trade_off": "not specifically formulated for toilets, may need extra rinsing",
+          "claims": [],
+          "shopping_signals": {
+            "badges": [],
+            "popular": false,
+            "bestseller": false,
+            "bestseller_basis": null,
+            "popular_basis": null,
+            "offer": null,
+            "lowest_price_in_run": false
+          }
         }
       ]
     }
   ],
+  "filter_options": {
+    "material": [
+      "bioenzyme liquid",
+      "biodegradable liquid",
+      "tablet solid cleaner",
+      "powder concentrate"
+    ],
+    "price": {
+      "currency": "INR",
+      "min": 128.0,
+      "max": 432.0
+    },
+    "rating": {
+      "min": 5.0,
+      "max": 5.0
+    },
+    "reviews": {
+      "min": 529.0,
+      "max": 529.0
+    },
+    "sort": [
+      "recommended",
+      "price_low_high",
+      "price_high_low",
+      "rating",
+      "reviews"
+    ]
+  },
   "availability_note": "Availability shown is based on regional search results and may not reflect real-time shipping to your exact location. Please verify on the merchant's page before purchasing.",
   "no_suitable_alternative": false,
   "trace": [
     {
       "step": 1,
-      "query": "sustainable toilet cleaner alternatives biodegradable plant based India",
-      "engine": "web",
-      "results_found": 5,
-      "cached": false
+      "query": "plant based toilet cleaner India",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "results_found": 8,
+      "cached": true
     },
     {
       "step": 2,
-      "query": "Orlife Herbal Toilet Cleaner",
+      "query": "toilet cleaner refill pack India",
       "engine": "shopping",
-      "results_found": 8,
+      "purpose": "discovery",
+      "results_found": 20,
       "cached": false
     },
     {
       "step": 3,
-      "query": "Eco Root Natural Toilet Cleaner",
+      "query": "toilet bowl powder cleaner safe for plumbing",
       "engine": "shopping",
-      "results_found": 8,
-      "cached": false
-    },
-    {
-      "step": 4,
-      "query": "citrus toilet cleaner India",
-      "engine": "shopping",
-      "results_found": 8,
-      "cached": false
-    },
-    {
-      "step": 5,
-      "query": "biodegradable toilet cleaner tablet India",
-      "engine": "shopping",
-      "results_found": 8,
+      "purpose": "discovery",
+      "from_critique": true,
+      "results_found": 20,
       "cached": false
     }
   ],
   "meta": {
-    "searches": 5,
+    "searches": 3,
+    "evidence_searches": 0,
     "dropped_unknown_ids": 0,
     "dropped_type_mismatch": 0,
+    "removed_high_impact": 0,
+    "dropped_functional_mismatch": 0,
+    "llm_fallbacks": [
+      "gemini: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ",
+      "gemini: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
+    ],
+    "providers": [
+      "groq"
+    ],
+    "shopping_signals": {
+      "popular_definition": "high review volume among listings found in this run",
+      "offer_definition": "current price lower than a retrieved previous/old price",
+      "not_sales_data": true
+    },
     "critique": {
       "ran": true,
       "passed": false,
       "issues": [
-        "The claim for the Harpic Flushmatic in‑cistern block is marked as unvalidated (validated: false), which violates the evidence validation requirement."
+        {
+          "type": "functional_mismatch",
+          "product_id": "p3",
+          "requirement": null,
+          "reason": "Product is an all‑purpose surface cleaner, not a toilet cleaner, and may not meet the required functions for toilet bowls.",
+          "action": "remove"
+        }
       ],
-      "extra_search_used": false
+      "refused_removals": [
+        {
+          "type": "functional_mismatch",
+          "product_id": "p3",
+          "requirement": null,
+          "reason": "Product is an all‑purpose surface cleaner, not a toilet cleaner, and may not meet the required functions for toilet bowls.",
+          "action": "remove",
+          "refused_because": "requirement not stated by the user"
+        }
+      ],
+      "extra_search_used": false,
+      "rechecked": false
     }
   }
 }

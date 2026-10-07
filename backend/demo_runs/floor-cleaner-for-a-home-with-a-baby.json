@@ -1,0 +1,69 @@
+{
+  "query": "floor cleaner for a home with a baby",
+  "summary": "The agent did not produce a valid answer. Please try again.",
+  "input_mode": "text",
+  "input_source": null,
+  "input_url": null,
+  "input_asin": null,
+  "materials": [],
+  "filter_options": {
+    "material": [],
+    "price": {
+      "currency": "INR",
+      "min": null,
+      "max": null
+    },
+    "rating": {
+      "min": null,
+      "max": null
+    },
+    "reviews": {
+      "min": null,
+      "max": null
+    },
+    "sort": [
+      "recommended",
+      "price_low_high",
+      "price_high_low",
+      "rating",
+      "reviews"
+    ]
+  },
+  "availability_note": "Availability shown is based on regional search results and may not reflect real-time shipping to your exact location. Please verify on the merchant's page before purchasing.",
+  "no_suitable_alternative": true,
+  "trace": [
+    {
+      "step": 1,
+      "query": "plant based floor cleaner India home baby",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "model_query": "plant based floor cleaner India",
+      "results_found": 20,
+      "cached": true
+    },
+    {
+      "step": 2,
+      "query": "enzyme floor cleaner India home baby",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "model_query": "enzyme floor cleaner India",
+      "results_found": 20,
+      "cached": false
+    },
+    {
+      "step": 3,
+      "query": "floor cleaner refill pack India home baby",
+      "engine": "shopping",
+      "purpose": "discovery",
+      "model_query": "floor cleaner refill pack India",
+      "results_found": 20,
+      "cached": true
+    }
+  ],
+  "meta": {
+    "searches": 3,
+    "evidence_searches": 0,
+    "dropped_unknown_ids": 0,
+    "error": "groq: RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m40aqvqxega953z0f13bjrjs` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7128, Requested 7616. Please try again in 50.58s. Need more tokens? Upgrade to Dev Tier t | groq: RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m40aqvqxega953z0f13bjrjs` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2478, Requested 7616. Please try again in 15.704999999s. Need more tokens? Upgrade to Dev | gemini: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit.  | gemini: ClientError: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. "
+  }
+}
