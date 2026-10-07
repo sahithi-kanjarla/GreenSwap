@@ -4,7 +4,7 @@ no SerpApi calls.
 
 Because this is separate from the agent, the UI can change the sort
 order or budget instantly WITHOUT re-running the agent (zero credits,
-zero Groq calls):
+zero LLM calls):
 
     raw = run_agent("mug")                         # expensive, run once
     view = finalize(raw, max_price=500, sort_by="price_low_high")   # free
@@ -21,17 +21,38 @@ import re
 import copy
 
 
-def extract_price(price_str: str | None) -> float | None:
-    """'₹599' -> 599.0, '₹1,299.50' -> 1299.5, None/unparseable -> None."""
-    if not price_str:
+def extract_price(value) -> float | None:
+    """
+    The one price parser used across the backend.
+
+    599 -> 599.0, '₹599' -> 599.0, '₹1,299.50' -> 1299.5,
+    '₹1,29,999' (Indian grouping) -> 129999.0, None/unparseable -> None.
+    """
+    if value is None or isinstance(value, bool):
         return None
-    match = re.search(r"[\d,]+\.?\d*", price_str)
+    if isinstance(value, (int, float)):
+        return float(value)
+    match = re.search(r"\d[\d,]*(?:\.\d+)?", str(value))
     if not match:
         return None
     try:
         return float(match.group().replace(",", ""))
     except ValueError:
         return None
+
+
+def parse_number(value) -> float | None:
+    """Rating/review counts: 4.5, '4.5', '1,234', '1.2K' (K/M suffix)."""
+    if value in (None, "", "N/A") or isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+    match = re.search(r"(\d[\d,]*(?:\.\d+)?)\s*([kKmM])?", str(value))
+    if not match:
+        return None
+    number = float(match.group(1).replace(",", ""))
+    suffix = (match.group(2) or "").lower()
+    return number * (1_000 if suffix == "k" else 1_000_000 if suffix == "m" else 1)
 
 
 def _score(item: dict, prefs: set, lo: float, hi: float, n: int) -> tuple[float, str]:
@@ -53,13 +74,13 @@ def _score(item: dict, prefs: set, lo: float, hi: float, n: int) -> tuple[float,
                 parts.append("on the pricier side for its group")
 
     # 3) Rating: small tiebreaker, often missing
-    rating = item.get("rating")
+    rating = parse_number(item.get("rating"))
     if rating:
-        score += 0.15 * (float(rating) / 5)
+        score += 0.15 * (min(rating, 5.0) / 5)
         reviews = item.get("reviews")
         parts.append(f"rated {rating}" + (f" ({reviews} reviews)" if reviews else ""))
 
-    # 4) Evidence: claims that passed validation (added in the next build step)
+    # 4) Evidence: claims backed by this listing or product-specific web evidence
     supported = [c for c in item.get("claims", []) if c.get("validated")]
     if supported:
         score += 0.4 * min(len(supported), 3) / 3
@@ -72,11 +93,18 @@ def _score(item: dict, prefs: set, lo: float, hi: float, n: int) -> tuple[float,
     return round(score, 3), text[0].upper() + text[1:]
 
 
+SORT_OPTIONS = ["recommended", "price_low_high", "price_high_low", "rating", "reviews"]
+
+
 def _apply_sort(items: list[dict], sort_by: str) -> list[dict]:
     if sort_by == "price_low_high":
         items.sort(key=lambda i: (i["price_value"] is None, i["price_value"] or 0))
     elif sort_by == "price_high_low":
         items.sort(key=lambda i: (i["price_value"] is None, -(i["price_value"] or 0)))
+    elif sort_by == "rating":
+        items.sort(key=lambda i: (parse_number(i.get("rating")) is None, -(parse_number(i.get("rating")) or 0)))
+    elif sort_by == "reviews":
+        items.sort(key=lambda i: (parse_number(i.get("reviews")) is None, -(parse_number(i.get("reviews")) or 0)))
     else:  # "recommended"
         items.sort(key=lambda i: i["score"], reverse=True)
     return items
@@ -93,7 +121,9 @@ def rank_products(
 
     items = []
     for idx, p in enumerate(products):
-        price = extract_price(p.get("price"))
+        price = extract_price(p.get("extracted_price"))
+        if price is None:
+            price = extract_price(p.get("price"))
         # Products with an unknown price are kept: we can't prove they're over budget.
         if max_price is not None and price is not None and price > max_price:
             continue
@@ -151,7 +181,7 @@ def build_top_picks(
         rest.sort(key=lambda p: p["score"], reverse=True)
         picks += rest[: n - len(picks)]
 
-    if sort_by not in ("price_low_high", "price_high_low"):
+    if sort_by == "recommended":
         lead_types = {m["type"] for m in lead}
         picks.sort(key=lambda p: 0 if p.get("material_type") in lead_types else 1)
         return picks

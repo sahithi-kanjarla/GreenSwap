@@ -14,7 +14,14 @@ from serpapi import GoogleSearch
 
 load_dotenv()
 
-SERPAPI_KEY = os.environ["SERPAPI_KEY"]
+
+
+def _api_key() -> str:
+    """Read lazily so importing this module never requires the key."""
+    key = os.environ.get("SERPAPI_KEY")
+    if not key:
+        raise RuntimeError("SERPAPI_KEY is not set.")
+    return key
 
 CACHE_DIR = Path(__file__).parent / ".cache"
 CACHE_DIR.mkdir(exist_ok=True)
@@ -120,7 +127,7 @@ def _fetch(
 ) -> list[dict]:
 
     params = {
-        "api_key": SERPAPI_KEY,
+        "api_key": _api_key(),
         "q": query,
         "gl": "in",
         "google_domain": "google.co.in",
@@ -226,23 +233,15 @@ def _fetch(
 
                 # Links
                 #
-                # Keep product_link when available.
-                # Otherwise use our Google Shopping fallback.
+                # "link" is GreenSwap's stable Shopping search URL for
+                # this title + merchant. "merchant_link" keeps a direct
+                # merchant URL when SerpApi returned one. The raw
+                # product_link (often a session-dependent Google page) is
+                # kept for reference. agent._best_product_link picks the
+                # user-facing link from these with one policy.
                 "product_link": product_link,
-                "raw_product_link": product_link,
-
-                # IMPORTANT: always use the stable product-specific
-                # Shopping search URL as the user-facing link.
-                # The raw SerpApi product_link is retained separately.
+                "merchant_link": item.get("link"),
                 "link": fallback_link,
-
-                "link_type": "google_shopping_search",
-
-                "link_note": (
-                    "Opens Google Shopping for this product and merchant. "
-                    "The direct SerpApi product link is intentionally not used "
-                    "because it can be session-dependent."
-                ),
 
                 # Image
                 "image": item.get("thumbnail"),
@@ -374,7 +373,7 @@ def get_product_offers(
     # --------------------------------------------------------
 
     params = {
-        "api_key": SERPAPI_KEY,
+        "api_key": _api_key(),
         "engine": "google_immersive_product",
         "page_token": page_token,
         "more_stores": "true" if more_stores else "false",
@@ -617,7 +616,7 @@ def debug_raw_shopping(
     """
 
     params = {
-        "api_key": SERPAPI_KEY,
+        "api_key": _api_key(),
         "q": query,
         "gl": "in",
         "google_domain": "google.co.in",
