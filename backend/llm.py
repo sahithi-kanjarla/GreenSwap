@@ -42,7 +42,10 @@ _cooldown_until: dict[str, float] = {}
 
 def _is_transient(exc: Exception) -> bool:
     text = f"{type(exc).__name__} {exc}".lower()
-    return any(s in text for s in ("503", "429", "unavailable", "overloaded", "rate limit", "resource_exhausted", "high demand"))
+    return any(s in text for s in (
+        "503", "429", "500", "502", "504", "unavailable", "overloaded", "rate limit",
+        "resource_exhausted", "high demand", "timeout", "timed out", "connection",
+    ))
 
 
 class LLMError(RuntimeError):
@@ -85,7 +88,7 @@ def _provider_order(task: str) -> list[str]:
 # ---------------------------------------------------------------------
 
 def generate(messages: list[dict], tools: list[dict] | None = None,
-             temperature: float = 0.3, task: str = "gather") -> Message:
+             temperature: float = 0.3, task: str = "gather", notify=None) -> Message:
     """
     Run one LLM call. `tools` is the OpenAI-style tool schema list (or None).
     Tries providers in order for `task` and falls back on any error.
@@ -105,7 +108,9 @@ def generate(messages: list[dict], tools: list[dict] | None = None,
             except Exception as exc:  # noqa: BLE001 — any provider failure triggers fallback
                 errors.append(f"{provider}: {type(exc).__name__}: {str(exc)[:300]}")
                 if not _is_transient(exc):
-                    break
+                    break  # permanent failure (bad key, bad request): no "busy" signal
+                if notify:
+                    notify(provider, str(exc)[:160])
                 if attempt == 0:
                     time.sleep(RETRY_DELAY_SECONDS)
                 else:
@@ -260,7 +265,9 @@ def _gemini_generate(messages, tools, temperature) -> Message:
 def _groq_client():
     if "groq" not in _clients:
         from groq import Groq
-        _clients["groq"] = Groq(api_key=os.environ["GROQ_API_KEY"])
+        # Fail fast and let generate() handle retry/fallback instead of
+        # the SDK silently waiting out rate limits.
+        _clients["groq"] = Groq(api_key=os.environ["GROQ_API_KEY"], timeout=60, max_retries=0)
     return _clients["groq"]
 
 
