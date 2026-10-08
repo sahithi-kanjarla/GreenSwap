@@ -49,12 +49,42 @@ export function Results({ result }: { result: AgentResult }) {
             <strong>About {result.user_specified_material ?? 'your choice'}:</strong> {result.caution_note} We show better alternatives instead.
           </div>
         )}
+        {result.conclusion && (
+          <div className={`rounded-xl border p-3 text-sm ${result.conclusion.verdict === 'no_clear_winner'
+            ? 'border-stone-300 bg-stone-50 dark:border-stone-700 dark:bg-stone-950'
+            : 'border-leaf-500/40 bg-leaf-50 dark:border-leaf-700 dark:bg-leaf-900/40'}`}>
+            <div className="font-semibold">{result.conclusion.label}</div>
+            {result.conclusion.explanation && <p className="text-stone-700 dark:text-stone-300">{result.conclusion.explanation}</p>}
+            {result.conclusion.downgrade_reason && (
+              <p className="mt-1 text-xs text-stone-500">Toned down by GreenSwap's checks: {result.conclusion.downgrade_reason}.</p>
+            )}
+          </div>
+        )}
+        {result.focus_note && <p className="text-sm text-stone-600 dark:text-stone-400">{result.focus_note}</p>}
         <div className="flex flex-wrap gap-1.5 text-xs">
           {result.product_type && <span className="rounded-full bg-stone-100 px-2 py-1 dark:bg-stone-800">Looking for: <b>{result.product_type}</b></span>}
-          {(result.functional_requirements ?? []).map((r) => (
+          {(result.user_requirements ?? []).map((r) => (
+            <span key={`u-${r}`} className="rounded-full bg-leaf-100 px-2 py-1 font-medium text-leaf-700 dark:bg-leaf-900 dark:text-leaf-100">You asked: {r}</span>
+          ))}
+          {[...(result.functional_requirements ?? []), ...(result.safety_requirements ?? [])].map((r) => (
             <span key={r} className="rounded-full bg-stone-100 px-2 py-1 dark:bg-stone-800">✓ {r}</span>
           ))}
         </div>
+        {(result.environmental_dimensions ?? []).length > 0 && (
+          <div className="text-xs">
+            <span className="text-stone-500">Compared on: </span>
+            {result.environmental_dimensions!.map((d, i) => (
+              <span key={d.dimension} title={d.why_relevant ?? ''} className="font-medium">
+                {i > 0 && ' · '}{d.dimension}{d.priority !== 'high' && <span className="text-stone-400"> ({d.priority})</span>}
+              </span>
+            ))}
+          </div>
+        )}
+        {(result.unaddressed_request_terms ?? []).length > 0 && (
+          <p className="text-xs text-amber-700 dark:text-amber-300">
+            Not explicitly checked from your request: {result.unaddressed_request_terms!.join(', ')}
+          </p>
+        )}
         <div className="flex flex-wrap gap-x-4 gap-y-1 text-xs text-stone-500">
           <span>{meta.searches ?? 0} SerpApi searches</span>
           {!!meta.dropped_type_mismatch && <span>{meta.dropped_type_mismatch} wrong-type listings dropped</span>}

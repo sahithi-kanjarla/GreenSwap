@@ -21,6 +21,7 @@ interface Row {
 function toRows(events: AgentEvent[]): Row[] {
   const rows: Row[] = []
   const searchRow = new Map<number, Row>()
+  const waitRow = new Map<string, { row: Row; count: number }>()
   events.forEach((e, i) => {
     switch (e.type) {
       case 'phase':
@@ -52,6 +53,19 @@ function toRows(events: AgentEvent[]): Row[] {
         }
         break
       }
+      case 'llm_wait': {
+        // One row per provider, updated in place, so a long outage doesn't flood the timeline.
+        const existing = waitRow.get(e.provider)
+        if (existing) {
+          existing.count += 1
+          existing.row.detail = `Retrying or switching AI provider… (${existing.count} attempts)`
+        } else {
+          const row: Row = { key: `w${e.provider}`, icon: '⏳', title: `${e.provider} is busy or rate-limited`, detail: 'Retrying or switching AI provider…', tone: 'warn' }
+          waitRow.set(e.provider, { row, count: 1 })
+          rows.push(row)
+        }
+        break
+      }
       case 'fallback':
         rows.push({ key: `f${i}`, icon: '↪', title: `Switched LLM to ${e.provider}`, detail: 'Primary provider was busy; the fallback kept the run going', tone: 'warn' })
         break
@@ -62,6 +76,7 @@ function toRows(events: AgentEvent[]): Row[] {
           e.dropped_type_mismatch ? `${e.dropped_type_mismatch} wrong-type dropped` : null,
           e.removed_high_impact ? `${e.removed_high_impact} high-impact removed` : null,
           e.dropped_unknown_ids ? `${e.dropped_unknown_ids} invented ids rejected` : null,
+          e.removed_requirement_mismatch ? `${e.removed_requirement_mismatch} failed your requirements` : null,
           `claims: ${c.stated_in_listing ?? 0} seller · ${c.supported_by_search ?? 0} evidence · ${c.unverified ?? 0} unverified`,
         ].filter(Boolean)
         rows.push({ key: `v${i}`, icon: '🛡', title: 'Code guardrails applied', detail: parts.join(' · '), tone: 'good' })
@@ -77,6 +92,9 @@ function toRows(events: AgentEvent[]): Row[] {
             : `${e.passed ? 'Passed' : `${e.issues.length} issue(s) noted`}${e.removed ? ` · ${e.removed} unsuitable removed` : ''}${e.refused ? ` · ${e.refused} unjustified removal(s) refused by code` : ''}`,
           tone: !e.ran ? 'warn' : e.passed ? 'good' : 'warn',
         })
+        break
+      case 'conclusion':
+        rows.push({ key: `k${i}`, icon: '⚖', title: 'Conclusion', detail: e.label, tone: e.verdict === 'no_clear_winner' ? 'neutral' : 'good' })
         break
       case 'error':
         rows.push({ key: `e${i}`, icon: '✕', title: 'Error', detail: e.message, tone: 'bad' })

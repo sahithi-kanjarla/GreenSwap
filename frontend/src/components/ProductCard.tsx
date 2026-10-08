@@ -6,13 +6,16 @@ const CLAIM_STYLE: Record<Claim['status'], string> = {
   supported_by_search: 'bg-leaf-100 text-leaf-700 dark:bg-leaf-900 dark:text-leaf-100',
   stated_in_listing: 'bg-sky-100 text-sky-800 dark:bg-sky-950 dark:text-sky-200',
   general_evidence: 'bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-200',
+  conflicting_evidence: 'bg-amber-100 text-amber-900 dark:bg-amber-950 dark:text-amber-200',
   unverified: 'bg-stone-200 text-stone-700 dark:bg-stone-800 dark:text-stone-300',
 }
 
 function ClaimChip({ claim }: { claim: Claim }) {
-  const tip = claim.reason
-    ? `${claim.evidence_snippet} (${claim.reason})`
-    : `“${claim.evidence_snippet}”${claim.source_title ? ` from ${claim.source_title}` : ''}`
+  const tip = claim.counter_snippet
+    ? `Claimed: “${claim.evidence_snippet}” but also found: “${claim.counter_snippet}”`
+    : claim.reason
+      ? `${claim.evidence_snippet} (${claim.reason})`
+      : `“${claim.evidence_snippet}”${claim.source_title ? ` from ${claim.source_title}` : ''}`
   return (
     <li className="text-xs">
       <span className={`mr-1.5 inline-block rounded px-1.5 py-0.5 font-medium ${CLAIM_STYLE[claim.status]}`} title={tip}>
@@ -121,6 +124,16 @@ export function ProductCard({ product }: { product: Product }) {
             <span className="font-medium">Trade-off: </span>
             {product.trade_off}
           </p>
+        )}
+        {(product.requirement_checks ?? []).filter((c) => c.kind === 'user').length > 0 && (
+          <ul className="flex flex-wrap gap-1 text-[11px]" aria-label="Your requirements">
+            {product.requirement_checks!.filter((c) => c.kind === 'user').map((c) => (
+              <li key={c.requirement} title={c.evidence_snippet ?? 'No supporting text found'}
+                  className={`rounded px-1.5 py-0.5 font-medium ${CLAIM_STYLE[c.status]}`}>
+                {c.status === 'unverified' ? '?' : '✓'} {c.requirement}: {c.label}
+              </li>
+            ))}
+          </ul>
         )}
         {product.claims.length > 0 && (
           <ul className="space-y-1">

@@ -1,4 +1,26 @@
-export type ClaimStatus = 'stated_in_listing' | 'supported_by_search' | 'general_evidence' | 'unverified'
+export type ClaimStatus = 'stated_in_listing' | 'supported_by_search' | 'general_evidence' | 'conflicting_evidence' | 'unverified'
+
+export interface RequirementCheck {
+  requirement: string
+  kind: 'user' | 'functional' | 'safety'
+  status: ClaimStatus
+  label: string
+  evidence_snippet?: string | null
+}
+
+export interface Dimension {
+  dimension: string
+  why_relevant?: string | null
+  priority: 'high' | 'medium' | 'low'
+}
+
+export interface Conclusion {
+  verdict: 'clear_advantage' | 'potential_advantage' | 'no_clear_winner'
+  label: string
+  explanation?: string | null
+  downgraded_from?: string
+  downgrade_reason?: string
+}
 
 export interface Claim {
   claim: string
@@ -9,6 +31,8 @@ export interface Claim {
   source_title?: string | null
   source_url?: string | null
   reason?: string
+  kind?: string
+  counter_snippet?: string
 }
 
 export interface ShoppingSignals {
@@ -32,6 +56,7 @@ export interface Product {
   why_suggested?: string
   trade_off?: string
   claims: Claim[]
+  requirement_checks?: RequirementCheck[]
   shopping_signals?: ShoppingSignals
   immersive_product_page_token?: string | null
   why_ranked?: string
@@ -63,6 +88,12 @@ export interface AgentResult {
   summary: string
   product_type?: string
   functional_requirements?: string[]
+  user_requirements?: string[]
+  safety_requirements?: string[]
+  environmental_dimensions?: Dimension[]
+  focus_note?: string | null
+  conclusion?: Conclusion
+  unaddressed_request_terms?: string[]
   user_specified_material?: string | null
   request_sustainability?: 'eco_leaning' | 'high_impact' | 'none'
   caution_note?: string | null
@@ -88,8 +119,10 @@ export type AgentEvent =
   | { type: 'search_done'; step: number; results_found: number; cached: boolean; error?: string | null }
   | { type: 'thought'; text: string }
   | { type: 'fallback'; provider: string; errors: string[] }
-  | { type: 'validate'; products: number; dropped_type_mismatch: number; removed_high_impact: number; dropped_unknown_ids: number; claims: Record<string, number> }
+  | { type: 'llm_wait'; provider: string; error: string }
+  | { type: 'validate'; products: number; dropped_type_mismatch: number; removed_high_impact: number; dropped_unknown_ids: number; removed_requirement_mismatch?: number; claims: Record<string, number> }
   | { type: 'critique'; ran: boolean; passed: boolean | null; issues: unknown[]; removed: number; refused?: number; recheck?: boolean }
+  | { type: 'conclusion'; verdict: string; label: string }
   | { type: 'result'; run_id: string; raw: AgentResult; view: AgentResult }
   | { type: 'error'; message: string }
 
