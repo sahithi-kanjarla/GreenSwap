@@ -67,6 +67,10 @@ from serp_tool import serp_search
 from evidence import validate_claims
 from product_match import filter_by_product_type, _stem
 from ranking import extract_price, parse_number, SORT_OPTIONS
+from research import (
+    normalize_research_state, enforce_user_requirements, guard_conclusion,
+    absolute_language, answer_texts,
+)
 
 MAX_SEARCH_CALLS = 5
 MAX_LLM_TURNS = 8
@@ -376,40 +380,51 @@ def _listing_text(item: dict) -> str:
 # Shared by GATHER and FINALIZE. It must not mention searching or tools:
 # FINALIZE has to stay free of anything that could prime a tool call.
 OUTPUT_RULES = """
+PRIORITIES, IN ORDER: (1) what the user is actually buying; (2) the user's
+explicit requirements; (3) functional, safety, compatibility and intended-use
+suitability; (4) only then environmental differences among SUITABLE options;
+evidence throughout. Environmental reasoning never justifies recommending a
+product that does not meet the need.
+
 UNDERSTAND THE REQUEST
 - product_type: what the user is actually buying, 1-3 words, without material,
-  eco qualifier, use case or budget ("ceramic mug under ₹500" -> "mug";
-  "something to clean my toilet without harsh chemicals" -> "toilet cleaner").
-- functional_requirements: concrete needs implied by the wording (intended use,
-  setting, safety/contact/exposure, compatibility, size, capacity, durability,
-  maintenance...). Infer them from the request; never use a category checklist.
-  An environmental characteristic never overrides an important requirement.
-- request_sustainability, judged from THIS product's context (no fixed lists):
-  "eco_leaning" = user named a material/format that is environmentally preferable
-  here -> user_specified_material = it; make it the primary direction.
-  "high_impact" = user named a comparatively high-impact material/format ->
-  user_specified_material = it, write a factual caution_note, recommend better
-  alternatives and mark any group of the requested material matches_request=true
-  (code removes those groups).
-  "none" = no material/format/eco preference named.
+  eco qualifier, use case or budget ("ceramic mug under ₹500" -> "mug").
+- user_requirements: what the user EXPLICITLY asked for, in their words (e.g.
+  "organic", "plant-based", "for office"). Keep them; never silently replace one
+  with "something environmentally better". Generic words like "eco-friendly"
+  or "sustainable" express the goal, not a product attribute to match.
+- functional_requirements / safety_requirements: what the product must do or be
+  safe for, inferred from this request (intended use, contact, exposure,
+  compatibility...). Do not invent needs the request does not imply.
+- request_sustainability: "eco_leaning" if the user named a material/format that is
+  environmentally preferable here, "high_impact" if they named a comparatively
+  high-impact one (set user_specified_material, write a factual caution_note,
+  recommend alternatives and mark groups of that material matches_request=true;
+  code removes them), else "none".
 - A pasted URL is a before-you-buy request: identify the product from retrieved
   information only (never from the URL slug), then give suitable alternatives.
 
-ENVIRONMENTAL REASONING
-- GreenSwap discovers alternatives; it is not a sustainability scoring system.
-- Pick the 1-3 environmental dimensions that actually matter for THIS product, e.g.
-  material origin, recycled/reclaimed content, renewable material, reuse, refill or
-  concentrate format, packaging/waste, end-of-life, recyclability,
-  biodegradability, formulation/ingredients, longevity, repairability,
-  replacement frequency, or another you identify. Not a checklist; do not force
-  material substitution when another dimension matters more.
-- No attribute is automatically an environmental win: recycled, refillable,
-  reusable, organic, plant-based, biodegradable, non-toxic and durable each need
-  context. Never infer one property from another (plant-based != non-toxic,
-  organic != biodegradable). Health/safety is a separate dimension from
-  environment. Do not exclude such options by default either.
-- If no meaningful advantage is supported, do not invent one; fewer or zero
-  alternatives is an acceptable answer.
+DECIDE WHAT MATTERS (yours to decide; there is no fixed list)
+- environmental_dimensions: the characteristics that could meaningfully
+  DISTINGUISH the suitable alternatives for THIS request, given what research
+  actually found. Each needs why_relevant and a priority. It may be one, several,
+  or none. A dimension is something to compare, never a reason to reject a
+  product: if every suitable option shares a trait, it does not distinguish them.
+- focus_note: one plain sentence telling the user what you focused on and why
+  ("Focused on refill format because it was the main difference among suitable
+  products."). No hidden reasoning, just the decision.
+- USER WANT vs PRODUCT CLAIM vs EVIDENCE: what the user wants, what a product
+  claims, and what retrieved text supports are different things. "Organic",
+  "natural", "recycled", "plant-based", "biodegradable", "recyclable", "reusable",
+  "refillable", "plastic-free" can be requirements or claims; none is automatic
+  proof of overall environmental superiority. Never infer one property from
+  another. Read claims precisely: an outer paper box around a plastic tube is not
+  plastic-free packaging.
+- conclusion: the overall verdict the evidence allows: "clear_advantage" (only
+  with product-specific evidence), "potential_advantage" (seller statements or
+  general reasoning), or "no_clear_winner". "No clear winner based on available
+  evidence" is a successful, honest outcome. Code caps this verdict at what the
+  validated evidence supports.
 
 ALTERNATIVES AND PRODUCTS
 - Alternatives must be genuinely different types/materials/approaches; no fixed
@@ -426,7 +441,11 @@ ALTERNATIVES AND PRODUCTS
 - Use only product ids you were given. Never invent products, prices, ratings,
   reviews or links, and never write URLs (code attaches links).
 - Shopping signals (Popular, Offer, Lowest price found, rating, reviews, price)
-  are buying signals, never environmental evidence.
+  are buying signals, never environmental evidence. Green-sounding words in a
+  title are claims to check, not a reason to include or rank a product.
+- requirement_checks: for each product, judge every user/functional/safety
+  requirement as "met" (cite an exact snippet), "unclear", or "contradicted".
+  Code removes contradicted products and shows uncited "met" as Not verified.
 
 IMPACT FIELDS (general context, not verification of a listing)
 - material_note: a specific characteristic or potential effect, not a verdict.
@@ -434,11 +453,15 @@ IMPACT FIELDS (general context, not verification of a listing)
   after one use. Reusable does not imply durable.
 - end_of_life: only if reasonably supported, else exactly "Not verified".
 - common_trade_off: one relevant downside.
-- Never state "sustainable", "eco-friendly" or "green" as fact; prefer wording
-  like "uses recovered material", "may reduce packaging", "not verified".
+- Never state "sustainable", "eco-friendly", "green" or "the most sustainable" as
+  fact; prefer "worth considering because...", "potential advantage on...",
+  "seller states...", "evidence found for...", "not verified", "trade-off...".
 
 CLAIMS
-- 0-2 claims per product that explain why it was chosen.
+- 0-2 claims per product that explain why it was chosen; kind is
+  "environmental", "requirement" or "functional".
+- If retrieved text contradicts or qualifies a claim, cite it as counter_snippet
+  (code then labels the claim "Conflicting / unclear").
 - evidence_snippet: an EXACT phrase of at least 3 words copied (not paraphrased)
   from that product's title/listing text or from a web result you were shown, and
   it must mention what the claim is about. Code checks this: listing text is
@@ -451,22 +474,29 @@ Reply with ONLY this JSON, no other text:
 {
   "summary": "one sentence on what was found",
   "product_type": "1-3 words",
+  "user_requirements": ["explicit user requirement"],
   "functional_requirements": ["short concrete requirement"],
+  "safety_requirements": ["short requirement"],
+  "environmental_dimensions": [{"dimension": "...", "why_relevant": "...", "priority": "high | medium | low"}],
+  "focus_note": "one sentence",
+  "conclusion": {"verdict": "clear_advantage | potential_advantage | no_clear_winner", "explanation": "one or two sentences"},
   "user_specified_material": "string or null",
   "request_sustainability": "eco_leaning | high_impact | none",
   "caution_note": "one factual sentence if high_impact, else null",
   "materials": [
     {
-      "type": "short alternative name",
+      "type": "short alternative approach name",
       "matches_request": true,
       "about": "one sentence",
+      "why_different": "how this approach differs from the others",
       "impact": {"material_note": "...", "reusability": "...", "end_of_life": "...", "common_trade_off": "..."},
       "products": [
         {
           "id": "p3",
           "why_suggested": "one short sentence",
           "trade_off": "one short sentence specific to this listing",
-          "claims": [{"claim": "short specific claim", "evidence_snippet": "exact copied phrase"}]
+          "requirement_checks": [{"requirement": "as listed above", "status": "met | unclear | contradicted", "evidence_snippet": "exact copied phrase or null"}],
+          "claims": [{"claim": "short specific claim", "kind": "environmental", "evidence_snippet": "exact copied phrase", "counter_snippet": null}]
         }
       ]
     }
@@ -496,20 +526,18 @@ all, only for your single highest-value product claim, with a query naming the
 brand/product and the claim ("Brand Product" recycled content). Generic seller
 words (durable, premium) are not proof.
 
-HOW TO WORK: reason -> search -> observe -> reason -> ... -> answer.
-1. Identify product_type, functional requirements and any named material/format.
-2. Choose the environmental dimensions that matter for THIS product, then the
-   alternatives worth searching. Breadth of distinct real options comes first.
-3. Write natural queries: product_type + chosen approach + the user's important
-   functional/use-case qualifiers. Do NOT append universal words (eco-friendly,
-   organic, recycled, biodegradable...) to every query, never put price/budget
-   words in a query (budget is applied later by code), and never repeat a search
-   just to use budget.
-4. After each result decide: strong results -> move on; weak -> try another angle;
-   a better approach appears -> you may follow it.
-5. For a URL input, first make sure the product is identified from retrieved data.
+YOU RUN THE RESEARCH. You decide what you need to know, which characteristics
+could distinguish suitable options, which alternative approaches are worth
+comparing, what to search, which claims need checking, whether more research is
+needed, and when you have enough. Let results change your direction: if a search
+reveals a difference you had not considered, you may pursue it.
+Constraints on queries: build them from the user's need and explicit
+requirements (keep use-case qualifiers), not from generic sustainability words;
+never put price/budget words in a query (code applies budget later); never
+search just to use budget. For a URL input, identify the product from retrieved
+data first.
 
-When you are done searching, reply with the final JSON.
+When you have enough, reply with the final JSON.
 {OUTPUT_RULES}"""
 
 FINALIZE_PROMPT = f"""You are finishing a GreenSwap environmental-alternative
@@ -541,21 +569,25 @@ INTENDED BEHAVIOUR — never flag these:
   matching listings that were wrongly excluded.
 - Popularity, offers, ratings and price are buying signals, not evidence.
 
-CHECK:
-1. PRODUCT MATCH: every product is the user's product_type, not a related category.
-2. FUNCTIONAL FIT: use only requirements in the draft's functional_requirements
-   or the user's own words (do not invent one from a known trade-off). For EACH product decide supported /
-   contradicted / unclear. A trade-off is not a mismatch unless the stated need
-   makes it one. Flag a contradicted product by its id.
-3. REASONING: alternatives make functional sense and are plausible environmental
-   improvements for THIS product; no green-word assumptions (recycled, organic,
-   plant-based, non-toxic, biodegradable, refillable, reusable, durable,
-   "eco-friendly" are not automatic proof).
-4. USER PREFERENCE: an eco_leaning material/format is a primary direction.
-5. EVIDENCE: each evidence_snippet supports its claim; seller claims are not
-   presented as independent verification.
-6. DIVERSITY: alternatives are genuinely different approaches.
-7. SEARCH QUALITY: an obvious important direction was missed AND one targeted
+CHECK (use only requirements the user stated or the draft lists; never invent one):
+1. PRODUCT: product_type is what the user is buying; every product is that type.
+2. USER REQUIREMENTS: every explicit user requirement was preserved, not swapped
+   for a generic "greener" goal. Words listed under
+   request_terms_not_covered_by_any_requirement may be dropped requirements.
+3. FUNCTION: for EACH product, each stated requirement is supported / contradicted /
+   unclear. A trade-off is not a mismatch unless the stated need makes it one.
+   Flag a contradicted product by its id.
+4. PACKAGING/DIMENSIONS: no suitable product was rejected merely for a trait
+   (e.g. plastic packaging) that the user did not rule out; the chosen dimensions
+   fit THIS request; no obvious differentiator found during research was missed.
+5. GREEN WORDS: no product was chosen or ranked just for a green keyword; organic,
+   natural, recycled, plant-based etc. are not treated as automatic superiority.
+6. CLAIM PRECISION: each evidence_snippet supports its claim exactly; outer
+   packaging is not confused with the product's own container; seller claims are
+   not presented as independent verification.
+7. CONCLUSION: the overall verdict and wording do not claim more than the
+   evidence. If they do, set conclusion_override (usually "no_clear_winner").
+8. SEARCH QUALITY: an obvious important direction was missed AND one targeted
    search could realistically fix it.
 
 Reply with ONLY this JSON:
@@ -563,14 +595,15 @@ Reply with ONLY this JSON:
   "pass": true or false,
   "issues": [
     {
-      "type": "functional_mismatch | evidence_gap | search_quality | other",
+      "type": "functional_mismatch | requirement_not_preserved | green_keyword | claim_precision | unsupported_conclusion | evidence_gap | search_quality | other",
       "product_id": "p3 or null",
       "requirement": "the requirement involved or null",
       "reason": "short factual explanation",
       "action": "remove | clarify | search | none"
     }
   ],
-  "extra_search": {"query": "...", "engine": "shopping" or "web"} or null
+  "extra_search": {"query": "...", "engine": "shopping" or "web"} or null,
+  "conclusion_override": "potential_advantage | no_clear_winner" or null
 }
 Set "extra_search" only if ONE more search would clearly fix the single biggest
 genuine issue; a noted limitation is better than a wasted search.
@@ -708,6 +741,8 @@ def _resolve(parsed: dict, catalog: dict) -> tuple[list[dict], int]:
                     "why_suggested": p.get("why_suggested"),
                     "trade_off": p.get("trade_off"),
                     "claims": p.get("claims", []) or [],
+                    # Checked and replaced by research.enforce_user_requirements.
+                    "raw_requirement_checks": p.get("requirement_checks", []) or [],
                     "shopping_signals": base.get("shopping_signals", {}),
                 }
             )
@@ -717,6 +752,7 @@ def _resolve(parsed: dict, catalog: dict) -> tuple[list[dict], int]:
                     "type": m.get("type"),
                     "matches_request": bool(m.get("matches_request", False)),
                     "about": m.get("about"),
+                    "why_different": m.get("why_different"),
                     "impact": m.get("impact", {}) or {},
                     "info_source": "model general knowledge (not verified per listing)",
                     "products": products,
@@ -727,7 +763,7 @@ def _resolve(parsed: dict, catalog: dict) -> tuple[list[dict], int]:
 
 def _finalize_clean(
     product_query: str, prefs_text: str, budget_text: str,
-    catalog: dict, web_findings: list[dict],
+    catalog: dict, web_findings: list[dict], notify=None,
 ) -> dict | None:
     products_seen = []
     for pid, v in catalog.items():
@@ -769,7 +805,7 @@ def _finalize_clean(
         {"role": "system", "content": FINALIZE_PROMPT},
         {"role": "user", "content": user_content},
     ]
-    msg = llm.generate(messages, tools=None, temperature=0.3, task="finalize")
+    msg = llm.generate(messages, tools=None, temperature=0.3, task="finalize", notify=notify)
     _debug(msg)
     parsed = _parse_json(msg.content)
     if parsed is None:
@@ -778,27 +814,64 @@ def _finalize_clean(
             {"role": "assistant", "content": msg.content},
             {"role": "user", "content": "That was not valid JSON. Reply with ONLY the complete JSON object."},
         ]
-        msg = llm.generate(messages, tools=None, temperature=0.2, task="finalize")
+        msg = llm.generate(messages, tools=None, temperature=0.2, task="finalize", notify=notify)
         _debug(msg)
         parsed = _parse_json(msg.content)
     return parsed
 
 
-def _lite_draft(parsed: dict, materials: list[dict]) -> dict:
+def _unaddressed_request_terms(product_query: str, parsed: dict) -> list[str]:
+    """
+    Meaningful words from the user's request that no stated requirement, the
+    product type or a named material covers ("organic shampoo" answered with
+    no "organic" requirement). Generic word comparison, no category rules;
+    surfaced to the critique and the user, never auto-applied.
+    """
+    if _is_url(product_query):
+        return []
+    covered = set()
+    for key in ("user_requirements", "functional_requirements", "safety_requirements"):
+        for text in parsed.get(key) or []:
+            covered |= {_stem(t) for t in _tokens(text)}
+    for text in (parsed.get("product_type"), parsed.get("user_specified_material")):
+        covered |= {_stem(t) for t in _tokens(text or "")}
+    out = []
+    for token in _tokens(product_query):
+        if token in _CONTEXT_STOPWORDS or token.isdigit() or _stem(token) in covered or token in out:
+            continue
+        out.append(token)
+    return out
+
+
+def _lite_draft(parsed: dict, materials: list[dict], product_query: str = "") -> dict:
+    state = normalize_research_state(parsed)
     return {
-        "product_type": parsed.get("product_type"),
-        "functional_requirements": parsed.get("functional_requirements") or [],
+        "request_terms_not_covered_by_any_requirement": _unaddressed_request_terms(product_query, parsed),
+        "summary": parsed.get("summary"),
+        "product_type": state["product_type"],
+        "user_requirements": state["user_requirements"],
+        "functional_requirements": state["functional_requirements"],
+        "safety_requirements": state["safety_requirements"],
+        "environmental_dimensions": state["environmental_dimensions"],
+        "focus_note": state["focus_note"],
+        "conclusion": parsed.get("conclusion"),
         "request_sustainability": parsed.get("request_sustainability"),
         "user_specified_material": parsed.get("user_specified_material"),
         "materials": [
             {
                 "type": m["type"],
                 "matches_request": m.get("matches_request"),
+                "why_different": m.get("why_different"),
                 "products": [
                     {
                         "id": p["id"],
                         "name": p["name"],
+                        "why_suggested": p.get("why_suggested"),
                         "trade_off": p.get("trade_off"),
+                        "requirement_checks": [
+                            {"requirement": c["requirement"], "label": c["label"]}
+                            for c in p.get("requirement_checks", [])
+                        ],
                         "claims": [
                             {"claim": c["claim"], "evidence_snippet": c["evidence_snippet"], "label": c["label"]}
                             for c in p.get("claims", [])
@@ -812,7 +885,7 @@ def _lite_draft(parsed: dict, materials: list[dict]) -> dict:
     }
 
 
-def _run_critique(product_query: str, parsed: dict, materials: list[dict]) -> dict:
+def _run_critique(product_query: str, parsed: dict, materials: list[dict], notify=None) -> dict:
     """
     Returns {"ran", "pass", "issues", "extra_search"}. Fails CLOSED: if the
     critique call errors or returns unparseable JSON it is reported as not
@@ -826,12 +899,12 @@ def _run_critique(product_query: str, parsed: dict, materials: list[dict]) -> di
                     "role": "user",
                     "content": (
                         f"User asked for: {product_query}\n\n"
-                        f"Draft (JSON):\n{json.dumps(_lite_draft(parsed, materials), ensure_ascii=False)}\n\n"
+                        f"Draft (JSON):\n{json.dumps(_lite_draft(parsed, materials, product_query), ensure_ascii=False)}\n\n"
                         "Review this now."
                     ),
                 },
             ],
-            tools=None, temperature=0.2, task="critique",
+            tools=None, temperature=0.2, task="critique", notify=notify,
         )
     except llm.LLMError as exc:
         return {"ran": False, "pass": None, "issues": [], "extra_search": None, "error": str(exc)}
@@ -845,6 +918,8 @@ def _run_critique(product_query: str, parsed: dict, materials: list[dict]) -> di
         "pass": bool(result.get("pass", False)),
         "issues": [i for i in (result.get("issues") or []) if isinstance(i, dict)],
         "extra_search": result.get("extra_search"),
+        # research.guard_conclusion applies this only if it is more conservative.
+        "conclusion_override": result.get("conclusion_override"),
         "provider": msg.provider,
     }
 
@@ -872,13 +947,14 @@ def _functional_removals(critique: dict, parsed: dict, product_query: str) -> tu
     """
     material = _high_impact_roots(parsed)
     grounded = _roots(product_query)
-    for requirement in parsed.get("functional_requirements") or []:
-        grounded |= _roots(requirement)
+    for key in ("user_requirements", "functional_requirements", "safety_requirements"):
+        for requirement in parsed.get(key) or []:
+            grounded |= _roots(requirement)
     grounded -= material
 
     accepted, refused = set(), []
     for issue in critique.get("issues", []):
-        if not (issue.get("type") == "functional_mismatch"
+        if not (issue.get("type") in ("functional_mismatch", "requirement_not_preserved")
                 and issue.get("action") == "remove" and issue.get("product_id")):
             continue
         requirement = _roots(issue.get("requirement"))
@@ -960,6 +1036,9 @@ def run_agent(
                 on_event({"type": event_type, **data})
             except Exception:
                 pass  # a broken listener must never break the agent
+
+    def on_llm_issue(provider: str, error: str) -> None:
+        emit("llm_wait", provider=provider, error=error)
 
     product_query = (product_query or "").strip()
     prefs_text = (
@@ -1048,7 +1127,7 @@ def run_agent(
             break
 
         try:
-            msg = llm.generate(messages, tools=TOOLS, temperature=0.3, task="gather")
+            msg = llm.generate(messages, tools=TOOLS, temperature=0.3, task="gather", notify=on_llm_issue)
         except llm.LLMError as exc:
             llm_error = str(exc)
             break
@@ -1126,7 +1205,7 @@ def run_agent(
     if parsed is None:
         emit("phase", phase="finalize", message="Assembling the answer from gathered research")
         try:
-            parsed = _finalize_clean(product_query, prefs_text, budget_text, shown, web_findings)
+            parsed = _finalize_clean(product_query, prefs_text, budget_text, shown, web_findings, on_llm_issue)
         except llm.LLMError as exc:
             llm_error = str(exc)
             parsed = None
@@ -1158,14 +1237,21 @@ def run_agent(
         if parsed_answer.get("request_sustainability") == "high_impact":
             high_impact_removed = sum(len(m["products"]) for m in mats if m.get("matches_request"))
             mats = [m for m in mats if not m.get("matches_request")]
+        # Function first: requirement suitability is enforced before any
+        # environmental claim is even validated.
+        mats, requirement_removed = enforce_user_requirements(
+            mats, normalize_research_state(parsed_answer), web_findings,
+        )
         mats = validate_claims(mats, web_findings)
         stats = {
             "dropped_unknown_ids": dropped_ids,
             "dropped_type_mismatch": dropped_type,
             "removed_high_impact": high_impact_removed,
+            "removed_requirement_mismatch": len(requirement_removed),
+            "requirement_removals": requirement_removed,
         }
-        emit("validate", **stats, claims=_claim_counts(mats),
-             products=sum(len(m["products"]) for m in mats))
+        emit("validate", **{k: v for k, v in stats.items() if k != "requirement_removals"},
+             claims=_claim_counts(mats), products=sum(len(m["products"]) for m in mats))
         return mats, stats
 
     emit("phase", phase="validate", message="Checking product types and evidence in code")
@@ -1173,7 +1259,7 @@ def run_agent(
 
     # ---------------- PHASE 4: SELF-CRITIQUE ----------------
     emit("phase", phase="critique", message="Self-critique of the draft")
-    critique = _run_critique(product_query, parsed, materials)
+    critique = _run_critique(product_query, parsed, materials, on_llm_issue)
     removal_ids, refused = _functional_removals(critique, parsed, product_query)
     materials, removed = _remove_products(materials, removal_ids)
     emit("critique", ran=critique["ran"], passed=critique["pass"],
@@ -1211,7 +1297,7 @@ def run_agent(
                 register(results)
                 _add_shopping_signals(catalog)
             try:
-                parsed2 = _finalize_clean(product_query, prefs_text, budget_text, shown, web_findings)
+                parsed2 = _finalize_clean(product_query, prefs_text, budget_text, shown, web_findings, on_llm_issue)
             except llm.LLMError:
                 parsed2 = None
             if parsed2 is not None:
@@ -1220,7 +1306,7 @@ def run_agent(
                 critique_meta["extra_search_used"] = True
 
                 # Re-check the rebuilt draft once (no further searches).
-                recheck = _run_critique(product_query, parsed, materials)
+                recheck = _run_critique(product_query, parsed, materials, on_llm_issue)
                 more_ids, more_refused = _functional_removals(recheck, parsed, product_query)
                 removal_ids |= more_ids
                 refused += more_refused
@@ -1233,7 +1319,19 @@ def run_agent(
                 emit("critique", ran=recheck["ran"], passed=recheck["pass"],
                      issues=recheck["issues"], removed=removed, recheck=True)
 
-    functional_requirements = parsed.get("functional_requirements") or []
+    research = normalize_research_state(parsed)
+    override = critique.get("conclusion_override")
+    if critique_meta.get("rechecked"):
+        override = recheck.get("conclusion_override") or override
+    conclusion = guard_conclusion(parsed.get("conclusion"), materials, override)
+    language_flags = absolute_language(answer_texts(parsed.get("summary"), conclusion, materials))
+    if language_flags and conclusion["verdict"] != "clear_advantage":
+        original = conclusion.get("downgraded_from") or conclusion["verdict"]
+        conclusion = guard_conclusion(conclusion, materials, "no_clear_winner")
+        if conclusion["verdict"] != original:
+            conclusion["downgraded_from"] = original
+            conclusion["downgrade_reason"] = "the answer used verdict language the evidence does not support"
+    emit("conclusion", verdict=conclusion["verdict"], label=conclusion["label"])
     emit("phase", phase="done", message="Done")
 
     return {
@@ -1243,8 +1341,10 @@ def run_agent(
         "input_source": input_context.get("source"),
         "input_url": input_context.get("url"),
         "input_asin": input_context.get("asin"),
-        "product_type": parsed.get("product_type"),
-        "functional_requirements": functional_requirements,
+        **research,
+        "conclusion": conclusion,
+        "language_flags": language_flags,
+        "unaddressed_request_terms": _unaddressed_request_terms(product_query, parsed),
         "user_specified_material": parsed.get("user_specified_material"),
         "request_sustainability": parsed.get("request_sustainability", "none"),
         "caution_note": parsed.get("caution_note"),

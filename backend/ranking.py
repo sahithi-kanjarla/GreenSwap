@@ -80,11 +80,25 @@ def _score(item: dict, prefs: set, lo: float, hi: float, n: int) -> tuple[float,
         reviews = item.get("reviews")
         parts.append(f"rated {rating}" + (f" ({reviews} reviews)" if reviews else ""))
 
-    # 4) Evidence: claims backed by this listing or product-specific web evidence
-    supported = [c for c in item.get("claims", []) if c.get("validated")]
+    # 4) The user's explicit requirements come before environmental signals:
+    #    a product whose stated requirements are all backed by retrieved text
+    #    ranks above one where they are unverified.
+    user_checks = [c for c in item.get("requirement_checks", []) if c.get("kind") == "user"]
+    if user_checks:
+        unverified = [c["requirement"] for c in user_checks if c.get("status") == "unverified"]
+        if not unverified:
+            score += 0.5
+            parts.append("your stated requirements are backed by the listing or a source")
+        else:
+            parts.append(f"not verified: {', '.join(unverified)}")
+
+    # 5) Evidence: only product-specific evidence found by research counts.
+    #    Seller-stated words (eco, organic, recycled, natural...) are claims
+    #    to investigate, never a ranking bonus on their own.
+    supported = [c for c in item.get("claims", []) if c.get("status") == "supported_by_search"]
     if supported:
         score += 0.4 * min(len(supported), 3) / 3
-        parts.append(f"{len(supported)} claim(s) backed by a source")
+        parts.append(f"{len(supported)} claim(s) with evidence found")
 
     if not parts:
         parts.append("agent's relevance order")

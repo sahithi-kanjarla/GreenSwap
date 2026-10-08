@@ -42,8 +42,11 @@ STATUS_LABELS = {
     "stated_in_listing": "Stated by seller",
     "supported_by_search": "Evidence found",
     "general_evidence": "General info (not product-specific)",
+    "conflicting_evidence": "Conflicting / unclear",
     "unverified": "Not verified",
 }
+
+CLAIM_KINDS = ("environmental", "requirement", "functional", "other")
 
 # A snippet must be at least this specific to count as evidence
 # (either condition is enough).
@@ -110,7 +113,34 @@ def _snippet_problem(snippet: str, claim: str) -> str | None:
     claim_roots = {w[:4] for w in _content_words(claim)}
     if claim_roots and not (snippet_roots & claim_roots):
         return "cited snippet does not mention what the claim is about"
+    missing = _missing_qualifiers(claim, snippet)
+    if missing:
+        return f"claim says '{missing[0]}' but the cited snippet does not"
     return None
+
+
+_X_FREE = re.compile(r"\b([a-z]+)[\s-]free\b")
+_ABSOLUTE_WORDS = ("100%", "fully", "completely", "entirely", "zero", "only", "all")
+
+
+def _missing_qualifiers(claim: str, snippet: str) -> list[str]:
+    """
+    Absolute qualifiers in a claim must appear in its evidence. "Plastic-free
+    packaging" is not supported by "paper outer box"; "100% organic" is not
+    supported by "made with organic oils". Generic wording rules only.
+    """
+    claim_l, snippet_l = claim.lower(), snippet.lower()
+    snippet_words = set(re.findall(r"[a-z0-9%]+", snippet_l))
+    missing = []
+    for thing in _X_FREE.findall(claim_l):
+        if not re.search(rf"\b{thing}[\s-]free\b|\bfree (?:from|of) {thing}\b|\bno {thing}\b|\bwithout {thing}\b", snippet_l):
+            missing.append(f"{thing}-free")
+    for word in _ABSOLUTE_WORDS:
+        in_claim = word in claim_l if word == "100%" else re.search(rf"\b{word}\b", claim_l)
+        in_snippet = word in snippet_l if word == "100%" else word in snippet_words
+        if in_claim and not in_snippet:
+            missing.append(word)
+    return missing
 
 
 def _is_about_product(result: dict, product: dict) -> bool:
@@ -388,9 +418,43 @@ def validate_claims(
                     )
                 )
 
+            # Every non-empty claim produced exactly one validated entry above.
+            sources = [c for c in product.get("claims", []) or [] if (c.get("claim") or "").strip()]
+            for raw, checked in zip(sources, validated_claims):
+                kind = str(raw.get("kind") or "environmental").lower()
+                checked["kind"] = kind if kind in CLAIM_KINDS else "other"
+                _apply_counter_evidence(checked, raw, product, web_results)
+
             product["claims"] = validated_claims
 
     return materials
+
+
+def _apply_counter_evidence(checked: dict, raw: dict, product: dict, web_results: list[dict]) -> None:
+    """
+    The model may cite a `counter_snippet`: retrieved text that contradicts or
+    qualifies the claim (e.g. "plastic inner tube" against "plastic-free
+    packaging"). If that text was really retrieved, the claim is shown as
+    Conflicting / unclear, whatever else supported it.
+    """
+    counter = (raw.get("counter_snippet") or "").strip()
+    if len(counter.split()) < 2:
+        return
+    found_in = None
+    if _find_listing_evidence(counter, product):
+        found_in = {"title": product.get("name"), "link": product.get("link")}
+    else:
+        found_in = _find_matching_web_result(counter, web_results, product)
+    if not found_in:
+        return
+    checked.update({
+        "status": "conflicting_evidence",
+        "label": STATUS_LABELS["conflicting_evidence"],
+        "validated": False,
+        "counter_snippet": counter,
+        "counter_source_title": found_in.get("title"),
+        "counter_source_url": found_in.get("link"),
+    })
 
 
 def _unverified(claim_text: str, evidence_snippet: str, reason: str) -> dict:
